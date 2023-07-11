@@ -13,7 +13,7 @@ const HomeCreateNft: React.FC = () => {
                     </div>
                     <div className="col-lg-4">
                         <div className="main-button">
-                            <a href="create.html">Create Your NFT Now</a>
+                            <a href="create">Create Your NFT Now</a>
                         </div>
                     </div>
                     <div className="col-lg-4">

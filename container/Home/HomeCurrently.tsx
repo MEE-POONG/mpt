@@ -67,7 +67,7 @@ const HomeCurrently: React.FC = () => {
                   <em>(July 24th, 2022)</em>
                 </span>
                 <div className="text-button">
-                  <a href="details.html">View Item Details</a>
+                  <a href="details">View Item Details</a>
                 </div>
               </div>
             </div>
@@ -111,7 +111,7 @@ const HomeCurrently: React.FC = () => {
                   <em>(July 26th, 2022)</em>
                 </span>
                 <div className="text-button">
-                  <a href="details.html">View Item Details</a>
+                  <a href="details">View Item Details</a>
                 </div>
               </div>
             </div>
@@ -155,7 +155,7 @@ const HomeCurrently: React.FC = () => {
                   <em>(July 28th, 2022)</em>
                 </span>
                 <div className="text-button">
-                  <a href="details.html">View Item Details</a>
+                  <a href="details">View Item Details</a>
                 </div>
               </div>
             </div>
@@ -199,7 +199,7 @@ const HomeCurrently: React.FC = () => {
                   <em>(July 14th, 2022)</em>
                 </span>
                 <div className="text-button">
-                  <a href="details.html">View Item Details</a>
+                  <a href="details">View Item Details</a>
                 </div>
               </div>
             </div>
@@ -243,7 +243,7 @@ const HomeCurrently: React.FC = () => {
                   <em>(July 16th, 2022)</em>
                 </span>
                 <div className="text-button">
-                  <a href="details.html">View Item Details</a>
+                  <a href="details">View Item Details</a>
                 </div>
               </div>
             </div>
@@ -287,7 +287,7 @@ const HomeCurrently: React.FC = () => {
                   <em>(July 18th, 2022)</em>
                 </span>
                 <div className="text-button">
-                  <a href="details.html">View Item Details</a>
+                  <a href="details">View Item Details</a>
                 </div>
               </div>
             </div>

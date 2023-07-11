@@ -103,7 +103,7 @@ const HomeCategories: React.FC = () => {
                                                 <span className="collection">Items In Collection:<br /><strong>310/340</strong></span>
                                                 <span className="category">Category:<br /><strong>Digital Crypto</strong></span>
                                                 <div className="main-button">
-                                                    <a href="explore.html">Explore Mutant</a>
+                                                    <a href="explore">Explore Mutant</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -114,7 +114,7 @@ const HomeCategories: React.FC = () => {
                                                 <span className="collection">Items In Collection:<br /><strong>324/324</strong></span>
                                                 <span className="category">Category:<br /><strong>Visual Art</strong></span>
                                                 <div className="main-button">
-                                                    <a href="explore.html">Explore Bored Ape</a>
+                                                    <a href="explore">Explore Bored Ape</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -125,7 +125,7 @@ const HomeCategories: React.FC = () => {
                                                 <span className="collection">Items In Collection:<br /><strong>380/394</strong></span>
                                                 <span className="category">Category:<br /><strong>Music Art</strong></span>
                                                 <div className="main-button">
-                                                    <a href="explore.html">Explore Genesis</a>
+                                                    <a href="explore">Explore Genesis</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -136,7 +136,7 @@ const HomeCategories: React.FC = () => {
                                                 <span className="collection">Items In Collection:<br /><strong>426/468</strong></span>
                                                 <span className="category">Category:<br /><strong>Blockchain</strong></span>
                                                 <div className="main-button">
-                                                    <a href="explore.html">Explore Worldwide</a>
+                                                    <a href="explore">Explore Worldwide</a>
                                                 </div>
                                             </div>
                                         </div>

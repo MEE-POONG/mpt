@@ -13,7 +13,7 @@ const HomeMain: React.FC = () => {
                             <p>Liberty NFT Market is a really cool and professional design for your NFT websites. This HTML CSS template is based on Bootstrap v5 and it is designed for NFT related web portals. Liberty can be freely downloaded from TemplateMo's free css templates.</p>
                             <div className="buttons">
                                 <div className="border-button">
-                                    <a href="explore.html">Explore Top NFTs</a>
+                                    <a href="explore">Explore Top NFTs</a>
                                 </div>
                                 <div className="main-button">
                                     <a href="https://youtube.com/templatemo" target="_blank">Watch Our Videos</a>
