@@ -4,7 +4,7 @@ import HomeMain from '@/container/Home/HomeMain'
 import HomeCategories from '@/container/Home/HomeCategories'
 import HomeCreateNft from '@/container/Home/HomeCreateNft'
 import HomeCurrently from '@/container/Home/HomeCurrently'
-export default function Home() {
+export default function HomePage() {
   return (
     <TheLayout>
       <Head>
