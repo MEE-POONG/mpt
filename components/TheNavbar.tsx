@@ -1,4 +1,5 @@
 import React from 'react';
+import BtnSetting from './Language/BtnSetting';
 
 const TheNavber: React.FC = () => {
   return (
@@ -13,12 +14,14 @@ const TheNavber: React.FC = () => {
                   <img src="/images/logo.png" alt="" />
                 </a>
                 <ul className="nav">
-                  <li><a href="index" className="active">Home</a></li>
-                  <li><a href="explore">Explore</a></li>
-                  <li><a href="details">Item Details</a></li>
-                  <li><a href="author">Author</a></li>
-                  <li><a href="create">Create Yours</a></li>
+                  <li><a href="index" className="active">หน้าแรก</a></li>
+                  <li><a href="explore">ข่าว</a></li>
+                  <li><a href="details">เกี่ยวกับเรา</a></li>
+                  <li><a href="author">ผลงาน</a></li>
+                  <li><a href="create">ติดต่อเรา</a></li>
+
                 </ul>
+                <BtnSetting />
                 <a className='menu-trigger'>
                   <span>Menu</span>
                 </a>
