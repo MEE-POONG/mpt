@@ -1,4 +1,3 @@
-import TheHeadPage from '@/components/TheHeadPage';
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import Slider from 'react-slick';
@@ -14,7 +13,17 @@ const NewsHead: React.FC = () => {
     return (
 
         <div className="page-heading">
-            <TheHeadPage />
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-12">
+                        <h6>Liberty NFT Market</h6>
+                        <h2>Discover Some Top Items</h2>
+                        <span>
+                            Home<a href="#">Explore</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
             <div className="featured-explore">
                 <div className="container-fluid">
                     <div className="position-relative z-index-1">

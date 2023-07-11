@@ -3,10 +3,6 @@ import TheLayout from '@/components/TheLayout'
 import NewsDiscover from '@/container/News/NewsDiscover'
 import NewsTopSeller from '@/container/News/NewsTopSeller'
 import NewsHead from '@/container/News/NewsHead'
-// import HomeMain from '@/container/Home/HomeMain'
-// import HomeCategories from '@/container/Home/HomeCategories'
-// import HomeCreateNft from '@/container/Home/HomeCreateNft'
-// import HomeCurrently from '@/container/Home/HomeCurrently'
 export default function NewsPage() {
   return (
     <TheLayout>
@@ -21,10 +17,6 @@ export default function NewsPage() {
         <NewsHead />
         <NewsDiscover />
         <NewsTopSeller />
-        {/* <HomeMain />
-        <HomeCategories />
-        <HomeCreateNft />
-        <HomeCurrently /> */}
       </div>
     </TheLayout>
   )
