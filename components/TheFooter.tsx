@@ -1,18 +1,8 @@
-import Link from "next/link";
-import Image from "next/image";
-import Container from "./container";
-import React, { useState, Fragment } from "react";
+
+import React from "react";
 
 const TheFooter: React.FC = () => {
 
-  const navigation = [
-    "Product",
-    "Features",
-    "Pricing",
-    "Company",
-    "Blog",
-  ];
-  const legal = ["Terms", "Privacy", "Legal"];
   return (
 
     <footer>
