@@ -400,7 +400,7 @@ Header Style
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
-  .main-nav{
+  .main-nav {
     min-height: 70px !important;
   }
 }
@@ -1180,7 +1180,6 @@ Currently Market Style
     .right-content {
       margin-left: 30px;
       width: 100%;
-  
 
       h4 {
         font-size: 20px;
@@ -1357,102 +1356,12 @@ Explore Style
 .featured-explore {
   margin-top: 60px;
   margin-bottom: -300px;
-
-  .owl-features {
-    min-height: 100%;
-  }
-
-  .item {
-    .thumb {
-      position: relative;
-      overflow: hidden;
-
-      &:hover .hover-effect {
-        visibility: visible;
-        opacity: 1;
-        right: 30px;
-      }
-
-      .hover-effect {
-        position: absolute;
-        right: -100%;
-        bottom: 30px;
-        padding: 30px 40px;
-        border-radius: 20px;
-        border: 1px solid rgba(64, 66, 69, 0.9);
-        background-color: rgba(40, 43, 47, 0.9);
-        opacity: 0;
-        visibility: hidden;
-        transition: all 0.5s;
-      }
+  .slick-arrow {
+    &.slick-prev {
+      display: none !important;
     }
-
-    .hover-effect .content {
-      h4 {
-        font-size: 20px;
-        margin-bottom: 25px;
-      }
-
-      span.author {
-        display: flex;
-        margin-bottom: 0px;
-
-        img {
-          margin-right: 15px;
-        }
-
-        h6 {
-          font-size: 15px;
-          font-weight: 400;
-          line-height: 25px;
-          text-align: left;
-        }
-
-        a {
-          color: #7453fc;
-          font-weight: 700;
-          margin-top: 5px;
-        }
-      }
-    }
-  }
-
-  .owl-nav {
-    position: absolute;
-    width: 100%;
-    margin: 0 auto;
-    top: 50%;
-    transform: translateY(-23px);
-    text-align: center;
-
-    .owl-prev {
-      position: absolute;
-      left: 30px;
-    }
-
-    .owl-next {
-      position: absolute;
-      right: 30px;
-    }
-
-    .owl-prev span,
-    .owl-next span {
-      width: 46px;
-      height: 46px;
-      line-height: 46px;
-      font-size: 22px;
-      font-weight: 700;
-      display: inline-block;
-      color: #7453fc;
-      background-color: #fff;
-      border-radius: 50%;
-      opacity: 0.5;
-      transition: all 0.3s;
-    }
-
-    .owl-prev span:hover,
-    .owl-next span:hover {
-      opacity: 1;
+    &.slick-next {
+      display: none !important;
     }
   }
 }
@@ -2099,7 +2008,6 @@ body {
   .top-seller .item {
     justify-content: center;
   }
-  
 }
 
 @media (max-width: 992px) {
@@ -2107,7 +2015,7 @@ body {
     margin-top: 80px;
   }
 
-  .categories .item{
+  .categories .item {
     margin-bottom: 35px;
   }
 
@@ -2115,9 +2023,9 @@ body {
   .currently-market .section-heading {
     text-align: center;
   }
-  .currently-market{
-    .item{
-      .right-content{
+  .currently-market {
+    .item {
+      .right-content {
         margin-left: 0;
       }
     }

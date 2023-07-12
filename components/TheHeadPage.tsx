@@ -1,5 +1,3 @@
-
-// Layout.tsx
 import React from 'react';
 import { useRouter } from 'next/router';
 import Slider from 'react-slick';
@@ -25,14 +23,6 @@ const TheHeadPage: React.FC = () => {
                         <span>
                             Home{" > "}<a href="#">Explore</a>
                         </span>
-                        {/* <div className="buttons">
-                            <div className="main-button">
-                                <a href="explore.html">Explore Our Items</a>
-                            </div>
-                            <div className="border-button">
-                                <a href="create.html">Create Your NFT</a>
-                            </div>
-                        </div> */}
                     </div>
                 </div>
             </div>
