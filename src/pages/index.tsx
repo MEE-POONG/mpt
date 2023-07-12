@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import Categories from '@/container/Home/Categories'
-import CreateNft from '@/container/Home/CreateNft'
+import CreateNft from '@/container/CreateNft'
 import Currently from '@/container/Home/Currently'
 export default function HomePage() {
   return (

@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
-import Categories from '@/container/Home/Categories'
-import CreateNft from '@/container/Home/CreateNft'
-import Currently from '@/container/Home/Currently'
+import Author from '@/container/OurWork/Author'
+import CreateNft from '@/container/CreateNft'
 export default function OurWorkPage() {
   return (
     <TheLayout>
@@ -14,9 +13,8 @@ export default function OurWorkPage() {
         <title>Me Prompt Technology</title>
       </Head>
       <div className='ourwork-page'>
-        <Categories />
+        <Author />
         <CreateNft />
-        <Currently />
       </div>
     </TheLayout>
   )

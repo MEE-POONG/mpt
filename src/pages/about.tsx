@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import ItemDetails from '@/container/About/ItemDetails'
-import TopSeller from '@/container/About/TopSeller'
+import CreateNft from '@/container/CreateNft'
 export default function AboutPage() {
   return (
     <TheLayout>
@@ -14,7 +14,7 @@ export default function AboutPage() {
       </Head>
       <div className='About-page'>
         <ItemDetails />
-        <TopSeller />
+        <CreateNft />
       </div>
     </TheLayout>
   )
