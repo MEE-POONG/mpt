@@ -1,6 +1,32 @@
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 import Slider from 'react-slick';
+interface ArrowProps {
+    className?: string;
+    style?: React.CSSProperties;
+    onClick?: () => void;
+}
+const SampleNextArrow: React.FC<ArrowProps> = (props) => {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={`sample-next-arrow ${className}`}
+            style={{ ...style, display: 'block', background: 'red' }}
+            onClick={onClick}
+        />
+    );
+}
+
+const SamplePrevArrow: React.FC<ArrowProps> = (props) => {
+    const { className, style, onClick } = props;
+    return (
+        <div
+            className={`sample-prev-arrow ${className}`}
+            style={{ ...style, display: 'block', background: 'green' }}
+            onClick={onClick}
+        />
+    );
+}
 
 const Categories: React.FC = () => {
     const settings = {
@@ -9,8 +35,8 @@ const Categories: React.FC = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        nextArrow: <button type="button" role="presentation" className="owl-prev"><span aria-label="Previous">‹</span></button>,
-        prevArrow: <button type="button" role="presentation" className="owl-next"><span aria-label="Next">›</span></button>
+        nextArrow: <SampleNextArrow />,
+        prevArrow: <SamplePrevArrow />
     };
     return (
 
