@@ -3,7 +3,7 @@ import TheLayout from '@/components/TheLayout'
 import Categories from '@/container/Home/Categories'
 import CreateNft from '@/container/CreateNft'
 import Currently from '@/container/Home/Currently'
-export default function HomePage() {
+const HomePage: React.FC = () => {
   return (
     <TheLayout>
       <Head>
@@ -21,3 +21,4 @@ export default function HomePage() {
     </TheLayout>
   )
 }
+export default HomePage;

@@ -2,7 +2,8 @@ import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import ItemDetails from '@/container/About/ItemDetails'
 import CreateNft from '@/container/CreateNft'
-export default function AboutPage() {
+const AboutPage: React.FC = () => {
+
   return (
     <TheLayout>
       <Head>
@@ -19,3 +20,4 @@ export default function AboutPage() {
     </TheLayout>
   )
 }
+export default AboutPage;

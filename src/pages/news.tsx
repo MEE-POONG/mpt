@@ -2,7 +2,7 @@ import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import Discover from '@/container/News/Discover'
 import TopSeller from '@/container/News/TopSeller'
-export default function NewsPage() {
+const NewsPage: React.FC = () => {
   return (
     <TheLayout>
       <Head>
@@ -19,3 +19,5 @@ export default function NewsPage() {
     </TheLayout>
   )
 }
+
+export default NewsPage;
