@@ -1,8 +1,7 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
-import NewsDiscover from '@/container/News/NewsDiscover'
-import NewsTopSeller from '@/container/News/NewsTopSeller'
-import NewsHead from '@/container/News/NewsHead'
+import Discover from '@/container/News/Discover'
+import TopSeller from '@/container/News/TopSeller'
 export default function NewsPage() {
   return (
     <TheLayout>
@@ -14,9 +13,8 @@ export default function NewsPage() {
         <title>Me Prompt Technology</title>
       </Head>
       <div className='news-page'>
-        <NewsHead />
-        <NewsDiscover />
-        <NewsTopSeller />
+        <Discover />
+        <TopSeller />
       </div>
     </TheLayout>
   )

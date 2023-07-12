@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaAngleRight } from 'react-icons/fa';
 
-const HomeCategories: React.FC = () => {
+const Categories: React.FC = () => {
     return (
 
         <div className="categories-collections">
@@ -151,4 +151,4 @@ const HomeCategories: React.FC = () => {
     );
 }
 
-export default HomeCategories;
+export default Categories;

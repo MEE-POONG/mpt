@@ -1,7 +1,7 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 
-const HomeMain: React.FC = () => {
+const TheHeadFirst: React.FC = () => {
     return (
 
         <div className="main-banner">
@@ -60,4 +60,4 @@ const HomeMain: React.FC = () => {
     );
 }
 
-export default HomeMain;
+export default TheHeadFirst;

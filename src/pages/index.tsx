@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
-import HomeMain from '@/container/Home/HomeMain'
-import HomeCategories from '@/container/Home/HomeCategories'
-import HomeCreateNft from '@/container/Home/HomeCreateNft'
-import HomeCurrently from '@/container/Home/HomeCurrently'
+import Categories from '@/container/Home/Categories'
+import CreateNft from '@/container/Home/CreateNft'
+import Currently from '@/container/Home/Currently'
 export default function HomePage() {
   return (
     <TheLayout>
@@ -15,10 +14,9 @@ export default function HomePage() {
         <title>Me Prompt Technology</title>
       </Head>
       <div className='home-page'>
-        <HomeMain />
-        <HomeCategories />
-        <HomeCreateNft />
-        <HomeCurrently />
+        <Categories />
+        <CreateNft />
+        <Currently />
       </div>
     </TheLayout>
   )

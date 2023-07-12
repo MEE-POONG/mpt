@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { LanguageContext } from '@/components/Language/LanguageContext';
 import BtnSetting from './Language/BtnSetting';
@@ -8,22 +8,28 @@ import Link from 'next/link';
 const TheNavber: React.FC = () => {
   const router = useRouter();
   const { currentLanguage } = useContext(LanguageContext);
+  const [isFaded, setIsFaded] = useState<boolean>(false);
 
-  const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
-      {navData.map((navItem, index) => (
-        <li key={index}>
-          <Link href={navItem?.pathLink} className={`fw-bold ${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
-            {currentLanguage === "TH" ? navItem.name?.TH : navItem.name?.EN}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  );
+  useEffect(() => {
+    const scrollHandler = () => {
+      const shouldFade: boolean = window.scrollY > 50;
+      setIsFaded(shouldFade);
+    };
+
+    window.addEventListener('scroll', scrollHandler);
+    return () => window.removeEventListener('scroll', scrollHandler);
+  }, []);
+  const navList = navData.map((navItem, index) => (
+    <li key={index}>
+      <Link href={navItem?.pathLink} className={`fw-bold ${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
+        {currentLanguage === "TH" ? navItem.name?.TH : navItem.name?.EN}
+      </Link>
+    </li>
+  ));
   return (
 
     <>
-      <header className="header-area header-sticky">
+      <header className={`header-area header-sticky ${isFaded ? 'background-header' : ''}`}>
         <div className="container">
           <div className="row">
             <div className="col-12">

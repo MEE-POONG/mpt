@@ -1,6 +1,6 @@
 import React from 'react';
 
-const HomeCreateNft: React.FC = () => {
+const CreateNft: React.FC = () => {
     return (
         <div className="create-nft">
             <div className="container">
@@ -55,4 +55,4 @@ const HomeCreateNft: React.FC = () => {
     );
 }
 
-export default HomeCreateNft;
+export default CreateNft;

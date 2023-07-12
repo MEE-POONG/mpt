@@ -400,6 +400,9 @@ Header Style
   -moz-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+  .main-nav{
+    min-height: 70px !important;
+  }
 }
 
 .header-area {
@@ -456,7 +459,7 @@ Header Style
   justify-content: flex-end;
   vertical-align: middle;
   text-align: right;
-  margin-top: 15px;
+  margin-top: 0px;
   margin-right: 0px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -464,6 +467,7 @@ Header Style
   transition: all 0.3s ease 0s;
   position: relative;
   z-index: 999;
+  align-items: center;
 
   li {
     padding-left: 10px;
