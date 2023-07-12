@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
-import ItemDetails from '@/container/About/ItemDetails'
-import TopSeller from '@/container/About/TopSeller'
-export default function AboutPage() {
+import Categories from '@/container/Home/Categories'
+import CreateNft from '@/container/Home/CreateNft'
+import Currently from '@/container/Home/Currently'
+export default function OurWorkPage() {
   return (
     <TheLayout>
       <Head>
@@ -12,9 +13,10 @@ export default function AboutPage() {
         />
         <title>Me Prompt Technology</title>
       </Head>
-      <div className='About-page'>
-        <ItemDetails />
-        <TopSeller />
+      <div className='ourwork-page'>
+        <Categories />
+        <CreateNft />
+        <Currently />
       </div>
     </TheLayout>
   )

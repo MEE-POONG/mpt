@@ -34,16 +34,16 @@ const TheNavber: React.FC = () => {
           <div className="row">
             <div className="col-12">
               <nav className="main-nav">
-                <a href="/" className="logo m-auto">
+                <Link href="/" className="logo m-auto">
                   <img src="/images/logo.png" alt="" />
-                </a>
+                </Link>
                 <ul className="nav">
                   {navList}
                 </ul>
                 <BtnSetting />
-                <a className='menu-trigger'>
+                <button className='menu-trigger'>
                   <span>Menu</span>
-                </a>
+                </button>
               </nav>
             </div>
           </div>

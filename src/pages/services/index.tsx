@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Layout from '@/components/TheLayout'
 import Link from 'next/link'
-import WorkTapbar from '../ourwork'
+import WorkTapbar from '../our-work'
 
 export default function Services() {
   return (
