@@ -4,7 +4,7 @@ import { LanguageContext } from '@/components/Language/LanguageContext';
 import { Language } from '@/components/Language/types';
 import '../assets/scss/globals.scss';
 import Router from 'next/router';
-import Loading from "@/components/Loading";
+import Loading from "@/components/Loadding";
 
 export default function App({ Component, pageProps }: AppProps) {
   const [currentLanguage, setCurrentLanguage] = useState<Language>('TH');
