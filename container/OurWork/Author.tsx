@@ -8,12 +8,12 @@ const Author: React.FC = () => {
                     <div className="col-lg-6">
                         <div className="author">
                             <img
-                                src="/images/single-author.jpg"
+                                src="/images/logo.png"
                                 alt=""
-                                style={{ borderRadius: "50%", maxWidth: 170 }}
+                                style={{ borderRadius: "20%", maxWidth: 170 }}
                             />
                             <h4>
-                                Melanie Smith <br /> <a href="#">@melanie32</a>
+                                Me Prompt Technology <br /> <a href="#">@Meprompt</a>
                             </h4>
                         </div>
                     </div>
@@ -22,21 +22,13 @@ const Author: React.FC = () => {
                             <div className="row">
                                 <div className="col-4">
                                     <div className="info-item">
-                                        <i className="fa fa-heart" />
-                                        <h6>
-                                            1238 <em>Likes</em>
-                                        </h6>
-                                    </div>
-                                </div>
-                                <div className="col-4">
-                                    <div className="info-item">
                                         <i className="fa fa-hand" />
                                         <h6>
-                                            1238 <em>Likes</em>
+                                            1238 <em>View</em>
                                         </h6>
                                     </div>
                                 </div>
-                                <div className="col-4">
+                                <div className="col-8">
                                     <div className="info-item">
                                         <i className="fa fa-dollar" />
                                         <h6>
@@ -51,7 +43,7 @@ const Author: React.FC = () => {
                                 </div>
                                 <div className="col-7">
                                     <div className="main-button">
-                                        <a href="#">Follow @melanie32</a>
+                                        <a href="#">Follow @meprompt</a>
                                     </div>
                                 </div>
                             </div>
@@ -61,7 +53,7 @@ const Author: React.FC = () => {
                         <div className="section-heading">
                             <div className="line-dec" />
                             <h2>
-                                Melanie Smith’s <em>Items</em>.
+                                Our <em>Clients</em>.
                             </h2>
                         </div>
                     </div>
@@ -69,38 +61,16 @@ const Author: React.FC = () => {
                         <div className="item">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <span className="author">
-                                        <img
-                                            src="/images/author.jpg"
-                                            alt=""
-                                            style={{ maxWidth: 50, borderRadius: "50%" }}
-                                        />
-                                    </span>
                                     <img
-                                        src="/images/discover-03.jpg"
+                                        src="/images/customers/changpong.png"
                                         alt=""
-                                        style={{ borderRadius: 20 }}
+                                        style={{ borderRadius: 20, minHeight: 185 }}
                                     />
-                                    <h4>Mutant Ape Bored</h4>
-                                </div>
-                                <div className="col-lg-12">
-                                    <div className="line-dec" />
-                                    <div className="row">
-                                        <div className="col-6">
-                                            <span>
-                                                Current Bid: <br /> <strong>2.03 ETH</strong>
-                                            </span>
-                                        </div>
-                                        <div className="col-6">
-                                            <span>
-                                                Ends In: <br /> <strong>25th Nov</strong>
-                                            </span>
-                                        </div>
-                                    </div>
+                                    <h4>ช่างพองอิฐประสาน</h4>
                                 </div>
                                 <div className="col-lg-12">
                                     <div className="main-button">
-                                        <a href="details.html">View Details</a>
+                                        <a href="https://www.xn--72cah0a9bls7bydzab3brky72a.com/">View</a>
                                     </div>
                                 </div>
                             </div>
@@ -110,120 +80,55 @@ const Author: React.FC = () => {
                         <div className="item">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <span className="author">
-                                        <img
-                                            src="/images/author-02.jpg"
-                                            alt=""
-                                            style={{ maxWidth: 50, borderRadius: "50%" }}
-                                        />
-                                    </span>
                                     <img
-                                        src="/images/discover-06.jpg"
+                                        src="/images/customers/homeagain.png"
                                         alt=""
-                                        style={{ borderRadius: 20 }}
+                                        style={{ borderRadius: 20, minHeight: 185 }}
                                     />
-                                    <h4>Mutant Ape Bored</h4>
-                                </div>
-                                <div className="col-lg-12">
-                                    <div className="line-dec" />
-                                    <div className="row">
-                                        <div className="col-6">
-                                            <span>
-                                                Current Bid: <br /> <strong>2.03 ETH</strong>
-                                            </span>
-                                        </div>
-                                        <div className="col-6">
-                                            <span>
-                                                Ends In: <br /> <strong>25th Nov</strong>
-                                            </span>
-                                        </div>
-                                    </div>
+                                    <h4>มูลนิธิบ้านหลังใหม่</h4>
                                 </div>
                                 <div className="col-lg-12">
                                     <div className="main-button">
-                                        <a href="details.html">View Details</a>
+                                        <a href="https://home-again.netlify.app/">View</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-3 col-md-6">
                         <div className="item">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <span className="author">
-                                        <img
-                                            src="/images/author.jpg"
-                                            alt=""
-                                            style={{ maxWidth: 50, borderRadius: "50%" }}
-                                        />
-                                    </span>
                                     <img
-                                        src="/images/discover-05.jpg"
+                                        src="/images/customers/robot.png"
                                         alt=""
-                                        style={{ borderRadius: 20 }}
+                                        style={{ borderRadius: 20, minHeight: 185 }}
                                     />
-                                    <h4>Mutant Ape Bored</h4>
-                                </div>
-                                <div className="col-lg-12">
-                                    <div className="line-dec" />
-                                    <div className="row">
-                                        <div className="col-6">
-                                            <span>
-                                                Current Bid: <br /> <strong>2.03 ETH</strong>
-                                            </span>
-                                        </div>
-                                        <div className="col-6">
-                                            <span>
-                                                Ends In: <br /> <strong>25th Nov</strong>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-12">
+                                    <h4>Robot รถตัดหญ้าบังคับวิทยุ</h4>
                                     <div className="main-button">
-                                        <a href="details.html">View Details</a>
+                                        <a href="https://www.i2arobot.com/?fbclid=IwAR08wbCSwIpaks_wYcnRfYTgGNKlMa-dv9pim3V9bJnVKMUc-q7rgJW_ILw">View</a>
                                     </div>
+                                </div>
+                                <div className="col-lg-12">
+                                    
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-3 col-md-6">
                         <div className="item">
                             <div className="row">
                                 <div className="col-lg-12">
-                                    <span className="author">
-                                        <img
-                                            src="/images/author-03.jpg"
-                                            alt=""
-                                            style={{ maxWidth: 50, borderRadius: "50%" }}
-                                        />
-                                    </span>
                                     <img
-                                        src="/images/discover-04.jpg"
+                                        src="/images/customers/fairy.png"
                                         alt=""
-                                        style={{ borderRadius: 20 }}
+                                        style={{ borderRadius: 20, minHeight: 185 }}
                                     />
-                                    <h4>Mutant Ape Bored</h4>
-                                </div>
-                                <div className="col-lg-12">
-                                    <div className="line-dec" />
-                                    <div className="row">
-                                        <div className="col-6">
-                                            <span>
-                                                Current Bid: <br /> <strong>2.03 ETH</strong>
-                                            </span>
-                                        </div>
-                                        <div className="col-6">
-                                            <span>
-                                                Ends In: <br /> <strong>25th Nov</strong>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-lg-12">
+                                    <h4>Fairy Stone - หินนำโชค</h4>
                                     <div className="main-button">
-                                        <a href="details.html">View Details</a>
+                                        <a href="https://fairygemstone.com/">View</a>
                                     </div>
                                 </div>
                             </div>

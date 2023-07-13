@@ -18,8 +18,8 @@ const TheHeadPage: React.FC = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-                        <h6>Liberty NFT Market</h6>
-                        <h2>Discover Some Top Items</h2>
+                        <h6>Web Development & Design</h6>
+                        <h2>Me prompt technology</h2>
                         <span>
                             Home{" > "}<a href="#">Explore</a>
                         </span>
