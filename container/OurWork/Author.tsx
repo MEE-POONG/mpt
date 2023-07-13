@@ -13,7 +13,7 @@ const Author: React.FC = () => {
                                 style={{ borderRadius: "20%", maxWidth: 170 }}
                             />
                             <h4>
-                                Me Prompt Technology <br /> <a href="#">@Meprompt</a>
+                                Me Prompt Technology <br /> <a href="#">@Mepoong</a>
                             </h4>
                         </div>
                     </div>

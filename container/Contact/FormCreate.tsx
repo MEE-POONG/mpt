@@ -15,7 +15,7 @@ const FormCreate: React.FC = () => {
                             </h2>
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-5">
                         <div className="left-image">
                             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3854.410881370793!2d102.09982811484463!3d14.969879789568058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31194d8e8317c351%3A0xd84c052ad6cf5c55!2sME%20PROMPT%20TECHNOLOGY!5e0!3m2!1sen!2sth!4v1689233978614!5m2!1sen!2sth"
                                 style={{ minWidth: "100%", minHeight: 350, borderRadius: 20 }}>
@@ -23,7 +23,7 @@ const FormCreate: React.FC = () => {
                             </iframe>
                         </div>
                     </div>
-                    <div className="col-lg-5 align-self-center">
+                    <div className="col-lg-7 align-self-center">
                         <h4>Contact us when you want to make a website.</h4>
                         <span className="author">
                             <img
@@ -34,14 +34,14 @@ const FormCreate: React.FC = () => {
                             <h6>
                                 Me Prompt Technology
                                 <br />
-                                <a href="#">@MPT</a>
+                                <a href="#">@mepoong</a>
                             </h6>
                         </span>
                         <p>
 
                         </p>
                         <div className="row">
-                            <div className="col-4">
+                            <div className="col-lg-5">
                                 <span className="bid">
                                     <strong><AiOutlineHome size={30} /></strong>
                                     <br />
@@ -49,7 +49,7 @@ const FormCreate: React.FC = () => {
                                     <br />
                                 </span>
                             </div>
-                            <div className="col-4">
+                            <div className="col-lg-3">
                                 <span className="owner">
                                     <strong><AiOutlinePhone size={30} /></strong>
                                     <br />
@@ -59,7 +59,7 @@ const FormCreate: React.FC = () => {
                                 </span>
                             </div>
 
-                            <div className="col-4">
+                            <div className="col-lg-3">
                                 <span className="owner">
                                     <strong><AiOutlineMail size={30} /></strong>
                                     <br />
