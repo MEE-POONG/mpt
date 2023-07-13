@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import Categories from '@/container/Home/Categories'
-import CreateNft from '@/container/CreateNft'
 import Currently from '@/container/Home/Currently'
+import Price from '@/container/Home/Price'
 const HomePage: React.FC = () => {
   return (
     <TheLayout>
@@ -15,7 +15,7 @@ const HomePage: React.FC = () => {
       </Head>
       <div className='home-page'>
         <Categories />
-        <CreateNft />
+        <Price />
         <Currently />
       </div>
     </TheLayout>
