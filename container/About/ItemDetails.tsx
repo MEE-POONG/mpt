@@ -10,56 +10,34 @@ const ItemDetails: React.FC = () => {
                         <div className="section-heading">
                             <div className="line-dec" />
                             <h2>
-                                View Details <em>For Item</em> Here.
+                                How about <em>MPT</em> Is?.
                             </h2>
                         </div>
                     </div>
                     <div className="col-lg-7">
                         <div className="left-image">
                             <img
-                                src="/images/item-details-01.jpg"
+                                src="/images/meprompt/logo.png"
                                 alt=""
                                 style={{ borderRadius: 20 }}
                             />
+                            <p className='text-center mt-3'>Me Prompt Technonlogy Company</p>
                         </div>
                     </div>
                     <div className="col-lg-5 align-self-center">
-                        <h4>Dolores Haze Westworld Eye</h4>
+                        <h4>Me Prompt Technonlogy Company</h4>
                         <span className="author">
-                            <img
-                                src="/images/author-02.jpg"
-                                alt=""
-                                style={{ maxWidth: 50, borderRadius: "50%" }}
-                            />
                             <h6>
-                                Liberty Artist
-                                <br />
-                                <a href="#">@libertyart</a>
+                                <a href="#">@meepoong</a>
                             </h6>
                         </span>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetu dipiscingei elit, sed do
-                            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            เรามีบริการทางด้านเทคโนโลยีที่ทันสมัยสำหรับองค์กร และผู้ใช้งานจริงเพื่อส่งเสริมระบบการทำงานปัจจุบันของคุณและก่อให้เกิดการพัฒนาและเปลี่ยนแปลงอย่างต่อเนื่องเพิ่มขีดความสามารถขององค์กรคุณให้พร้อมรับมือได้ทุกสถานการณ์เพราะเราเชื่อว่าการพัฒนากระบวนการทำงานด้วยเทคโนโลยีและนวัตกรรมเป็นสิ่งที่จำเป็นและสำคัญมากในอนาคต
                         </p>
-                        <div className="row">
-                            <div className="col-3">
-                                <span className="bid">
-                                    Current Bid
-                                    <br />
-                                    <strong>6.06 ETH</strong>
-                                    <br />
-                                    <em>($8,025.50)</em>
-                                </span>
-                            </div>
-                            <div className="col-4">
-                                <span className="owner">
-                                    Owner
-                                    <br />
-                                    <strong>David Walker</strong>
-                                    <br />
-                                    <em>(@davidwalker)</em>
-                                </span>
-                            </div>
+                        <p>
+                            เราตั้งใจที่จะสร้างความเปลี่ยนแปลงทางด้านดิจิทัลและเทคโนโลยีให้กับทุกองค์กร และเชื่อเป็นอย่างยิ่งว่าเราสามารถช่วยทุกองค์กร ในการเตรียมพร้อมต่อโลกที่เปลี่ยนแปลงได้อย่างเต็มรูปแบบ นอกจากนี้เรามุ่งหวังการส่งมอบแง่มุมทางธุรกิจ (Business) ผสมผสานกับการประยุกต์ใช้เทคโนโลยีในองค์กร (Technological Insight) เข้าด้วยกัน เพื่อต่อยอดและพัฒนาทุกองค์กรให้เป็น Data Driven Organization ได้อย่างมีประสิทธิภาพ
+                        </p>
+                        {/* <div className="row">
                             <div className="col-5">
                                 <span className="ends">
                                     Ends In
@@ -69,24 +47,19 @@ const ItemDetails: React.FC = () => {
                                     <em>(January 22nd, 2021)</em>
                                 </span>
                             </div>
-                        </div>
-                        <form action="submit">
-                            <label htmlFor="quantity-text">Place Bid:</label>
-                            <input placeholder="1 ETH" className="quantity-text" />
-                            <button type="submit" id="form-submit" className="main-button">
-                                Submit Now
-                            </button>
-                        </form>
+                        </div> */}
+
                     </div>
+
                     <div className="col-lg-12">
                         <div className="current-bid">
                             <div className="row">
-                                <div className="col-lg-6">
+                                <div className="col-lg-12">
                                     <div className="mini-heading">
-                                        <h4>Current Biddings Prices ( ETH )</h4>
+                                        <h4>Employee ( Team Meepoong )</h4>
                                     </div>
                                 </div>
-                                <div className="col-lg-6">
+                                {/* <div className="col-lg-6">
                                     <fieldset>
                                         <select
                                             name="Category"
@@ -103,11 +76,78 @@ const ItemDetails: React.FC = () => {
                                             <option value="high">Sort By: Highest</option>
                                         </select>
                                     </fieldset>
+                                </div> */}
+
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="item">
+                                        <div className="left-img">
+                                            <img src="/images/meprompt/est.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
+                                            
+                                        </div>
+                                        <div className="right-content">
+                                            <h4>Est</h4>
+                                            <a href="#">@davidwalker</a>
+                                            <div className="line-dec" />
+                                            <h6>
+                                                Bid: <em>0.06 ETH</em>
+                                            </h6>
+                                            <span className="date">24/07/2022, 22:00</span>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
                                     <div className="item">
                                         <div className="left-img">
-                                            <img src="/images/current-01.jpg" alt="" />
+                                            <img src="/images/meprompt/chun.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
+                                        </div>
+                                        <div className="right-content">
+                                            <h4>Chun</h4>
+                                            <a href="#">@davidwalker</a>
+                                            <div className="line-dec" />
+                                            <h6>
+                                                Bid: <em>0.06 ETH</em>
+                                            </h6>
+                                            <span className="date">24/07/2022, 22:00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="item">
+                                        <div className="left-img">
+                                            <img src="/images/meprompt/ploi.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
+                                        </div>
+                                        <div className="right-content">
+                                            <h4>Yasumin Simtama</h4>
+                                            <a href="#">@webdeveloper</a>
+                                            <div className="line-dec" />
+                                            <h6>
+                                                Bid: <em>0.06 ETH</em>
+                                            </h6>
+                                            <span className="date">24/07/2022, 22:00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-12">
+                        <div className="current-bid">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="mini-heading">
+                                        <h4>Apprentice ( Co-Op Gen 1 )</h4>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="item">
+                                        <div className="left-img">
+                                            <img src="/images/meprompt/g102.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
                                         </div>
                                         <div className="right-content">
                                             <h4>David Walker</h4>
@@ -123,10 +163,93 @@ const ItemDetails: React.FC = () => {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="item">
                                         <div className="left-img">
-                                            <img src="/images/current-02.jpg" alt="" />
+                                            <img src="/images/meprompt/g103.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
                                         </div>
                                         <div className="right-content">
-                                            <h4>David Walker</h4>
+                                            <h4>Yasumin Simtama</h4>
+                                            <a href="#">@webdeveloper</a>
+                                            <div className="line-dec" />
+                                            <h6>
+                                                Bid: <em>0.06 ETH</em>
+                                            </h6>
+                                            <span className="date">24/07/2022, 22:00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="item">
+                                        <div className="left-img">
+                                            <img src="/images/meprompt/g104.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
+                                        </div>
+                                        <div className="right-content">
+                                            <h4>Yasumin Simtama</h4>
+                                            <a href="#">@webdeveloper</a>
+                                            <div className="line-dec" />
+                                            <h6>
+                                                Bid: <em>0.06 ETH</em>
+                                            </h6>
+                                            <span className="date">24/07/2022, 22:00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="item">
+                                        <div className="left-img">
+                                            <img src="/images/meprompt/g105.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
+                                        </div>
+                                        <div className="right-content">
+                                            <h4>Yasumin Simtama</h4>
+                                            <a href="#">@webdeveloper</a>
+                                            <div className="line-dec" />
+                                            <h6>
+                                                Bid: <em>0.06 ETH</em>
+                                            </h6>
+                                            <span className="date">24/07/2022, 22:00</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="item">
+                                        <div className="left-img">
+                                            <img src="/images/meprompt/g101.jpg" alt="" 
+                                            style={{height:250}}/>
+                                        </div>
+                                        <div className="right-content">
+                                            <h4>Yasumin Simtama</h4>
+                                            <a href="#">@webdeveloper</a>
+                                            <div className="line-dec" />
+                                            <h6>
+                                                Bid: <em>0.06 ETH</em>
+                                            </h6>
+                                            <span className="date">24/07/2022, 22:00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-12">
+                        <div className="current-bid">
+                            <div className="row">
+                                <div className="col-lg-12">
+                                    <div className="mini-heading">
+                                        <h4>Apprentice ( Co-Op Gen 3 )</h4>
+                                    </div>
+                                </div>
+                                <div className="col-lg-4 col-md-6">
+                                    <div className="item">
+                                        <div className="left-img">
+                                            <img src="/images/meprompt/benz.jpg" alt="" 
+                                            />
+                                        </div>
+                                        <div className="right-content">
+                                            <h4>Pattawut</h4>
                                             <a href="#">@davidwalker</a>
                                             <div className="line-dec" />
                                             <h6>
@@ -139,11 +262,12 @@ const ItemDetails: React.FC = () => {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="item">
                                         <div className="left-img">
-                                            <img src="/images/current-03.jpg" alt="" />
+                                            <img src="/images/meprompt/mind.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
                                         </div>
                                         <div className="right-content">
-                                            <h4>David Walker</h4>
-                                            <a href="#">@davidwalker</a>
+                                            <h4>Thutiya</h4>
+                                            <a href="#">@webdeveloper</a>
                                             <div className="line-dec" />
                                             <h6>
                                                 Bid: <em>0.06 ETH</em>
@@ -155,11 +279,12 @@ const ItemDetails: React.FC = () => {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="item">
                                         <div className="left-img">
-                                            <img src="/images/current-02.jpg" alt="" />
+                                            <img src="/images/meprompt/prim.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
                                         </div>
                                         <div className="right-content">
-                                            <h4>David Walker</h4>
-                                            <a href="#">@davidwalker</a>
+                                            <h4>Punyaporn </h4>
+                                            <a href="#">@webdeveloper</a>
                                             <div className="line-dec" />
                                             <h6>
                                                 Bid: <em>0.06 ETH</em>
@@ -171,11 +296,12 @@ const ItemDetails: React.FC = () => {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="item">
                                         <div className="left-img">
-                                            <img src="/images/current-04.jpg" alt="" />
+                                            <img src="/images/meprompt/ploi.jpg" alt="" 
+                                            style={{maxHeight:250}}/>
                                         </div>
                                         <div className="right-content">
-                                            <h4>David Walker</h4>
-                                            <a href="#">@davidwalker</a>
+                                            <h4>Yasumin Simtama</h4>
+                                            <a href="#">@webdeveloper</a>
                                             <div className="line-dec" />
                                             <h6>
                                                 Bid: <em>0.06 ETH</em>
@@ -184,22 +310,7 @@ const ItemDetails: React.FC = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-lg-4 col-md-6">
-                                    <div className="item">
-                                        <div className="left-img">
-                                            <img src="/images/current-01.jpg" alt="" />
-                                        </div>
-                                        <div className="right-content">
-                                            <h4>David Walker</h4>
-                                            <a href="#">@davidwalker</a>
-                                            <div className="line-dec" />
-                                            <h6>
-                                                Bid: <em>0.06 ETH</em>
-                                            </h6>
-                                            <span className="date">24/07/2022, 22:00</span>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                         </div>
                     </div>

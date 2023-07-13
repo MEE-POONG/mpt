@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:100,200,300,400,500,600,700,800,900");
+
 /* 
 ---------------------------------------------
 reset
@@ -270,18 +271,22 @@ section {
 .btn-language {
   display: flex;
   align-items: center;
+
   img {
     width: 40px;
     height: 40px;
     filter: grayscale(100%);
+
     &.active {
       filter: grayscale(0%);
     }
   }
 }
+
 .z-index-1 {
   z-index: 1;
 }
+
 /* 
 ---------------------------------------------
 Pre-loader Style
@@ -501,6 +506,7 @@ Header Style
 }
 
 .header-area .main-nav .nav li {
+
   &:hover a,
   a.active {
     color: #fff;
@@ -509,6 +515,7 @@ Header Style
 }
 
 .background-header .main-nav .nav li {
+
   &:hover a,
   a.active {
     color: #fff;
@@ -577,6 +584,7 @@ Header Style
 }
 
 .header-area .main-nav .menu-trigger span {
+
   &:before,
   &:after {
     -moz-transition: all 0.4s;
@@ -594,6 +602,7 @@ Header Style
 }
 
 .background-header .main-nav .menu-trigger span {
+
   &:before,
   &:after {
     background-color: #7453fc;
@@ -602,6 +611,7 @@ Header Style
 
 .header-area .main-nav .menu-trigger {
   span {
+
     &:before,
     &:after {
       content: "";
@@ -724,6 +734,7 @@ Header Style
 
     &.header-sticky .nav li {
       a {
+
         &:hover,
         &.active {
           color: #7453fc !important;
@@ -840,6 +851,7 @@ Header Style
     }
 
     &.submenu {
+
       &:hover ul,
       &:focus ul {
         height: 0px;
@@ -1582,10 +1594,19 @@ Details Page Style
 
   .left-image {
     margin-right: 30px;
+
+    p {
+      font-size: 24px;
+      color: #7453fc;
+      background-image: linear-gradient(to right, rgb(165, 180, 252), rgb(192, 132, 252));
+      font-weight: 700;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 
   h4 {
-    font-size: 20px;
+    font-size: 26px;
     margin-bottom: 25px;
   }
 
@@ -1611,7 +1632,8 @@ Details Page Style
   }
 
   p {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    text-indent: 30px;
   }
 
   span {
@@ -1631,6 +1653,7 @@ Details Page Style
   }
 
   span {
+
     &.bid,
     &.owner,
     &.ends {
@@ -1740,6 +1763,7 @@ Details Page Style
     overflow: hidden;
     background-color: #282b2f;
     border: 1px solid #404245;
+    max-height: 220px;
 
     .left-img {
       flex-basis: 80%;
@@ -2083,5 +2107,4 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
-}
+@media (max-width: 1200px) {}
