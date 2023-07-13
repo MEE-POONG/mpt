@@ -1,30 +1,34 @@
 import React from 'react';
-import { FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import Slider from 'react-slick';
 interface ArrowProps {
     className?: string;
     style?: React.CSSProperties;
     onClick?: () => void;
 }
-const SampleNextArrow: React.FC<ArrowProps> = (props) => {
+const NextArrow: React.FC<ArrowProps> = (props) => {
     const { className, style, onClick } = props;
     return (
         <div
-            className={`sample-next-arrow ${className}`}
-            style={{ ...style, display: 'block', background: 'red' }}
+            className={`next-arrow ${className}`}
+            // style={{ ...style, display: 'flex', background: 'red' }}
             onClick={onClick}
-        />
+        >
+            <FaAngleRight />
+        </div>
     );
 }
 
-const SamplePrevArrow: React.FC<ArrowProps> = (props) => {
+const PrevArrow: React.FC<ArrowProps> = (props) => {
     const { className, style, onClick } = props;
     return (
         <div
-            className={`sample-prev-arrow ${className}`}
-            style={{ ...style, display: 'block', background: 'green' }}
+            className={`prev-arrow ${className}`}
+            // style={{ ...style, display: 'flex', background: 'green' }}
             onClick={onClick}
-        />
+        >
+            <FaAngleLeft />
+        </div>
     );
 }
 
@@ -35,8 +39,8 @@ const Categories: React.FC = () => {
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        nextArrow: <SampleNextArrow />,
-        prevArrow: <SamplePrevArrow />
+        nextArrow: <NextArrow />,
+        prevArrow: <PrevArrow />
     };
     return (
 
