@@ -163,8 +163,8 @@ body {
   background: #fff;
   // font-family: "Roboto", sans-serif;
 }
-*{
-  font-family: 'Prompt', sans-serif;
+* {
+  font-family: "Prompt", sans-serif;
 }
 
 ::selection,
@@ -509,7 +509,6 @@ Header Style
 }
 
 .header-area .main-nav .nav li {
-
   &:hover a,
   a.active {
     color: #fff;
@@ -518,7 +517,6 @@ Header Style
 }
 
 .background-header .main-nav .nav li {
-
   &:hover a,
   a.active {
     color: #fff;
@@ -587,7 +585,6 @@ Header Style
 }
 
 .header-area .main-nav .menu-trigger span {
-
   &:before,
   &:after {
     -moz-transition: all 0.4s;
@@ -605,7 +602,6 @@ Header Style
 }
 
 .background-header .main-nav .menu-trigger span {
-
   &:before,
   &:after {
     background-color: #7453fc;
@@ -614,7 +610,6 @@ Header Style
 
 .header-area .main-nav .menu-trigger {
   span {
-
     &:before,
     &:after {
       content: "";
@@ -737,7 +732,6 @@ Header Style
 
     &.header-sticky .nav li {
       a {
-
         &:hover,
         &.active {
           color: #7453fc !important;
@@ -854,7 +848,6 @@ Header Style
     }
 
     &.submenu {
-
       &:hover ul,
       &:focus ul {
         height: 0px;
@@ -863,6 +856,32 @@ Header Style
   }
 }
 
+.next-arrow,
+.prev-arrow {
+  width: 40px;
+  height: 40px;
+  font-size: 2.5rem;
+  display: flex;
+  color: #7453fc;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: 1;
+  transition: all 0.3s;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  &::before {
+    display: none;
+  }
+  &:hover,
+  &:focus,
+  &:hover,                                                                                                                      
+  &:focus {
+    color: #ffffff;
+    outline: none;
+    background: #7453fc;
+  }
+}
 /* 
 ---------------------------------------------
 Banner Style
@@ -1007,25 +1026,6 @@ Categories & Collections Style
       margin-bottom: -60px;
     }
   }
-  .next-arrow,
-  .prev-arrow {
-    width: 46px;
-    height: 46px;
-    line-height: 46px;
-    font-size: 2.5rem;
-    display: flex;
-    color: #7453fc;
-    background-color: #fff;
-    border-radius: 50%;
-    opacity: 1;
-    transition: all 0.3s;
-    z-index: 1;
-    align-items: center;
-    justify-content: center;
-    &::before {
-      display: none;
-    }
-  }
 }
 
 /* 
@@ -1057,7 +1057,6 @@ Create NFT Style
   }
 
   .item {
-    margin-top: 30px;
     position: relative;
   }
 
@@ -1656,7 +1655,6 @@ Details Page Style
   }
 
   span {
-
     &.bid,
     &.owner,
     &.ends {
@@ -2116,4 +2114,5 @@ body {
   }
 }
 
-@media (max-width: 1200px) {}
+@media (max-width: 1200px) {
+}
