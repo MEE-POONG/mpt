@@ -269,7 +269,9 @@ const ItemDetails: React.FC = () => {
                                             <h6>
                                                 ตำแหน่ง: <em>นักศึกษาสหกิจ</em>
                                             </h6>
-                                            {/* <span className="date">24/07/2022, 22:00</span> */}
+                                            <span className="date">
+                                                <a href="https://www.facebook.com/pattawut24"><AiFillFacebook size={30}/></a>
+                                            </span>
                                         </div>
                                     </div>
                                 </div>
@@ -286,7 +288,7 @@ const ItemDetails: React.FC = () => {
                                             <h6>
                                                 ตำแหน่ง: <em>นักศึกษาสหกิจ</em>
                                             </h6>
-                                            {/* <span className="date">24/07/2022, 22:00</span> */}
+                                                <a href="https://www.facebook.com/profile.php?id=100004920397814"><AiFillFacebook size={30}/></a>
                                         </div>
                                     </div>
                                 </div>
@@ -303,7 +305,7 @@ const ItemDetails: React.FC = () => {
                                             <h6>
                                                 ตำแหน่ง: <em>นักศึกษาสหกิจ</em>
                                             </h6>
-                                            {/* <span className="date">24/07/2022, 22:00</span> */}
+                                                <a href="https://www.facebook.com/paysatore"><AiFillFacebook size={30}/></a>
                                         </div>
                                     </div>
                                 </div>
@@ -320,7 +322,7 @@ const ItemDetails: React.FC = () => {
                                             <h6>
                                                 ตำแหน่ง: <em>นักศึกษาสหกิจ</em>
                                             </h6>
-                                            {/* <span className="date">24/07/2022, 22:00</span> */}
+                                                <a href="https://www.facebook.com/ploy.simt/"><AiFillFacebook size={30}/></a>
                                         </div>
                                     </div>
                                 </div>
