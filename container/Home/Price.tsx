@@ -67,48 +67,68 @@ const Price: React.FC = () => {
                         </div>
                     </div>
                 </div>
-                <Slider {...settings}>
-                    {price.map((item, index) => (
-
-                        <div className="item p-3 mt-0">
-
-                            <h4 className='d-flex align-items-center justify-content-center mt-0'>
-                                <div className="icon d-flex me-2">
-                                    <img src={`/images/icon-0${index + 2}.png`} alt="" className='m-auto' />
-                                </div>
-                                {item.title}
-                            </h4>
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    {/* <p>{item.logo}</p>
-                                    <p>{item.webSelect}</p>
-                                    <p>{item.backOffice}</p>
-                                    <p>{item.codeUse}</p>
-                                    <p>{item.responsive}</p>
-                                    <p>{item.webDomain}</p>
-                                    <p>{item.ssl}</p>
-                                    <p>{item.page}</p>
-                                    <p>{item.pageList}</p>
-                                    <p>{item.storage}</p>
-                                    <p>{item.manual}</p>
-                                    <p>{item.Language}</p> */}
-                                    <div className="row">
-                                        <div className="col-6">
-                                            <span>
-                                                Current Bid: <br /> <strong>2.03 ETH</strong>
-                                            </span>
+                <div className='package bg-image-unset'>
+                    <Slider {...settings}>
+                        {price.map((item, index) => (
+                            <div className="p-3">
+                                <div className="item">
+                                    <h4 className='d-flex align-items-center justify-content-center mt-0'>
+                                        <div className="icon d-flex me-2">
+                                            <img src={`/images/icon-0${index + 2}.png`} alt="" className='m-auto' />
                                         </div>
-                                        <div className="col-6">
-                                            <span>
-                                                Ends In: <br /> <strong>25th Nov</strong>
+                                        {item.title}
+                                    </h4>
+                                    <div className="row">
+                                        <div className="col-lg-12">
+                                            <span className="bid">
+                                                <h4 className='mt-0'>
+                                                    ราคา {item.price.price}
+                                                </h4>
+                                                <h4 className='mt-0'>
+                                                    แพ็คเกจ 2 ปี ลด 10% {(item.price.price * 2) - ((item.price.price * 2) * 0.1)}
+                                                </h4>
+                                                <h4 className='mt-0'>
+                                                    แพ็คเกจ 3 ปี ลด 15% {(item.price.price * 3) - ((item.price.price * 3) * 0.1)}
+                                                </h4>
+                                                <div className="line-dec"></div>
+                                                <strong>{item.serve.editDesign}</strong>
+                                                <div className="line-dec"></div>
+                                                <strong>{item.serve.editDesign}</strong>
+                                                <br />
+                                                <strong>{item.serve.siteArea}</strong>
+                                                <br />
+                                                <strong>{item.serve.imageStorage}</strong>
+                                                <br />
+                                                <strong>{item.serve.backup}</strong>
+                                                <br />
+                                                <strong>{item.serve.Domain}</strong>
+                                                <br />
+                                                <strong>{item.serve.consulting}</strong>
+                                                <br />
+                                                {item.serve.logo ?
+                                                    <>
+                                                        <strong>ออกแบบ Logo ใหม่</strong>
+                                                        <br />
+                                                    </>
+                                                    : ""}
+                                                {item.serve.Responsive ?
+                                                    <strong>ลองรับทุกขนาดหน้าจอ</strong>
+                                                    : ""}
+                                                <br />
+                                                <strong>{item.article.language}</strong>
+                                                <br />
+                                                <strong>{item.article.blog}</strong>
+
                                             </span>
+                                            <div className="line-dec"></div>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
-                </Slider>
+                        ))}
+                    </Slider>
+                </div>
             </div >
         </div >
     );
