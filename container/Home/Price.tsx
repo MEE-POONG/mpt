@@ -4,7 +4,7 @@ import { LanguageContext } from '@/components/Language/LanguageContext';
 
 import { priceHead, price } from '@/data/home';
 import Slider from 'react-slick';
-import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { FaAngleLeft, FaAngleRight, FaCheck } from 'react-icons/fa';
 interface ArrowProps {
     className?: string;
     style?: React.CSSProperties;
@@ -72,52 +72,93 @@ const Price: React.FC = () => {
                         {price.map((item, index) => (
                             <div className="p-3">
                                 <div className="item">
-                                    <h4 className='d-flex align-items-center justify-content-center mt-0'>
-                                        <div className="icon d-flex me-2">
+                                    <h4 className='d-flex justify-content-center mt-0'>
+                                        <div className="icon d-flex me-2 c-purple">
                                             <img src={`/images/icon-0${index + 2}.png`} alt="" className='m-auto' />
                                         </div>
-                                        {item.title}
+                                        <div >
+                                            <span >{item.title}</span>
+                                            <br />
+                                            ราคา <span className='c-purple'>{item.price.price}</span>
+                                        </div>
+                                    </h4>
+                                    <h4 className='mt-0 mb-0'>
+                                        แพ็คเกจ <span className='c-purple'>2</span> ปี ลด <span className='c-purple'>10%</span> ราคา <span className='c-purple'>{(item.price.price * 2) - ((item.price.price * 2) * 0.1)}</span>
+                                        <br />
+                                        แพ็คเกจ <span className='c-purple'>3</span> ปี ลด <span className='c-purple'>15%</span> ราคา <span className='c-purple'> {(item.price.price * 3) - ((item.price.price * 3) * 0.1)}</span>
+                                        <br />
+                                        {item.serve.editDesign}
                                     </h4>
                                     <div className="row">
                                         <div className="col-lg-12">
                                             <span className="bid">
-                                                <h4 className='mt-0'>
-                                                    ราคา {item.price.price}
-                                                </h4>
-                                                <h4 className='mt-0'>
-                                                    แพ็คเกจ 2 ปี ลด 10% {(item.price.price * 2) - ((item.price.price * 2) * 0.1)}
-                                                </h4>
-                                                <h4 className='mt-0'>
-                                                    แพ็คเกจ 3 ปี ลด 15% {(item.price.price * 3) - ((item.price.price * 3) * 0.1)}
-                                                </h4>
-                                                <div className="line-dec"></div>
-                                                <strong>{item.serve.editDesign}</strong>
-                                                <div className="line-dec"></div>
-                                                <strong>{item.serve.editDesign}</strong>
+                                                <div className="line-dec" />
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.serve.editDesign}
+                                                </em>
                                                 <br />
-                                                <strong>{item.serve.siteArea}</strong>
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.serve.siteArea}</em>
                                                 <br />
-                                                <strong>{item.serve.imageStorage}</strong>
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.serve.imageStorage}</em>
                                                 <br />
-                                                <strong>{item.serve.backup}</strong>
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.serve.backup}</em>
                                                 <br />
-                                                <strong>{item.serve.Domain}</strong>
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.serve.Domain}</em>
                                                 <br />
-                                                <strong>{item.serve.consulting}</strong>
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.serve.consulting}</em>
                                                 <br />
                                                 {item.serve.logo ?
                                                     <>
-                                                        <strong>ออกแบบ Logo ใหม่</strong>
+                                                        <em>
+                                                            <span className='c-purple me-2'>
+                                                                <FaCheck />
+                                                            </span>
+                                                            ออกแบบ Logo ใหม่</em>
                                                         <br />
                                                     </>
                                                     : ""}
                                                 {item.serve.Responsive ?
-                                                    <strong>ลองรับทุกขนาดหน้าจอ</strong>
+                                                    <em>
+                                                        <span className='c-purple me-2'>
+                                                            <FaCheck />
+                                                        </span>
+                                                        ลองรับทุกขนาดหน้าจอ</em>
                                                     : ""}
                                                 <br />
-                                                <strong>{item.article.language}</strong>
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.article.language}</em>
                                                 <br />
-                                                <strong>{item.article.blog}</strong>
+                                                <em>
+                                                    <span className='c-purple me-2'>
+                                                        <FaCheck />
+                                                    </span>
+                                                    {item.article.blog}</em>
 
                                             </span>
                                             <div className="line-dec"></div>
