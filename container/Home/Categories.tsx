@@ -65,7 +65,7 @@ const Categories: React.FC = () => {
                                         </div>
                                         <h4>Html5</h4>
                                         <div className="icon-button">
-                                            <a href="#"><FaAngleRight /></a>
+                                            <a href="https://www.designil.com/html5-tips-tricks-techniques-1/"><FaAngleRight /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -76,7 +76,7 @@ const Categories: React.FC = () => {
                                         </div>
                                         <h4>Css</h4>
                                         <div className="icon-button">
-                                            <a href="#"><FaAngleRight /></a>
+                                            <a href="http://www.kontentblue.com/site/article/article.php?id=css-introduction"><FaAngleRight /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -87,7 +87,7 @@ const Categories: React.FC = () => {
                                         </div>
                                         <h4>Es6</h4>
                                         <div className="icon-button">
-                                            <a href="#"><FaAngleRight /></a>
+                                            <a href="https://microbenz.in.th/%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B5-2017-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-es6-%E0%B8%81%E0%B8%B1%E0%B8%99-9dede81e30da"><FaAngleRight /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -98,7 +98,7 @@ const Categories: React.FC = () => {
                                         </div>
                                         <h4>Flutter</h4>
                                         <div className="icon-button">
-                                            <a href="#"><FaAngleRight /></a>
+                                            <a href="https://www.thaiprogrammer.org/2019/11/flutter-framework/"><FaAngleRight /></a>
                                         </div>
                                     </div>
                                 </div>
@@ -109,7 +109,7 @@ const Categories: React.FC = () => {
                                         </div>
                                         <h4>Sass</h4>
                                         <div className="icon-button">
-                                            <a href="#"><FaAngleRight /></a>
+                                            <a href="https://www.borntodev.com/2020/07/15/sass-scss-101/"><FaAngleRight /></a>
                                         </div>
                                     </div>
                                 </div>
