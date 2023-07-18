@@ -129,50 +129,50 @@ const Categories: React.FC = () => {
                         <div className="collections">
                             <div className="section-heading">
                                 <div className="line-dec"></div>
-                                <h2>Explore Some Hot <em>Collections</em> In Market.</h2>
+                                <h2>Explore Some Hot <em>Portfolio</em> By MePrompt.</h2>
                             </div>
                             <Slider {...settings}>
                                 <div className="item px-2">
-                                    <img src="/images/collection-01.jpg" alt="" />
+                                    <img src="/images/customers/changpong.png" width="500" height ="250" alt="" />
                                     <div className="down-content">
-                                        <h4>Mutant Bored Ape Yacht Club</h4>
-                                        <span className="collection">Items In Collection:<br /><strong>310/340</strong></span>
-                                        <span className="category">Category:<br /><strong>Digital Crypto</strong></span>
+                                        <h4>ช่างพองอิฐประสาน</h4>
+                                        <span className="collection">Viewer :<br /><strong>310</strong></span>
+                                        <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore Mutant</a>
+                                            <a href="explore">Explore</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="item px-2">
-                                    <img src="/images/collection-01.jpg" alt="" />
+                                    <img src="/images/customers/homeagain.png" width="500" height ="250" alt="" />
                                     <div className="down-content">
-                                        <h4>Bored Ape Kennel Club</h4>
-                                        <span className="collection">Items In Collection:<br /><strong>324/324</strong></span>
-                                        <span className="category">Category:<br /><strong>Visual Art</strong></span>
+                                        <h4>มูลนิธิบ้านหลังใหม่</h4>
+                                        <span className="collection">Viewer :<br /><strong>324</strong></span>
+                                        <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore Bored Ape</a>
+                                            <a href="explore">Explore</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="item px-2">
-                                    <img src="/images/collection-01.jpg" alt="" />
+                                    <img src="/images/customers/robot.png" width="500" height ="250" alt="" />
                                     <div className="down-content">
-                                        <h4>Genesis Collective Statue</h4>
-                                        <span className="collection">Items In Collection:<br /><strong>380/394</strong></span>
-                                        <span className="category">Category:<br /><strong>Music Art</strong></span>
+                                        <h4>Robot รถตัดหญ้าบังคับวิทยุ</h4>
+                                        <span className="collection">Viewer :<br /><strong>380</strong></span>
+                                        <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore Genesis</a>
+                                            <a href="explore">Explore</a>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="item px-2">
-                                    <img src="/images/collection-01.jpg" alt="" />
+                                    <img src="/images/customers/fairy.png" width="500" height ="250" alt="" />
                                     <div className="down-content">
-                                        <h4>Worldwide Artwork Ground</h4>
-                                        <span className="collection">Items In Collection:<br /><strong>426/468</strong></span>
-                                        <span className="category">Category:<br /><strong>Blockchain</strong></span>
+                                        <h4>Fairy Stone - หินนำโชค</h4>
+                                        <span className="collection">Viewer :<br /><strong>426</strong></span>
+                                        <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore Worldwide</a>
+                                            <a href="explore">Explore</a>
                                         </div>
                                     </div>
                                 </div>
