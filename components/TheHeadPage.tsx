@@ -26,7 +26,7 @@ const TheHeadPage: React.FC = () => {
                     </div>
                 </div>
             </div>
-            {router.pathname === '/news' && (
+            {/* {router.pathname === '/news' && (
                 <div className="featured-explore">
                     <div className="container-fluid">
                         <div className="position-relative z-index-1">
@@ -165,7 +165,7 @@ const TheHeadPage: React.FC = () => {
                         </div>
                     </div>
                 </div>
-            )}
+            )} */}
         </div>
     );
 };

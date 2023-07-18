@@ -70,7 +70,7 @@ const Price: React.FC = () => {
                 <div className='package bg-image-unset'>
                     <Slider {...settings}>
                         {price.map((item, index) => (
-                            <div className="p-3">
+                            <div className="p-3" key={index}>
                                 <div className="item">
                                     <h4 className='d-flex justify-content-center mt-0'>
                                         <div className="icon d-flex me-2 c-purple">
@@ -161,8 +161,12 @@ const Price: React.FC = () => {
                                                     {item.article.blog}</em>
 
                                             </span>
-                                            <div className="line-dec"></div>
-
+                                            <div className="line-dec" />
+                                            <div className="text-center">
+                                                <button >
+                                                    {currentLanguage === "TH" ? "ซื้อแพ็คเกจ" : "Buy Package"}
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

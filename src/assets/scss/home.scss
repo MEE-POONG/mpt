@@ -1,25 +1,44 @@
 .home-page {
-    .package{
-        .item{
+    .package {
+        .item {
             background-color: #282b2f;
             border: 1px solid #404245;
             border-radius: 20px;
             padding: 25px;
-            h4{
+            h4 {
                 text-align: center;
                 align-items: center;
             }
-            .bid{
+            .bid {
                 color: #ffffff;
             }
-
         }
-        .line-dec{
+        .line-dec {
             width: 100%;
             height: 1px;
             background-color: rgba(255, 255, 255, 0.2);
             margin-bottom: 25px;
             margin-top: 30px;
+        }
+        button {
+            font-size: 14px;
+            color: #fff;
+            background-color: #7453fc;
+            border: 1px solid #7453fc;
+            padding: 12px 30px;
+            display: inline-block;
+            border-radius: 25px;
+            font-weight: 500;
+            text-transform: capitalize;
+            letter-spacing: 0.5px;
+            transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
+            &:hover {
+                background-color: #fff;
+                color: #7453fc;
+                border: 1px solid #fff;
+            }
         }
     }
 }

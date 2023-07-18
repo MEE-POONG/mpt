@@ -14,7 +14,7 @@ const NewsPage: React.FC = () => {
       </Head>
       <div className='news-page'>
         <Discover />
-        <TopSeller />
+        {/* <TopSeller /> */}
       </div>
     </TheLayout>
   )
