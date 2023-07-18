@@ -10,7 +10,7 @@ const NewsDiscover: React.FC = () => {
             <div className="section-heading">
               <div className="line-dec" />
               <h2>
-                Discover Some Of Our <em>Items</em>.
+                News Update.
               </h2>
             </div>
           </div>
@@ -96,7 +96,7 @@ const NewsDiscover: React.FC = () => {
                     alt=""
                     style={{ borderRadius: 20 }}
                   />
-                  <h4>Mutant Ape Bored</h4>
+                  <h4>Exclusive: AP strikes news-sharing and tech deal with OpenAI</h4>
                 </div>
                 {/* <div className="col-lg-6 col-sm-6">
                   <span className="author">
@@ -116,12 +116,12 @@ const NewsDiscover: React.FC = () => {
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
-                    <div className="col-lg-3 col-sm-6">
+                    <div className="col-lg-9 col-sm-6">
                       <span>
-                        Current Bid: <br /> <strong>8.16 ETH</strong>
+                        News By: <br /> <strong>Axios Media Trends</strong>
                       </span>
                     </div>
-                    <div className="col-lg-3 col-sm-6">
+                    {/* <div className="col-lg-3 col-sm-6">
                       <span>
                         Category: <br /> <strong>Digital Art</strong>
                       </span>
@@ -130,17 +130,17 @@ const NewsDiscover: React.FC = () => {
                       <span>
                         Collection:: <br /> <strong>2/2</strong>
                       </span>
-                    </div>
+                    </div> */}
                     <div className="col-lg-3 col-sm-6">
                       <span>
-                        Ends In: <br /> <strong>25th Nov</strong>
+                        Date: <br /> <strong>Jul 13, 2023</strong>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="https://www.axios.com/2023/07/13/ap-openai-news-sharing-tech-deal" target='blank'>อ่านต่อ</a>
+                    <a href="https://www.axios.com/2023/07/13/ap-openai-news-sharing-tech-deal" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
@@ -162,26 +162,26 @@ const NewsDiscover: React.FC = () => {
                     alt=""
                     style={{ borderRadius: 20 }}
                   />
-                  <h4>Genesis Meta Boom</h4>
+                  <h4>Is Meta’s new Threads more than a Twitter copycat?</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
                     <div className="col-6">
                       <span>
-                        Current Bid: <br /> <strong>5.15 ETH</strong>
+                        News By: <br /> <strong>Al Jazeera</strong>
                       </span>
                     </div>
                     <div className="col-6">
                       <span>
-                        Ends In: <br /> <strong>26th Nov</strong>
+                        Date: <br /> <strong>Jul 6, 2023</strong>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="https://www.aljazeera.com/news/2023/7/6/is-metas-new-threads-more-than-a-twitter-copycat" target='blank'>อ่านต่อ</a>
+                    <a href="https://www.aljazeera.com/news/2023/7/6/is-metas-new-threads-more-than-a-twitter-copycat" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
@@ -203,26 +203,26 @@ const NewsDiscover: React.FC = () => {
                     alt=""
                     style={{ borderRadius: 20, maxHeight: 200 }}
                   />
-                  <h4>Another Half Ape</h4>
+                  <h4>BMA EXPO 2023 มัดรวมไฮไลท์ &quot;เทคโนโลยี-นวัตกรรม&quot; น่าสนใจในงานมีอะไรบ้าง</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
                     <div className="col-6">
                       <span>
-                        Current Bid: <br /> <strong>3.63 ETH</strong>
+                        News By: <br /> <strong>SPRiNG</strong>
                       </span>
                     </div>
                     <div className="col-6">
                       <span>
-                        Ends In: <br /> <strong>24th Nov</strong>
+                        Date: <br /> <strong>Jal 14,2023</strong>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="details.html">อ่านต่อ</a>
+                    <a href="https://www.springnews.co.th/digital-tech/technology/841070" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
@@ -244,26 +244,26 @@ const NewsDiscover: React.FC = () => {
                     alt=""
                     style={{ borderRadius: 20 }}
                   />
-                  <h4>Pixel Sand Box</h4>
+                  <h4>Microsoft ยุบเมตาเวิร์ส เตรียมเก็บค่าใช้จ่าย Microsoft Teams ไม่ฟรีอีกต่อไป</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
                     <div className="col-6">
                       <span>
-                        Current Bid: <br /> <strong>4.68 ETH</strong>
+                        News By: <br /> <strong>SPRiNG</strong>
                       </span>
                     </div>
                     <div className="col-6">
                       <span>
-                        Ends In: <br /> <strong>28th Nov</strong>
+                        Date: <br /> <strong>Feb 11, 2023</strong>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="https://www.springnews.co.th/digital-tech/metaverse/835289" target='blank'>อ่านต่อ</a>
+                    <a href="https://www.springnews.co.th/digital-tech/metaverse/835289" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
@@ -285,26 +285,26 @@ const NewsDiscover: React.FC = () => {
                     alt=""
                     style={{ borderRadius: 20 }}
                   />
-                  <h4>Another Half Ape</h4>
+                  <h4>กรมสรรพากรยุคใหม่ใช้ ChatGPT ของไมโครซอฟท์ ไขทุกข้อสงสัยเรื่องยื่นภาษี</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
                     <div className="col-6">
                       <span>
-                        Current Bid: <br /> <strong>2.03 ETH</strong>
+                        News By: <br /> <strong>SPRiNG</strong>
                       </span>
                     </div>
                     <div className="col-6">
                       <span>
-                        Ends In: <br /> <strong>25th Nov</strong>
+                        Date: <br /> <strong>Jul 10,2023</strong>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="https://www.springnews.co.th/digital-business/digital-marketing/840885" target='blank'>อ่านต่อ</a>
+                    <a href="https://www.springnews.co.th/digital-business/digital-marketing/840885" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
@@ -326,26 +326,26 @@ const NewsDiscover: React.FC = () => {
                     alt=""
                     style={{ borderRadius: 20 }}
                   />
-                  <h4>Invisible NFT Land</h4>
+                  <h4>ช้อปปิ้งออนไลน์ไม่ใช่เทรนด์ แต่เป็นบรรทัดฐานการใช้ชีวิต</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
                     <div className="col-6">
                       <span>
-                        Current Bid: <br /> <strong>2.03 ETH</strong>
+                        News By: <br /> <strong>SPRiNG</strong>
                       </span>
                     </div>
                     <div className="col-6">
                       <span>
-                        Ends In: <br /> <strong>25th Nov</strong>
+                        Date: <br /> <strong>Jul 3,2023</strong>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="https://www.springnews.co.th/digital-business/digital-marketing/840649" target='blank'>อ่านต่อ</a>
+                    <a href="https://www.springnews.co.th/digital-business/digital-marketing/840649" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
@@ -367,26 +367,26 @@ const NewsDiscover: React.FC = () => {
                     alt=""
                     style={{ borderRadius: 20 }}
                   />
-                  <h4>Another Half Ape</h4>
+                  <h4>ทำความเข้าใจ AI ของ Facebook ทำไมชอบฟีดอะไรที่ไม่รู้จัก-วนให้ดูซ้ำบ่อย</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
                     <div className="col-6">
                       <span>
-                        Current Bid: <br /> <strong>2.64 ETH</strong>
+                        News By: <br /> <strong>SPRiNG</strong>
                       </span>
                     </div>
                     <div className="col-6">
                       <span>
-                        Ends In: <br /> <strong>25th Nov</strong>
+                        Date: <br /> <strong>Jul 2,2023</strong>
                       </span>
                     </div>
                   </div>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="https://www.springnews.co.th/digital-business/digital-marketing/840603" target='blank'>อ่านต่อ</a>
+                    <a href="https://www.springnews.co.th/digital-business/digital-marketing/840603" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
