@@ -36,7 +36,7 @@ const Currently: React.FC = () => {
                       alt=""
                       height="310px"
                       width="185px"
-                      style={{ borderRadius: 20, minWidth: 195 }}
+                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -45,7 +45,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%" }}
+                        style={{ maxWidth: 50, borderRadius: "50%"  }}
                       />
                       <h6>
                         Liberty Artist
@@ -82,7 +82,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 }}
+                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -91,7 +91,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%" }}
+                        style={{ maxWidth: 50, borderRadius: "50%"  }}
                       />
                       <h6>
                         Liberty Artist
@@ -128,7 +128,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195  }}
+                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover'  }}
                     />
                   </div>
                   <div className="right-content">
@@ -174,7 +174,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 }}
+                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -183,7 +183,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%" }}
+                        style={{ maxWidth: 50, borderRadius: "50%" , objectFit: 'cover' }}
                       />
                       <h6>
                         Liberty Artist
@@ -220,7 +220,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 }}
+                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -229,7 +229,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%" }}
+                        style={{ maxWidth: 50, borderRadius: "50%"  }}
                       />
                       <h6>
                         Liberty Artist
@@ -263,10 +263,8 @@ const Currently: React.FC = () => {
                   <div className="left-image">
                     <img
                       src="https://helios-i.mashable.com/imagery/articles/03g4OszXkMYYDLHrpfTgd36/hero-image.fill.size_1248x702.v1689321426.jpg"
-                      height="310px"
-                      width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 }}
+                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
                     />
                   </div>
                   <div className="right-content">
