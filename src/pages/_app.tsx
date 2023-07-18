@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import type { AppProps } from 'next/app';
 import { LanguageContext } from '@/components/Language/LanguageContext';
 import { Language } from '@/components/Language/types';
-import '../assets/scss/globals.scss';
+import '../assets/scss/index.scss';
 import Router from 'next/router';
 import Loading from "@/components/Loadding";
 
