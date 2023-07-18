@@ -1,5 +1,8 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { FaPencilRuler } from 'react-icons/fa';
+import { GiShop } from 'react-icons/gi';
+
 
 const TheHeadFirst: React.FC = () => {
     return (
@@ -7,17 +10,20 @@ const TheHeadFirst: React.FC = () => {
         <div className="main-banner">
             <div className="container">
                 <div className="row">
-                    <div className="col-lg-6 align-self-center">
+                    <div className="col-lg-6 align-self-center ">
                         <div className="header-text">
-                            <h6>Liberty NFT Market</h6>
-                            <h2>Create, Sell &amp; Collect Top NFT&apos;s.</h2>
-                            <p>Liberty NFT Market is a really cool and professional design for your NFT websites. This HTML CSS template is based on Bootstrap v5 and it is designed for NFT related web portals. Liberty can be freely downloaded from TemplateMo&apos;s free css templates.</p>
+                            <h6>รับทำเว็บไซต์</h6>
+                            <h2>ME PROMPT &amp; TECHNOLOGY&apos;</h2>
+                            <p>รับทำเว็บไซต์และการตลาดออนไลน์ครบวงจร ไม่ว่าธุรกิจของคุณ จะมีขนาดเล็กหรือใหญ่ 
+                                เราช่วยให้ธุรกิจของคุณเติบโตในโลกออนไลน์ ขยายขีดจำกัดการทำเว็บไซต์ พร้อมฟีเจอร์ธุรกิจออนไลน์ 
+                                ยกระดับการทำเว็บไซต์ของคุณ ด้วยเครื่องมือออกแบบเว็บไซต์สุดล้ำ ตอบสนองทุกไอเดียธุรกิจของคุณ 
+                                ระบบร้านค้าออนไลน์ที่ทันสมัย นำเสนอสินค้าน่าสนใจ และสะดวกในการซื้อขาย เพื่อเปิดโอกาสให้ธุรกิจคุณ</p>
                             <div className="buttons">
                                 <div className="border-button">
-                                    <a href="explore">Explore Top NFTs</a>
+                                    <a href="explore"><FaPencilRuler size={20}/>ออกแบบอย่างอิสระ</a>
                                 </div>
                                 <div className="main-button">
-                                    <a href="https://youtube.com/templatemo" target="_blank">Watch Our Videos</a>
+                                    <a href="https://youtube.com/templatemo" target="_blank"><GiShop size={20}/>ระบบร้านค้าเต็มรูปแบบ</a>
                                 </div>
                             </div>
                         </div>
