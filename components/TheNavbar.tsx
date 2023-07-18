@@ -35,7 +35,7 @@ const TheNavber: React.FC = () => {
             <div className="col-12">
               <nav className="main-nav">
                 <Link href="/" className="logo m-auto d-flex align-items-center fw-bold">
-                  <img src="/images/meprompt/logo.png" alt="" />
+                  <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/907bdcd3-565b-4ae1-045b-c4d966eaa600/350" alt="" className='me-2 d-flex align-item-flex-end' />
                   Me Prompt Technology
                 </Link>
                 <ul className="nav">
