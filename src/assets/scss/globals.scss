@@ -86,6 +86,10 @@
         }
     }
 }
+.width-max-content{
+    width: max-content;
+
+}
 .align-item-flex-end {
     align-items: flex-end;
 }
@@ -117,4 +121,5 @@
         padding-top: 150px;
     }
 }
+@import "navber.scss";
 @import "home.scss";

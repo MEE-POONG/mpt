@@ -18,9 +18,11 @@ const TheLayOut: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <TheNavbar />
-
       {router.pathname === '/' ? <TheHeadFirst /> : <TheHeadPage />}
-      <main className={inter.className}>{children}</main>
+
+      <div style={{ height: "5000px", backgroundColor: "black" }}></div>
+
+      {/* <main className={inter.className}>{children}</main> */}
       <TheFooter />
     </>
   );

@@ -4,11 +4,19 @@ import { LanguageContext } from '@/components/Language/LanguageContext';
 import BtnSetting from './Language/BtnSetting';
 import { navData } from '@/data/navber';
 import Link from 'next/link';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import { FaBars } from 'react-icons/fa';
 
 const TheNavber: React.FC = () => {
   const router = useRouter();
   const { currentLanguage } = useContext(LanguageContext);
   const [isFaded, setIsFaded] = useState<boolean>(false);
+  const [isMenuTriggerActive, setIsMenuTriggerActive] = useState<boolean>(false);
 
   useEffect(() => {
     const scrollHandler = () => {
@@ -20,6 +28,11 @@ const TheNavber: React.FC = () => {
     return () => window.removeEventListener('scroll', scrollHandler);
   }, []);
   const navList = navData.map((navItem, index) => (
+    <Link key={index} href={navItem?.pathLink} className={`${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
+      {currentLanguage === "TH" ? navItem.name?.TH : navItem.name?.EN}
+    </Link>
+  ));
+  const navLists = navData.map((navItem, index) => (
     <li key={index}>
       <Link href={navItem?.pathLink} className={`fw-bold ${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
         {currentLanguage === "TH" ? navItem.name?.TH : navItem.name?.EN}
@@ -27,29 +40,30 @@ const TheNavber: React.FC = () => {
     </li>
   ));
   return (
-
     <>
-      <header className={`header-area header-sticky ${isFaded ? 'background-header' : ''}`}>
-        <div className="container">
-          <div className="row">
-            <div className="col-12">
-              <nav className="main-nav">
-                <Link href="/" className="logo m-auto d-flex align-items-center fw-bold">
-                  <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/907bdcd3-565b-4ae1-045b-c4d966eaa600/350" alt="" className='me-2 d-flex align-item-flex-end' />
-                  Me Prompt Technology
-                </Link>
-                <ul className="nav">
-                  {navList}
-                </ul>
-                <BtnSetting />
-                <button className='menu-trigger'>
-                  <span>Menu</span>
-                </button>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </header>
+      <Navbar expand="lg" className={`navber-mepropmt sticky-top ${isFaded ? 'navbar-bg-scroll' : ''}`}>
+        <Container className="">
+          <Link href="/" className='navbar-brand m-0 p-0 fw-bold'>
+            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/907bdcd3-565b-4ae1-045b-c4d966eaa600/350" alt="" className='me-2 d-flex align-item-flex-end' />
+            <span className='w-100 d-none d-md-block'>Me Prompt Technology</span>
+          </Link>
+          <Navbar.Toggle aria-controls="navbarScroll" >
+            <FaBars />
+          </Navbar.Toggle>
+          <Navbar.Collapse id="navbarScroll">
+            <Nav
+              className="ms-auto my-2 my-lg-0"
+              style={{ maxHeight: '100px' }}
+              navbarScroll
+            >
+              {navList}
+              <BtnSetting />
+
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
+
     </>
   );
 }

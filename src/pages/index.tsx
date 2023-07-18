@@ -14,9 +14,9 @@ const HomePage: React.FC = () => {
         <title>Me Prompt Technology</title>
       </Head>
       <div className='home-page'>
-        <Categories />
-        <Price />
-        <Currently />
+        {/* <Categories /> */}
+        {/* <Price /> */}
+        {/* <Currently /> */}
       </div>
     </TheLayout>
   )
