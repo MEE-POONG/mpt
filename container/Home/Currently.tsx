@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Currently: React.FC = () => {
@@ -9,15 +10,17 @@ const Currently: React.FC = () => {
             <div className="section-heading">
               <div className="line-dec" />
               <h2>
-                <em>IT News</em> Currently.
+                <em>News Update</em>
               </h2>
             </div>
           </div>
           <div className="col-lg-6">
             <div className="filters">
               <ul>
-                <li data-filter="*" className="active">
-                  All Items
+                <li className="active">
+                  <Link href="news" className='text-white'>
+                    More
+                  </Link>
                 </li>
                 {/* <li data-filter=".msc">Music Art</li>
                 <li data-filter=".dig">Digital Art</li>
@@ -36,7 +39,7 @@ const Currently: React.FC = () => {
                       alt=""
                       height="310px"
                       width="185px"
-                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
+                      style={{ borderRadius: 20, minWidth: 195, objectFit: 'cover', width: '185px', height: "310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -45,7 +48,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%"  }}
+                        style={{ maxWidth: 50, borderRadius: "50%" }}
                       />
                       <h6>
                         Liberty Artist
@@ -82,7 +85,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
+                      style={{ borderRadius: 20, minWidth: 195, objectFit: 'cover', width: '185px', height: "310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -91,7 +94,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%"  }}
+                        style={{ maxWidth: 50, borderRadius: "50%" }}
                       />
                       <h6>
                         Liberty Artist
@@ -128,7 +131,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover'  }}
+                      style={{ borderRadius: 20, minWidth: 195, objectFit: 'cover' }}
                     />
                   </div>
                   <div className="right-content">
@@ -174,7 +177,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
+                      style={{ borderRadius: 20, minWidth: 195, objectFit: 'cover', width: '185px', height: "310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -183,7 +186,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%" , objectFit: 'cover' }}
+                        style={{ maxWidth: 50, borderRadius: "50%", objectFit: 'cover' }}
                       />
                       <h6>
                         Liberty Artist
@@ -220,7 +223,7 @@ const Currently: React.FC = () => {
                       height="310px"
                       width="185px"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
+                      style={{ borderRadius: 20, minWidth: 195, objectFit: 'cover', width: '185px', height: "310px" }}
                     />
                   </div>
                   <div className="right-content">
@@ -229,7 +232,7 @@ const Currently: React.FC = () => {
                       <img
                         src="/images/author.jpg"
                         alt=""
-                        style={{ maxWidth: 50, borderRadius: "50%"  }}
+                        style={{ maxWidth: 50, borderRadius: "50%" }}
                       />
                       <h6>
                         Liberty Artist
@@ -264,7 +267,7 @@ const Currently: React.FC = () => {
                     <img
                       src="https://helios-i.mashable.com/imagery/articles/03g4OszXkMYYDLHrpfTgd36/hero-image.fill.size_1248x702.v1689321426.jpg"
                       alt=""
-                      style={{ borderRadius: 20, minWidth: 195 , objectFit: 'cover', width: '185px' , height:"310px" }}
+                      style={{ borderRadius: 20, minWidth: 195, objectFit: 'cover', width: '185px', height: "310px" }}
                     />
                   </div>
                   <div className="right-content">

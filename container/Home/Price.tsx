@@ -63,7 +63,7 @@ const Price: React.FC = () => {
                     </div>
                     <div className="col-lg-4">
                         <div className="main-button">
-                            <a href="/">{currentLanguage === "TH" ? "ซื้อแพ็คเกจ" : "Buy Package"}</a>
+                            <a href="">{currentLanguage === "TH" ? "ซื้อแพ็คเกจ" : "Buy Package"}</a>
                         </div>
                     </div>
                 </div>
@@ -145,7 +145,7 @@ const Price: React.FC = () => {
                                                         <span className='c-purple me-2'>
                                                             <FaCheck />
                                                         </span>
-                                                        ลองรับทุกขนาดหน้าจอ</em>
+                                                        รองรับทุกขนาดหน้าจอ</em>
                                                     : ""}
                                                 <br />
                                                 <em>
