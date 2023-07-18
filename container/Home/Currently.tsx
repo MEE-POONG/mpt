@@ -55,9 +55,9 @@ const Currently: React.FC = () => {
                     </span>
                     <div className="line-dec" />
                     <span className="bid">
-                      Viewer
+                      Source By
                       <br />
-                      <strong>2100</strong>
+                      <strong>Beartai</strong>
                       <br />
                       {/* <em>($8,240.50)</em> */}
                     </span>
@@ -69,7 +69,7 @@ const Currently: React.FC = () => {
                       {/* <em>(July 24th, 2022)</em> */}
                     </span>
                     <div className="text-button">
-                      <a href="details">View Details</a>
+                      <a href="https://www.beartai.com/news/1280769">View Details</a>
                     </div>
                   </div>
                 </div>
@@ -101,9 +101,9 @@ const Currently: React.FC = () => {
                     </span>
                     <div className="line-dec" />
                     <span className="bid">
-                      Viewer
+                      Source By
                       <br />
-                      <strong>242</strong>
+                      <strong>Beartai</strong>
                       <br />
                       {/* <em>($7,200.50)</em> */}
                     </span>
@@ -115,7 +115,7 @@ const Currently: React.FC = () => {
                       {/* <em>(July 26th, 2022)</em> */}
                     </span>
                     <div className="text-button">
-                      <a href="details">View Details</a>
+                      <a href="https://www.beartai.com/news/itnews/1280282">View Details</a>
                     </div>
                   </div>
                 </div>
@@ -147,9 +147,9 @@ const Currently: React.FC = () => {
                     </span>
                     <div className="line-dec" />
                     <span className="bid">
-                      Viewer
+                      Source By
                       <br />
-                      <strong>221</strong>
+                      <strong>Beartai</strong>
                       <br />
                       {/* <em>($6,600.00)</em> */}
                     </span>
@@ -161,7 +161,7 @@ const Currently: React.FC = () => {
                       {/* <em>(July 28th, 2022)</em> */}
                     </span>
                     <div className="text-button">
-                      <a href="details">View Details</a>
+                      <a href="https://www.beartai.com/news/itnews/1280067">View Details</a>
                     </div>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ const Currently: React.FC = () => {
                     </span>
                     <div className="line-dec" />
                     <span className="bid">
-                      Viewer
+                      Source By
                       <br />
                       <strong>1234</strong>
                       <br />
@@ -207,7 +207,7 @@ const Currently: React.FC = () => {
                       {/* <em>(July 14th, 2022)</em> */}
                     </span>
                     <div className="text-button">
-                      <a href="details">View Item Details</a>
+                      <a href="https://www.beartai.com/news/itnews/1279937">View Item Details</a>
                     </div>
                   </div>
                 </div>
@@ -239,9 +239,9 @@ const Currently: React.FC = () => {
                     </span>
                     <div className="line-dec" />
                     <span className="bid">
-                      Viewer
+                      Source By
                       <br />
-                      <strong>1221</strong>
+                      <strong>Beartai</strong>
                       <br />
                       {/* <em>($8,400.50)</em> */}
                     </span>
@@ -253,7 +253,7 @@ const Currently: React.FC = () => {
                       {/* <em>(July 16th, 2022)</em> */}
                     </span>
                     <div className="text-button">
-                      <a href="details">View Details</a>
+                      <a href="https://www.beartai.com/news/itnews/1279344">View Details</a>
                     </div>
                   </div>
                 </div>
@@ -283,9 +283,9 @@ const Currently: React.FC = () => {
                     </span>
                     <div className="line-dec" />
                     <span className="bid">
-                      Viewer
+                      Source By
                       <br />
-                      <strong>4512</strong>
+                      <strong>Beartai</strong>
                       <br />
                       {/* <em>($8,200.50)</em> */}
                     </span>
@@ -297,7 +297,7 @@ const Currently: React.FC = () => {
                       {/* <em>(July 18th, 2022)</em> */}
                     </span>
                     <div className="text-button">
-                      <a href="details">View Details</a>
+                      <a href="https://www.beartai.com/news/itnews/1279172">View Details</a>
                     </div>
                   </div>
                 </div>

@@ -141,7 +141,7 @@ const Categories: React.FC = () => {
                                         <span className="collection">Viewer :<br /><strong>310</strong></span>
                                         <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore</a>
+                                            <a href="https://www.xn--72cah0a9bls7bydzab3brky72a.com/">Explore</a>
                                         </div>
                                     </div>
                                 </div>
@@ -152,7 +152,7 @@ const Categories: React.FC = () => {
                                         <span className="collection">Viewer :<br /><strong>324</strong></span>
                                         <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore</a>
+                                            <a href="https://home-again.netlify.app/">Explore</a>
                                         </div>
                                     </div>
                                 </div>
@@ -163,7 +163,7 @@ const Categories: React.FC = () => {
                                         <span className="collection">Viewer :<br /><strong>380</strong></span>
                                         <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore</a>
+                                            <a href="https://www.i2arobot.com">Explore</a>
                                         </div>
                                     </div>
                                 </div>
@@ -174,7 +174,7 @@ const Categories: React.FC = () => {
                                         <span className="collection">Viewer :<br /><strong>426</strong></span>
                                         <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
                                         <div className="main-button">
-                                            <a href="explore">Explore</a>
+                                            <a href="https://fairygemstone.com/">Explore</a>
                                         </div>
                                     </div>
                                 </div>
