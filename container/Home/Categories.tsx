@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import Slider from 'react-slick';
+import { SiTypescript } from "react-icons/si";
+
 interface ArrowProps {
     className?: string;
     style?: React.CSSProperties;
@@ -53,15 +55,15 @@ const Categories: React.FC = () => {
                                 <div className="col-lg-12">
                                     <div className="section-heading">
                                         <div className="line-dec"></div>
-                                        <h2>Browse Through Our <em>Categories</em> Here.</h2>
+                                        <h2>Website development in <em>multiple</em> languages.</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-sm-6">
                                     <div className="item px-2">
                                         <div className="icon">
-                                            <img src="/images/icon-01.png" alt="" />
+                                            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/89a103ef-d0af-4fad-9970-a3c278f9ec00/170" alt="" />
                                         </div>
-                                        <h4>Blockchain</h4>
+                                        <h4>Html5</h4>
                                         <div className="icon-button">
                                             <a href="#"><FaAngleRight /></a>
                                         </div>
@@ -70,9 +72,9 @@ const Categories: React.FC = () => {
                                 <div className="col-lg-2 col-sm-6">
                                     <div className="item px-2">
                                         <div className="icon">
-                                            <img src="/images/icon-02.png" alt="" />
+                                            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/e311df22-7550-4e6a-3dd7-367e504b2900/170" alt="" />
                                         </div>
-                                        <h4>Digital Art</h4>
+                                        <h4>Css</h4>
                                         <div className="icon-button">
                                             <a href="#"><FaAngleRight /></a>
                                         </div>
@@ -81,9 +83,9 @@ const Categories: React.FC = () => {
                                 <div className="col-lg-2 col-sm-6">
                                     <div className="item px-2">
                                         <div className="icon">
-                                            <img src="/images/icon-03.png" alt="" />
+                                            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/abf7786a-c158-4a38-aab6-dec67822af00/170" alt="" />
                                         </div>
-                                        <h4>Music Art</h4>
+                                        <h4>Es6</h4>
                                         <div className="icon-button">
                                             <a href="#"><FaAngleRight /></a>
                                         </div>
@@ -92,9 +94,9 @@ const Categories: React.FC = () => {
                                 <div className="col-lg-2 col-sm-6">
                                     <div className="item px-2">
                                         <div className="icon">
-                                            <img src="/images/icon-04.png" alt="" />
+                                            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/557b6253-75ac-4c99-4e8c-3cecee80db00/170" alt="" />
                                         </div>
-                                        <h4>Virtual World</h4>
+                                        <h4>Flutter</h4>
                                         <div className="icon-button">
                                             <a href="#"><FaAngleRight /></a>
                                         </div>
@@ -103,9 +105,9 @@ const Categories: React.FC = () => {
                                 <div className="col-lg-2 col-sm-6">
                                     <div className="item px-2">
                                         <div className="icon">
-                                            <img src="/images/icon-05.png" alt="" />
+                                            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/52a4fe9d-abf5-4e53-9d10-e0d5877cbc00/170" alt="" />
                                         </div>
-                                        <h4>Valuable</h4>
+                                        <h4>Sass</h4>
                                         <div className="icon-button">
                                             <a href="#"><FaAngleRight /></a>
                                         </div>
@@ -116,9 +118,9 @@ const Categories: React.FC = () => {
                                         <div className="icon">
                                             <img src="/images/icon-06.png" alt="" />
                                         </div>
-                                        <h4>Triple NFT</h4>
+                                        <h4>Framework</h4>
                                         <div className="icon-button">
-                                            <a href="#"><FaAngleRight /></a>
+                                            <a href="https://devahoy.com/getting-started-with-nextjs/"><FaAngleRight /></a>
                                         </div>
                                     </div>
                                 </div>
