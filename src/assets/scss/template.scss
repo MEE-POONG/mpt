@@ -518,51 +518,7 @@ Header Style
 }
 
 
-.create-nft {
-  background-image: url("/images/main-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  padding: 120px 0px;
-  position: relative;
 
-  .section-heading {
-    .line-dec {
-      margin-left: 0%;
-      background-color: #fff;
-    }
-
-    text-align: left;
-    margin-bottom: 50px;
-  }
-
-  .main-button {
-    text-align: right;
-  }
-
-  .item {
-    position: relative;
-  }
-
-  .first-item,
-  .second-item {
-    .number {
-      position: absolute;
-      right: 0;
-      top: -20px;
-    }
-
-    &:after {
-      position: absolute;
-      width: 1px;
-      height: 95%;
-      background-color: rgba(255, 255, 255, 0.2);
-      content: "";
-      right: 5px;
-      top: 5%;
-    }
-  }
-}
 
 .item .icon {
   width: 62px;
@@ -574,25 +530,7 @@ Header Style
   border-radius: 50%;
 }
 
-.create-nft {
-  .item .icon img {
-    max-width: 31px;
-  }
 
-  h4 {
-    font-size: 20px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-  }
-
-  p {
-    margin-right: 30px;
-  }
-
-  .item a {
-    color: #3cf;
-  }
-}
 
 /* 
 ---------------------------------------------

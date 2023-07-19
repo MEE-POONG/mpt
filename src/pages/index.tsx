@@ -19,7 +19,7 @@ const HomePage: React.FC = () => {
       </Head>
       <div className='home-page'>
         <Categories />
-        {/* <Price /> */}
+        <Price />
         {/* <Currently /> */}
       </div>
     </TheLayout>
