@@ -187,8 +187,10 @@ const Categories: React.FC = () => {
                             <img src="/images/customers/changpong.png" alt="" />
                             <div className="down-content">
                                 <h4 className='truncate'>ช่างพองอิฐประสาน</h4>
-                                <span className="collection">Viewer :<br /><strong>310</strong></span>
-                                <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                <div className='d-flex justify-content-between'>
+                                    <span className="collection">Viewer :<br /><strong>310</strong></span>
+                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                </div>
                                 <div className="main-button">
                                     <a href="https://www.xn--72cah0a9bls7bydzab3brky72a.com/" target='_blank'>Explore</a>
                                 </div>
@@ -198,8 +200,10 @@ const Categories: React.FC = () => {
                             <img src="/images/customers/homeagain.png" alt="" />
                             <div className="down-content">
                                 <h4 className='truncate'>มูลนิธิบ้านหลังใหม่</h4>
-                                <span className="collection">Viewer :<br /><strong>324</strong></span>
-                                <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                <div className='d-flex justify-content-between'>
+                                    <span className="collection">Viewer :<br /><strong>324</strong></span>
+                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                </div>
                                 <div className="main-button">
                                     <a href="https://home-again.netlify.app/" target='_blank'>Explore</a>
                                 </div>
@@ -209,8 +213,10 @@ const Categories: React.FC = () => {
                             <img src="/images/customers/robot.png" alt="" />
                             <div className="down-content">
                                 <h4 className='truncate'>Robot รถตัดหญ้าบังคับวิทยุ</h4>
-                                <span className="collection">Viewer :<br /><strong>380</strong></span>
-                                <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                <div className='d-flex justify-content-between'>
+                                    <span className="collection">Viewer :<br /><strong>380</strong></span>
+                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                </div>
                                 <div className="main-button">
                                     <a href="https://www.i2arobot.com" target='_blank'>Explore</a>
                                 </div>
@@ -220,8 +226,10 @@ const Categories: React.FC = () => {
                             <img src="/images/customers/fairy.png" alt="" />
                             <div className="down-content">
                                 <h4 className='truncate'>Fairy Stone - หินนำโชค</h4>
-                                <span className="collection">Viewer :<br /><strong>426</strong></span>
-                                <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                <div className='d-flex justify-content-between'>
+                                    <span className="collection">Viewer :<br /><strong>426</strong></span>
+                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                </div>
                                 <div className="main-button">
                                     <a href="https://fairygemstone.com/" target='_blank'>Explore</a>
                                 </div>
@@ -231,8 +239,10 @@ const Categories: React.FC = () => {
                             <img src="/images/customers/fairy.png" alt="" />
                             <div className="down-content">
                                 <h4 className='truncate'>Fairy Stone - หินนำโชค</h4>
-                                <span className="collection">Viewer :<br /><strong>426</strong></span>
-                                <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                <div className='d-flex justify-content-between'>
+                                    <span className="collection">Viewer :<br /><strong>426</strong></span>
+                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                </div>
                                 <div className="main-button">
                                     <a href="https://fairygemstone.com/" target='_blank'>Explore</a>
                                 </div>
@@ -242,8 +252,10 @@ const Categories: React.FC = () => {
                             <img src="/images/customers/fairy.png" alt="" />
                             <div className="down-content">
                                 <h4 className='truncate'>Fairy Stone - หินนำโชค</h4>
-                                <span className="collection">Viewer :<br /><strong>426</strong></span>
-                                <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                <div className='d-flex justify-content-between'>
+                                    <span className="collection">Viewer :<br /><strong>426</strong></span>
+                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
+                                </div>
                                 <div className="main-button">
                                     <a href="https://fairygemstone.com/" target='_blank'>Explore</a>
                                 </div>
