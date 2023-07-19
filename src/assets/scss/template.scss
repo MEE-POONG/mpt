@@ -413,14 +413,10 @@ Header Style
   }
 }
 
-
-
 .background-header .main-nav {
   padding: 0px;
   background-color: transparent;
 }
-
-
 
 .background-header .main-nav .logo {
   margin-top: 8px;
@@ -434,8 +430,6 @@ Header Style
   padding-left: 25px !important;
 }
 
-
-
 .background-header .main-nav .nav li {
   &:hover a,
   a.active {
@@ -444,12 +438,9 @@ Header Style
   }
 }
 
-
 .background-header .main-nav .menu-trigger {
   top: 17px;
 }
-
-
 
 .background-header .main-nav .menu-trigger span {
   background-color: #7453fc;
@@ -459,7 +450,6 @@ Header Style
     background-color: #7453fc;
   }
 }
-
 
 .background-header .main-nav .menu-trigger span {
   &:before,
@@ -472,15 +462,11 @@ Header Style
   background-color: #7453fc;
 }
 
-
-
 .background-header .main-nav .menu-trigger.active span:after {
   background-color: #7453fc;
 }
 
-
 @media (max-width: 992px) {
-
   .background-header .main-nav {
     .logo {
       top: 0px;
@@ -491,13 +477,9 @@ Header Style
     }
   }
 
-  
-
   .background-header.header-sticky .nav {
     margin-top: 70px !important;
   }
-
-  
 }
 
 .next-arrow,
@@ -514,21 +496,27 @@ Header Style
   z-index: 1;
   align-items: center;
   justify-content: center;
+  &.two {
+    width: 20px;
+    height: 20px;
+    font-size: 1rem;
+  }
   &::before {
     display: none;
   }
   &:hover,
   &:focus,
-  &:hover,                                                                                                                      
+  &:hover,
   &:focus {
     color: #ffffff;
     outline: none;
     background: #7453fc;
   }
 }
-.bg-image-unset{
+.bg-image-unset {
   background-image: unset !important;
 }
+
 /* 
 ---------------------------------------------
 Banner Style
@@ -1672,10 +1660,6 @@ body {
 @media (max-width: 992px) {
   .main-banner .owl-banner {
     margin-top: 80px;
-  }
-
-  .categories .item {
-    margin-bottom: 35px;
   }
 
   .create-nft .section-heading,

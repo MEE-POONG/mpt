@@ -4,19 +4,15 @@ import { LanguageContext } from '@/components/Language/LanguageContext';
 import BtnSetting from './Language/BtnSetting';
 import { navData } from '@/data/navber';
 import Link from 'next/link';
-import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import { FaBars } from 'react-icons/fa';
 
 const TheNavber: React.FC = () => {
   const router = useRouter();
   const { currentLanguage } = useContext(LanguageContext);
   const [isFaded, setIsFaded] = useState<boolean>(false);
-  const [isMenuTriggerActive, setIsMenuTriggerActive] = useState<boolean>(false);
 
   useEffect(() => {
     const scrollHandler = () => {
@@ -31,13 +27,6 @@ const TheNavber: React.FC = () => {
     <Link key={index} href={navItem?.pathLink} className={`${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
       {currentLanguage === "TH" ? navItem.name?.TH : navItem.name?.EN}
     </Link>
-  ));
-  const navLists = navData.map((navItem, index) => (
-    <li key={index}>
-      <Link href={navItem?.pathLink} className={`fw-bold ${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
-        {currentLanguage === "TH" ? navItem.name?.TH : navItem.name?.EN}
-      </Link>
-    </li>
   ));
   return (
     <>
