@@ -75,11 +75,6 @@ const Price: React.FC = () => {
                             </h4>
                         </div>
                     </div>
-                    <div className="col-lg-4">
-                        <div className="main-button">
-                            <a href="">{currentLanguage === "TH" ? "ซื้อแพ็คเกจ" : "Buy Package"}</a>
-                        </div>
-                    </div>
                 </div>
                 <div className='package bg-image-unset'>
                     <Slider {...settings}>

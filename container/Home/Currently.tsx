@@ -1,12 +1,15 @@
+import React, { useContext } from 'react';
 import Link from 'next/link';
-import React from 'react';
+import { LanguageContext } from '@/components/Language/LanguageContext';
 
 const Currently: React.FC = () => {
+  const { currentLanguage } = useContext(LanguageContext);
+
   return (
     <div className="currently-market">
       <div className="container">
         <div className="row">
-          <div className="col-lg-6">
+          <div className="col-lg-4">
             <div className="section-heading">
               <div className="line-dec" />
               <h2>
@@ -14,18 +17,24 @@ const Currently: React.FC = () => {
               </h2>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-8">
             <div className="filters">
               <ul>
                 <li className="active">
                   <Link href="news" className='text-white'>
-                    More
+                    {currentLanguage === "TH" ? "ทั้งหมด" : "ALL"}
                   </Link>
                 </li>
-                {/* <li data-filter=".msc">Music Art</li>
-                <li data-filter=".dig">Digital Art</li>
-                <li data-filter=".blc">Blockchain</li>
-                <li data-filter=".vtr">Virtual</li> */}
+                <li data-filter=".msc">
+                  <Link href="news" className='text-white'>
+                    {currentLanguage === "TH" ? "ข่าว" : "News"}
+                  </Link>
+                </li>
+                <li data-filter=".msc">
+                  <Link href="news" className='text-white'>
+                    {currentLanguage === "TH" ? "ประชาสัมพันธ์" : "ข่าว"}
+                  </Link>
+                </li>
               </ul>
             </div>
           </div>
@@ -43,7 +52,7 @@ const Currently: React.FC = () => {
                     />
                   </div>
                   <div className="right-content">
-                    <h4>Android 14 จะแจ้งเตือนหากติดตั้ง/อัปเดตแอปนอก Play Store</h4>
+                    <h4 className='truncate-2'>Android 14 จะแจ้งเตือนหากติดตั้ง/อัปเดตแอปนอก Play Store</h4>
                     <span className="author">
                       <img
                         src="/images/author.jpg"
@@ -89,7 +98,7 @@ const Currently: React.FC = () => {
                     />
                   </div>
                   <div className="right-content">
-                    <h4>Meta ยืนยันมีการบล็อก Threads จากผู้ใช้ในโซนยุโรปจริง แม้จะใช้ VPN ก็ไม่รอด</h4>
+                    <h4 className='truncate-2'>Meta ยืนยันมีการบล็อก Threads จากผู้ใช้ในโซนยุโรปจริง แม้จะใช้ VPN ก็ไม่รอด</h4>
                     <span className="author">
                       <img
                         src="/images/author.jpg"
@@ -135,7 +144,7 @@ const Currently: React.FC = () => {
                     />
                   </div>
                   <div className="right-content">
-                    <h4>Elon Musk เผยกระแสเงินสดของ Twitter ยังคงติดลบเนื่องจากรายได้จากโฆษณาลดลง</h4>
+                    <h4 className='truncate-2'>Elon Musk เผยกระแสเงินสดของ Twitter ยังคงติดลบเนื่องจากรายได้จากโฆษณาลดลง</h4>
                     <span className="author">
                       <img
                         src="/images/author.jpg"
@@ -181,7 +190,7 @@ const Currently: React.FC = () => {
                     />
                   </div>
                   <div className="right-content">
-                    <h4>ปัญหา ‘AI กินกันเอง’ ภัยใหม่ที่ลดความน่าเชื่อถือของ AI</h4>
+                    <h4 className='truncate-2'>ปัญหา ‘AI กินกันเอง’ ภัยใหม่ที่ลดความน่าเชื่อถือของ AI</h4>
                     <span className="author">
                       <img
                         src="/images/author.jpg"
@@ -227,7 +236,7 @@ const Currently: React.FC = () => {
                     />
                   </div>
                   <div className="right-content">
-                    <h4>ไทยโดนเมินไปอีกหนึ่งรอบ Apple เตรียมเปิดบริการ Apple Pay ในประเทศเวียดนาม</h4>
+                    <h4 className='truncate-2'>ไทยโดนเมินไปอีกหนึ่งรอบ Apple เตรียมเปิดบริการ Apple Pay ในประเทศเวียดนาม</h4>
                     <span className="author">
                       <img
                         src="/images/author.jpg"
@@ -271,7 +280,7 @@ const Currently: React.FC = () => {
                     />
                   </div>
                   <div className="right-content">
-                    <h4>หนึ่งในชุมชนที่ใหญ่ที่สุดบน Reddit โน้มน้าวให้ผู้ใช้ย้ายไป Discord และแพลตฟอร์มอื่น</h4>
+                    <h4 className='truncate-2'>หนึ่งในชุมชนที่ใหญ่ที่สุดบน Reddit โน้มน้าวให้ผู้ใช้ย้ายไป Discord และแพลตฟอร์มอื่น</h4>
                     <span className="author">
                       <img
                         src="/images/author.jpg"

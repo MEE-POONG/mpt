@@ -111,7 +111,7 @@ const Categories: React.FC = () => {
                                     <div className="icon">
                                         <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/89a103ef-d0af-4fad-9970-a3c278f9ec00/170" alt="" />
                                     </div>
-                                    <h4 className='truncate'>Html5</h4>
+                                    <h4 className='truncate-1'>Html5</h4>
                                     <div className="icon-button">
                                         <a href="https://www.designil.com/html5-tips-tricks-techniques-1/"><FaAngleRight /></a>
                                     </div>
@@ -122,7 +122,7 @@ const Categories: React.FC = () => {
                                     <div className="icon">
                                         <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/e311df22-7550-4e6a-3dd7-367e504b2900/170" alt="" />
                                     </div>
-                                    <h4 className='truncate'>Css</h4>
+                                    <h4 className='truncate-1'>Css</h4>
                                     <div className="icon-button">
                                         <a href="http://www.kontentblue.com/site/article/article.php?id=css-introduction"><FaAngleRight /></a>
                                     </div>
@@ -133,7 +133,7 @@ const Categories: React.FC = () => {
                                     <div className="icon">
                                         <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/abf7786a-c158-4a38-aab6-dec67822af00/170" alt="" />
                                     </div>
-                                    <h4 className='truncate'>Es6</h4>
+                                    <h4 className='truncate-1'>Es6</h4>
                                     <div className="icon-button">
                                         <a href="https://microbenz.in.th/%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B5-2017-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-es6-%E0%B8%81%E0%B8%B1%E0%B8%99-9dede81e30da"><FaAngleRight /></a>
                                     </div>
@@ -144,7 +144,7 @@ const Categories: React.FC = () => {
                                     <div className="icon">
                                         <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/557b6253-75ac-4c99-4e8c-3cecee80db00/170" alt="" />
                                     </div>
-                                    <h4 className='truncate'>Flutter</h4>
+                                    <h4 className='truncate-1'>Flutter</h4>
                                     <div className="icon-button">
                                         <a href="https://www.thaiprogrammer.org/2019/11/flutter-framework/"><FaAngleRight /></a>
                                     </div>
@@ -155,7 +155,7 @@ const Categories: React.FC = () => {
                                     <div className="icon">
                                         <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/52a4fe9d-abf5-4e53-9d10-e0d5877cbc00/170" alt="" />
                                     </div>
-                                    <h4 className='truncate'>Sass</h4>
+                                    <h4 className='truncate-1'>Sass</h4>
                                     <div className="icon-button">
                                         <a href="https://www.borntodev.com/2020/07/15/sass-scss-101/"><FaAngleRight /></a>
                                     </div>
@@ -166,7 +166,7 @@ const Categories: React.FC = () => {
                                     <div className="icon">
                                         <img className="d-inline" src="/images/icon-06.png" alt="" />
                                     </div>
-                                    <h4 className='truncate'>Framework</h4>
+                                    <h4 className='truncate-1'>Framework</h4>
                                     <div className="icon-button">
                                         <a href="https://devahoy.com/getting-started-with-nextjs/"><FaAngleRight /></a>
                                     </div>
@@ -186,7 +186,7 @@ const Categories: React.FC = () => {
                         <div className="item px-2">
                             <img src="/images/customers/changpong.png" alt="" />
                             <div className="down-content">
-                                <h4 className='truncate'>ช่างพองอิฐประสาน</h4>
+                                <h4 className='truncate-1'>ช่างพองอิฐประสาน</h4>
                                 <div className='d-flex justify-content-between'>
                                     <span className="collection">Viewer :<br /><strong>310</strong></span>
                                     <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
@@ -199,7 +199,7 @@ const Categories: React.FC = () => {
                         <div className="item px-2">
                             <img src="/images/customers/homeagain.png" alt="" />
                             <div className="down-content">
-                                <h4 className='truncate'>มูลนิธิบ้านหลังใหม่</h4>
+                                <h4 className='truncate-1'>มูลนิธิบ้านหลังใหม่</h4>
                                 <div className='d-flex justify-content-between'>
                                     <span className="collection">Viewer :<br /><strong>324</strong></span>
                                     <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
@@ -212,7 +212,7 @@ const Categories: React.FC = () => {
                         <div className="item px-2">
                             <img src="/images/customers/robot.png" alt="" />
                             <div className="down-content">
-                                <h4 className='truncate'>Robot รถตัดหญ้าบังคับวิทยุ</h4>
+                                <h4 className='truncate-1'>Robot รถตัดหญ้าบังคับวิทยุ</h4>
                                 <div className='d-flex justify-content-between'>
                                     <span className="collection">Viewer :<br /><strong>380</strong></span>
                                     <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
@@ -225,7 +225,7 @@ const Categories: React.FC = () => {
                         <div className="item px-2">
                             <img src="/images/customers/fairy.png" alt="" />
                             <div className="down-content">
-                                <h4 className='truncate'>Fairy Stone - หินนำโชค</h4>
+                                <h4 className='truncate-1'>Fairy Stone - หินนำโชค</h4>
                                 <div className='d-flex justify-content-between'>
                                     <span className="collection">Viewer :<br /><strong>426</strong></span>
                                     <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
@@ -238,7 +238,7 @@ const Categories: React.FC = () => {
                         <div className="item px-2">
                             <img src="/images/customers/fairy.png" alt="" />
                             <div className="down-content">
-                                <h4 className='truncate'>Fairy Stone - หินนำโชค</h4>
+                                <h4 className='truncate-1'>Fairy Stone - หินนำโชค</h4>
                                 <div className='d-flex justify-content-between'>
                                     <span className="collection">Viewer :<br /><strong>426</strong></span>
                                     <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
@@ -251,7 +251,7 @@ const Categories: React.FC = () => {
                         <div className="item px-2">
                             <img src="/images/customers/fairy.png" alt="" />
                             <div className="down-content">
-                                <h4 className='truncate'>Fairy Stone - หินนำโชค</h4>
+                                <h4 className='truncate-1'>Fairy Stone - หินนำโชค</h4>
                                 <div className='d-flex justify-content-between'>
                                     <span className="collection">Viewer :<br /><strong>426</strong></span>
                                     <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
