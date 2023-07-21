@@ -270,7 +270,6 @@
             }
         }
         .currently-market-item {
-            width: 45%;
             margin: 0 auto;
             .item {
                 background-color: #282b2f;
@@ -281,9 +280,6 @@
                 margin-bottom: 30px;
 
                 .right-content {
-                    margin-left: 30px;
-                    width: 100%;
-
                     h4 {
                         font-size: 20px;
                         margin-bottom: 25px;
@@ -382,6 +378,17 @@
         .price {
             .package {
                 margin: 0 1rem;
+            }
+        }
+    }
+    @media (max-width: 540px) {
+        .currently-market {
+            .currently-market-item {
+                .item {
+                    span.ends {
+                        text-align: left;
+                    }
+                }
             }
         }
     }
