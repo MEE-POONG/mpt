@@ -10,7 +10,7 @@ const NewsDiscover: React.FC = () => {
             <div className="section-heading">
               <div className="line-dec" />
               <h2>
-                News Update.
+                News<em> Update.</em>
               </h2>
             </div>
           </div>
@@ -23,13 +23,13 @@ const NewsDiscover: React.FC = () => {
               action="#"
             >
               <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-7">
                   <fieldset>
                     <input
                       type="text"
                       name="keyword"
                       className="searchText"
-                      placeholder="Type Something..."
+                      placeholder="หัวข้อข่าว..."
                       autoComplete="on"
                       required
                     />
@@ -44,17 +44,17 @@ const NewsDiscover: React.FC = () => {
                       id="chooseCategory"
                     // onChange="this.form.click()"
                     >
-                      <option >All Categories</option>
-                      <option value="Music">
-                        Music
+                      <option >All News</option>
+                      <option value="News">
+                        News
                       </option>
+                      <option value="public relations">ประชาสัมพันธ์</option>
                       <option value="Digital">Digital</option>
-                      <option value="Blockchain">Blockchain</option>
-                      <option value="Virtual">Virtual</option>
+                      <option value="Blogs">Blogs</option>
                     </select>
                   </fieldset>
                 </div>
-                <div className="col-lg-3">
+                {/* <div className="col-lg-3">
                   <fieldset>
                     <select
                       name="Price"
@@ -68,7 +68,7 @@ const NewsDiscover: React.FC = () => {
                       <option value="Closed">Closed</option>
                     </select>
                   </fieldset>
-                </div>
+                </div> */}
                 <div className="col-lg-2">
                   <fieldset>
                     <button className="main-button">Search</button>
@@ -77,43 +77,44 @@ const NewsDiscover: React.FC = () => {
               </div>
             </form>
           </div>
-          <div className="col-lg-6">
+        </div>
+        <div className="row">
+          <div className="col-md-12 col-lg-8 col-xl-6">
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
                   <span className="banner">ข่าวใหม่</span>
                 </div>
-                <div className="col-lg-12 col-sm-6">
+                <div className="col-12 ">
                   <img
                     src="https://images.axios.com/kidB2KMguu9yWr0oDdoIfR2sxJg=/0x0:2160x1215/1920x1080/2023/07/13/1689255076236.png?w=1920"
                     alt=""
                   />
-                  <h4>Exclusive: AP strikes news-sharing and tech deal with OpenAI</h4>
+                  <h4 className='truncate-1 '>Exclusive: AP strikes news-sharing and tech deal with OpenAI</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <div className="row">
-                    <div className="col-lg-9 col-sm-6">
-                      <span>
-                        News By: <br /> <strong>Axios Media Trends</strong>
-                      </span>
-                    </div>
-                    {/* <div className="col-lg-3 col-sm-6">
-                      <span>
-                        Category: <br /> <strong>Digital Art</strong>
-                      </span>
-                    </div>
-                    <div className="col-lg-3 col-sm-6">
-                      <span>
-                        Collection:: <br /> <strong>2/2</strong>
-                      </span>
-                    </div> */}
-                    <div className="col-lg-3 col-sm-6">
-                      <span>
-                        Date: <br /> <strong>Jul 13, 2023</strong>
-                      </span>
-                    </div>
-                  </div>
+                  <p className='truncate-1'>
+                    Exclusive: AP strikes news-sharing and tech deal with OpenAI
+                  </p>
+                  <table className='w-100 text-white'>
+                    <tbody>
+                      <tr>
+                        <td className='text-end px-2'>
+                          News By :
+                        </td>
+                        <td className='px-2'>
+                          <strong>SPRiNG</strong>
+                        </td>
+                        <td className='text-end px-2'>
+                          Date :
+                        </td>
+                        <td className='px-2'>
+                          <strong>Feb 11, 2023</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
@@ -123,7 +124,7 @@ const NewsDiscover: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
@@ -132,22 +133,30 @@ const NewsDiscover: React.FC = () => {
                     src="https://www.aljazeera.com/wp-content/uploads/2023/07/2023-07-04T143052Z_1216481558_RC2EW1AV5ET6_RTRMADP_3_META-THREADS-1688626945.jpg?resize=770%2C513&quality=80"
                     alt=""
                   />
-                  <h4>Is Meta’s new Threads more than a Twitter copycat?</h4>
+                  <h4 className='truncate-1 '>Is Meta’s new Threads more than a Twitter copycat?</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <div className="row">
-                    <div className="col-6">
-                      <span>
-                        News By: <br /> <strong>Al Jazeera</strong>
-                      </span>
-                    </div>
-                    <div className="col-6">
-                      <span>
-                        Date: <br /> <strong>Jul 6, 2023</strong>
-                      </span>
-                    </div>
-                  </div>
+                  <table className='w-100 text-white'>
+                    <tbody>
+                      <tr>
+                        <td className='text-end px-2'>
+                          News By :
+                        </td>
+                        <td className='px-2'>
+                          <strong>SPRiNG</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='text-end px-2'>
+                          Date :
+                        </td>
+                        <td className='px-2'>
+                          <strong>Feb 11, 2023</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
@@ -157,7 +166,7 @@ const NewsDiscover: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
@@ -166,22 +175,30 @@ const NewsDiscover: React.FC = () => {
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/K2YKeUzYHCtxeG8Wj3Fi.webp?x-image-process=style/lg"
                     alt=""
                   />
-                  <h4>BMA EXPO 2023 มัดรวมไฮไลท์ &quot;เทคโนโลยี-นวัตกรรม&quot; น่าสนใจในงานมีอะไรบ้าง</h4>
+                  <h4 className='truncate-1 '>BMA EXPO 2023 มัดรวมไฮไลท์ &quot;เทคโนโลยี-นวัตกรรม&quot; น่าสนใจในงานมีอะไรบ้าง</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <div className="row">
-                    <div className="col-6">
-                      <span>
-                        News By: <br /> <strong>SPRiNG</strong>
-                      </span>
-                    </div>
-                    <div className="col-6">
-                      <span>
-                        Date: <br /> <strong>Jal 14,2023</strong>
-                      </span>
-                    </div>
-                  </div>
+                  <table className='w-100 text-white'>
+                    <tbody>
+                      <tr>
+                        <td className='text-end px-2'>
+                          News By :
+                        </td>
+                        <td className='px-2'>
+                          <strong>SPRiNG</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='text-end px-2'>
+                          Date :
+                        </td>
+                        <td className='px-2'>
+                          <strong>Feb 11, 2023</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
@@ -191,7 +208,7 @@ const NewsDiscover: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
@@ -200,22 +217,30 @@ const NewsDiscover: React.FC = () => {
                     src="https://image.springnews.co.th/uploads/images/md/2023/02/afbQO5wCGbdRQwqxea2c.webp?x-image-process=style/lg"
                     alt=""
                   />
-                  <h4>Microsoft ยุบเมตาเวิร์ส เตรียมเก็บค่าใช้จ่าย Microsoft Teams ไม่ฟรีอีกต่อไป</h4>
+                  <h4 className='truncate-1 '>Microsoft ยุบเมตาเวิร์ส เตรียมเก็บค่าใช้จ่าย Microsoft Teams ไม่ฟรีอีกต่อไป</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <div className="row">
-                    <div className="col-6">
-                      <span>
-                        News By: <br /> <strong>SPRiNG</strong>
-                      </span>
-                    </div>
-                    <div className="col-6">
-                      <span>
-                        Date: <br /> <strong>Feb 11, 2023</strong>
-                      </span>
-                    </div>
-                  </div>
+                  <table className='w-100 text-white'>
+                    <tbody>
+                      <tr>
+                        <td className='text-end px-2'>
+                          News By :
+                        </td>
+                        <td className='px-2'>
+                          <strong>SPRiNG</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='text-end px-2'>
+                          Date :
+                        </td>
+                        <td className='px-2'>
+                          <strong>Feb 11, 2023</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
@@ -225,7 +250,7 @@ const NewsDiscover: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
@@ -234,22 +259,30 @@ const NewsDiscover: React.FC = () => {
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/PJc1UcJhe0NnplQIJaWM.webp?x-image-process=style/lg"
                     alt=""
                   />
-                  <h4>กรมสรรพากรยุคใหม่ใช้ ChatGPT ของไมโครซอฟท์ ไขทุกข้อสงสัยเรื่องยื่นภาษี</h4>
+                  <h4 className='truncate-1 '>กรมสรรพากรยุคใหม่ใช้ ChatGPT ของไมโครซอฟท์ ไขทุกข้อสงสัยเรื่องยื่นภาษี</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <div className="row">
-                    <div className="col-6">
-                      <span>
-                        News By: <br /> <strong>SPRiNG</strong>
-                      </span>
-                    </div>
-                    <div className="col-6">
-                      <span>
-                        Date: <br /> <strong>Jul 10,2023</strong>
-                      </span>
-                    </div>
-                  </div>
+                  <table className='w-100 text-white'>
+                    <tbody>
+                      <tr>
+                        <td className='text-end px-2'>
+                          News By :
+                        </td>
+                        <td className='px-2'>
+                          <strong>SPRiNG</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='text-end px-2'>
+                          Date :
+                        </td>
+                        <td className='px-2'>
+                          <strong>Feb 11, 2023</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
@@ -259,7 +292,7 @@ const NewsDiscover: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
@@ -268,22 +301,30 @@ const NewsDiscover: React.FC = () => {
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/i0VIYMSOg8Tmbm8ffppg.webp?x-image-process=style/lg"
                     alt=""
                   />
-                  <h4>ช้อปปิ้งออนไลน์ไม่ใช่เทรนด์ แต่เป็นบรรทัดฐานการใช้ชีวิต</h4>
+                  <h4 className='truncate-1 '>ช้อปปิ้งออนไลน์ไม่ใช่เทรนด์ แต่เป็นบรรทัดฐานการใช้ชีวิต</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <div className="row">
-                    <div className="col-6">
-                      <span>
-                        News By: <br /> <strong>SPRiNG</strong>
-                      </span>
-                    </div>
-                    <div className="col-6">
-                      <span>
-                        Date: <br /> <strong>Jul 3,2023</strong>
-                      </span>
-                    </div>
-                  </div>
+                  <table className='w-100 text-white'>
+                    <tbody>
+                      <tr>
+                        <td className='text-end px-2'>
+                          News By :
+                        </td>
+                        <td className='px-2'>
+                          <strong>SPRiNG</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='text-end px-2'>
+                          Date :
+                        </td>
+                        <td className='px-2'>
+                          <strong>Feb 11, 2023</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
@@ -293,7 +334,7 @@ const NewsDiscover: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-3">
+          <div className="col-md-6 col-lg-4 col-xl-3">
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
@@ -302,22 +343,30 @@ const NewsDiscover: React.FC = () => {
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/UHJRLGpTlYIXM4EVxCbU.webp?x-image-process=style/lg"
                     alt=""
                   />
-                  <h4>ทำความเข้าใจ AI ของ Facebook ทำไมชอบฟีดอะไรที่ไม่รู้จัก-วนให้ดูซ้ำบ่อย</h4>
+                  <h4 className='truncate-1 '>ทำความเข้าใจ AI ของ Facebook ทำไมชอบฟีดอะไรที่ไม่รู้จัก-วนให้ดูซ้ำบ่อย</h4>
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <div className="row">
-                    <div className="col-6">
-                      <span>
-                        News By: <br /> <strong>SPRiNG</strong>
-                      </span>
-                    </div>
-                    <div className="col-6">
-                      <span>
-                        Date: <br /> <strong>Jul 2,2023</strong>
-                      </span>
-                    </div>
-                  </div>
+                  <table className='w-100 text-white'>
+                    <tbody>
+                      <tr>
+                        <td className='text-end px-2'>
+                          News By :
+                        </td>
+                        <td className='px-2'>
+                          <strong>SPRiNG</strong>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td className='text-end px-2'>
+                          Date :
+                        </td>
+                        <td className='px-2'>
+                          <strong>Feb 11, 2023</strong>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">

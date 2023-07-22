@@ -17,6 +17,9 @@
       
         #search-form {
           margin-top: 15px;
+          .row{
+            justify-content: flex-end;
+          }
       
           input {
             width: 100%;

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import ItemDetails from '@/container/About/ItemDetails'
 import CreateNft from '@/container/CreateNft'
+import Teams from '@/container/About/team'
 const AboutPage: React.FC = () => {
 
   return (
@@ -13,9 +14,10 @@ const AboutPage: React.FC = () => {
         />
         <title>Me Prompt Technology</title>
       </Head>
-      <div className='About-page'>
+      <div className='about-page'>
         <ItemDetails />
-        <CreateNft />
+        <Teams />
+        {/* <CreateNft /> */}
       </div>
     </TheLayout>
   )
