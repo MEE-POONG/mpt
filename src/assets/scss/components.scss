@@ -90,7 +90,12 @@
             font-size: 1.25rem;
         }
         img {
-            max-height: 200px;
+            height: 150px;
         }
+    }
+}
+@media (max-width: 422px) {
+    .main-banner {
+        padding-top: 120px;
     }
 }
