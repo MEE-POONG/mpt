@@ -278,7 +278,12 @@
                 padding: 25px;
                 display: flex;
                 margin-bottom: 30px;
-
+                .left-image {
+                    height: 100%;
+                    img{
+                        height: 100%;
+                    }
+                }
                 .right-content {
                     h4 {
                         font-size: 20px;
@@ -385,6 +390,9 @@
         .currently-market {
             .currently-market-item {
                 .item {
+                    .left-image {
+                        padding-bottom: 1.25rem;
+                    }
                     span.ends {
                         text-align: left;
                     }

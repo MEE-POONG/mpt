@@ -8,7 +8,7 @@
     background-color: #000000;
     height: 100vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     &::after {
         content: "";
         position: absolute;
@@ -20,9 +20,9 @@
         opacity: 0.5;
         z-index: 1;
     }
-.container{
-    z-index: 999;
-}
+    .container {
+        z-index: 999;
+    }
     h6 {
         font-size: 20px;
         margin-bottom: 15px;
@@ -41,7 +41,7 @@
     }
 
     .buttons {
-        margin-top: 30px;
+        margin-top: 1rem;
         display: flex;
         justify-content: flex-start;
     }
