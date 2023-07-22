@@ -1,5 +1,7 @@
+import Link from 'next/link';
 import React from 'react';
 import { AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai';
+import { FaFacebookF, FaInstagram, FaLine, FaTiktok, FaTwitter } from 'react-icons/fa';
 
 const ItemDetails: React.FC = () => {
     return (
@@ -19,13 +21,23 @@ const ItemDetails: React.FC = () => {
 
                             </div>
                             <div className="right-content">
-                                <h4>ณัฐวีษ์  ตันตระกูล</h4>
-                                <a href="#">@Est</a>
-                                <div className="line-dec" />
+                                <h4 className='mb-2'>ณัฐวีษ์  ตันตระกูล</h4>
+                                <h6>("เอส")</h6>
                                 <h6>
-                                    <em>CEO & Founder</em>
+                                    ตำแหน่ง : <em>CEO & Founder</em>
                                 </h6>
-                                {/* <span className="date">24/07/2022, 22:00</span> */}
+                                <div className="line-dec" />
+                                <span className="date">
+                                    <a href="https://web.facebook.com/woraphon.tengin.1"><FaFacebookF size={20} /></a>
+                                    <a href="https://www.instagram.com/phon_xm/"><FaInstagram size={20} /></a>
+                                    <a href="https://www.instagram.com/phon_xm/"><FaLine size={20} /></a>
+                                    <a href="https://www.instagram.com/phon_xm/"><FaTiktok size={20} /></a>
+                                    <a href="https://www.instagram.com/phon_xm/"><FaTwitter size={20} /></a>
+                                </span>
+                                <div className="line-dec" />
+                                <div className='text-end mt-auto'>
+                                    <Link href={"/about/id"}>{"ดูเพิ่มเนติม"}</Link>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -89,8 +101,11 @@ const ItemDetails: React.FC = () => {
                                             ตำแหน่ง: <em>นักศึกษาฝึกงาน</em>
                                         </h6>
                                         <span className="date">
-                                            <a href="https://web.facebook.com/woraphon.tengin.1"><AiFillFacebook size={30} /></a>
-                                            <a href="https://www.instagram.com/phon_xm/"><AiOutlineInstagram size={30} /></a>
+                                            <a href="https://web.facebook.com/woraphon.tengin.1"><FaFacebookF size={30} /></a>
+                                            <a href="https://www.instagram.com/phon_xm/"><FaInstagram size={30} /></a>
+                                            <a href="https://www.instagram.com/phon_xm/"><FaLine size={30} /></a>
+                                            <a href="https://www.instagram.com/phon_xm/"><FaTiktok size={30} /></a>
+                                            <a href="https://www.instagram.com/phon_xm/"><FaTwitter size={30} /></a>
                                         </span>
                                     </div>
                                 </div>
