@@ -84,35 +84,12 @@ const NewsDiscover: React.FC = () => {
                   <span className="banner">ข่าวใหม่</span>
                 </div>
                 <div className="col-lg-12 col-sm-6">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 0, borderRadius: "50%" }}
-                    />
-                  </span>
                   <img
                     src="https://images.axios.com/kidB2KMguu9yWr0oDdoIfR2sxJg=/0x0:2160x1215/1920x1080/2023/07/13/1689255076236.png?w=1920"
                     alt=""
-                    style={{ borderRadius: 20 }}
                   />
                   <h4>Exclusive: AP strikes news-sharing and tech deal with OpenAI</h4>
                 </div>
-                {/* <div className="col-lg-6 col-sm-6">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 50, borderRadius: "50%" }}
-                    />
-                  </span>
-                  <img
-                    src="https://image.springnews.co.th/uploads/images/md/2023/07/K2YKeUzYHCtxeG8Wj3Fi.webp?x-image-process=style/lg"
-                    alt=""
-                    style={{ borderRadius: 20 }}
-                  />
-                  <h4>His Other Half</h4>
-                </div> */}
                 <div className="col-lg-12">
                   <div className="line-dec" />
                   <div className="row">
@@ -150,17 +127,10 @@ const NewsDiscover: React.FC = () => {
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 50, borderRadius: "50%" }}
-                    />
-                  </span>
+
                   <img
                     src="https://www.aljazeera.com/wp-content/uploads/2023/07/2023-07-04T143052Z_1216481558_RC2EW1AV5ET6_RTRMADP_3_META-THREADS-1688626945.jpg?resize=770%2C513&quality=80"
                     alt=""
-                    style={{ borderRadius: 20 }}
                   />
                   <h4>Is Meta’s new Threads more than a Twitter copycat?</h4>
                 </div>
@@ -191,17 +161,10 @@ const NewsDiscover: React.FC = () => {
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 50, borderRadius: "50%" }}
-                    />
-                  </span>
+
                   <img
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/K2YKeUzYHCtxeG8Wj3Fi.webp?x-image-process=style/lg"
                     alt=""
-                    style={{ borderRadius: 20, maxHeight: 200 }}
                   />
                   <h4>BMA EXPO 2023 มัดรวมไฮไลท์ &quot;เทคโนโลยี-นวัตกรรม&quot; น่าสนใจในงานมีอะไรบ้าง</h4>
                 </div>
@@ -222,7 +185,7 @@ const NewsDiscover: React.FC = () => {
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
-                    <a href="https://www.springnews.co.th/digital-tech/technology/841070" target='_blank'>อ่านต่อ</a>
+                    <a href="https://www.aljazeera.com/news/2023/7/6/is-metas-new-threads-more-than-a-twitter-copycat" target='_blank'>อ่านต่อ</a>
                   </div>
                 </div>
               </div>
@@ -232,17 +195,10 @@ const NewsDiscover: React.FC = () => {
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 50, borderRadius: "50%" }}
-                    />
-                  </span>
+
                   <img
                     src="https://image.springnews.co.th/uploads/images/md/2023/02/afbQO5wCGbdRQwqxea2c.webp?x-image-process=style/lg"
                     alt=""
-                    style={{ borderRadius: 20 }}
                   />
                   <h4>Microsoft ยุบเมตาเวิร์ส เตรียมเก็บค่าใช้จ่าย Microsoft Teams ไม่ฟรีอีกต่อไป</h4>
                 </div>
@@ -273,17 +229,10 @@ const NewsDiscover: React.FC = () => {
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 50, borderRadius: "50%" }}
-                    />
-                  </span>
+
                   <img
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/PJc1UcJhe0NnplQIJaWM.webp?x-image-process=style/lg"
                     alt=""
-                    style={{ borderRadius: 20 }}
                   />
                   <h4>กรมสรรพากรยุคใหม่ใช้ ChatGPT ของไมโครซอฟท์ ไขทุกข้อสงสัยเรื่องยื่นภาษี</h4>
                 </div>
@@ -314,17 +263,10 @@ const NewsDiscover: React.FC = () => {
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 50, borderRadius: "50%" }}
-                    />
-                  </span>
+
                   <img
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/i0VIYMSOg8Tmbm8ffppg.webp?x-image-process=style/lg"
                     alt=""
-                    style={{ borderRadius: 20 }}
                   />
                   <h4>ช้อปปิ้งออนไลน์ไม่ใช่เทรนด์ แต่เป็นบรรทัดฐานการใช้ชีวิต</h4>
                 </div>
@@ -355,17 +297,10 @@ const NewsDiscover: React.FC = () => {
             <div className="item">
               <div className="row">
                 <div className="col-lg-12">
-                  <span className="author">
-                    <img
-                      src="/images/author.jpg"
-                      alt=""
-                      style={{ maxWidth: 50, maxHeight: 50, borderRadius: "50%" }}
-                    />
-                  </span>
+
                   <img
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/UHJRLGpTlYIXM4EVxCbU.webp?x-image-process=style/lg"
                     alt=""
-                    style={{ borderRadius: 20 }}
                   />
                   <h4>ทำความเข้าใจ AI ของ Facebook ทำไมชอบฟีดอะไรที่ไม่รู้จัก-วนให้ดูซ้ำบ่อย</h4>
                 </div>
