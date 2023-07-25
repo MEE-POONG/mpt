@@ -3,7 +3,7 @@ import React from 'react';
 import { Col, Nav, Row, Tab } from 'react-bootstrap';
 import { AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai';
 import { FaFacebookF, FaInstagram, FaLine, FaTiktok, FaTwitter } from 'react-icons/fa';
-
+import { employee } from '@/data/about';
 const Apprentice: React.FC = () => {
     return (
         <div className="container">
@@ -36,6 +36,7 @@ const Apprentice: React.FC = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="gen1" className='c-purple'>
                                     <Row>
+                                  
                                         <div className="col-lg-4 col-md-6">
                                             <div className="item">
                                                 <div className="left-img">
@@ -245,7 +246,7 @@ const Apprentice: React.FC = () => {
                                                     <span className="date">
                                                         <a href="https://www.facebook.com/PhuminanAnanthuk/"><FaFacebookF size={20} /></a>
                                                         <a href="https://www.facebook.com/PhuminanAnanthuk/"><FaInstagram size={20} /></a>
-                                                        <a href="https://line.me/ti/p/rP80-qCwb8"><FaLine size={20} /></a>
+                                                        <a href="https://line.me/ti/p/tpWKJB7AIC"><FaLine size={20} /></a>
                                                     </span>
                                                
                                                 </div>
@@ -260,6 +261,27 @@ const Apprentice: React.FC = () => {
                                                 <div className="right-content">
                                                     <h4 className='mb-2'>เวชานนท์ บูรณะ</h4>
                                                     <a href="#">@Tiw</a>
+                                                    <h6>
+                                                        ตำแหน่ง : <em>นักศึกษาฝึกงาน</em>
+                                                    </h6>
+                                                    <div className="line-dec" />
+                                                    <span className="date">
+                                                        <a href="https://www.facebook.com/tiw5678?mibextid=LQQJ4d"><FaFacebookF size={20} /></a>
+                                                        <a href="https://line.me/ti/p/RmvRtpOim4"><FaLine size={20} /></a>
+                                                    </span>
+                                               
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="col-lg-4 col-md-6">
+                                            <div className="item">
+                                                <div className="left-img">
+                                                    <img src="/images/meprompt/tiw.jpg" alt=""
+                                                        style={{ maxHeight: 250, objectFit: "cover" }} />
+                                                </div>
+                                                <div className="right-content">
+                                                    <h4 className='mb-2'>อภิสิทธิ์ ศิริอมรวิวัฒน์</h4>
+                                                    <a href="#">@Kan</a>
                                                     <h6>
                                                         ตำแหน่ง : <em>นักศึกษาฝึกงาน</em>
                                                     </h6>
