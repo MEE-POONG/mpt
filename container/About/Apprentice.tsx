@@ -3,7 +3,7 @@ import React from 'react';
 import { Col, Nav, Row, Tab } from 'react-bootstrap';
 import { AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai';
 import { FaFacebookF, FaInstagram, FaLine, FaTiktok, FaTwitter } from 'react-icons/fa';
-
+import { employee } from '@/data/about';
 const Apprentice: React.FC = () => {
     return (
         <div className="container">
@@ -36,6 +36,7 @@ const Apprentice: React.FC = () => {
                             <Tab.Content>
                                 <Tab.Pane eventKey="gen1" className='c-purple'>
                                     <Row>
+                                  
                                         <div className="col-lg-4 col-md-6">
                                             <div className="item">
                                                 <div className="left-img">
