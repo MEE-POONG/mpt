@@ -34,23 +34,27 @@ const ItemDetails: React.FC = () => {
                                                         style={{ maxHeight: 250, objectFit: "cover" }} />
                                                 </div>
                                                 <div className="right-content">
-                                                    <h4 className='mb-2'>ณัฐวีษ์  ตันตระกูล</h4>
-                                                    <h6>("เอส")</h6>
+                                                    <h4 className='mb-3 text-center'>
+                                                        ณัฐวีษ์  ตันตระกูล
+                                                    </h4>
+                                                    <h6>
+                                                        ชื่อเล่น : <em>("เอส")</em>
+                                                    </h6>
                                                     <h6>
                                                         ตำแหน่ง : <em>CEO & Founder</em>
                                                     </h6>
                                                     <div className="line-dec" />
                                                     <span className="date">
-                                                        <a href="https://web.facebook.com/woraphon.tengin.1"><FaFacebookF size={20} /></a>
-                                                        <a href="https://www.instagram.com/phon_xm/"><FaInstagram size={20} /></a>
-                                                        <a href="https://www.instagram.com/phon_xm/"><FaLine size={20} /></a>
-                                                        <a href="https://www.instagram.com/phon_xm/"><FaTiktok size={20} /></a>
-                                                        <a href="https://www.instagram.com/phon_xm/"><FaTwitter size={20} /></a>
+                                                        <a href="https://web.facebook.com/woraphon.tengin.1"><FaFacebookF size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaInstagram size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaLine size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaTiktok size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaTwitter size={25} /></a>
                                                     </span>
                                                     <div className="line-dec" />
-                                                    <div className='text-end mt-auto'>
+                                                    {/* <div className='text-end mt-auto'>
                                                         <Link href={"/about/id"}>{"ดูเพิ่มเนติม"}</Link>
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -61,13 +65,27 @@ const ItemDetails: React.FC = () => {
                                                         style={{ maxHeight: 250, objectFit: "cover" }} />
                                                 </div>
                                                 <div className="right-content">
-                                                    <h4>วรายุทธ เทกระโทก</h4>
-                                                    <a href="#">@SomChun</a>
-                                                    <div className="line-dec" />
+                                                    <h4 className='mb-3 text-center'>
+                                                        วรายุทธ เทกระโทก
+                                                    </h4>
                                                     <h6>
-                                                        <em>C0-Founder</em>
+                                                        ชื่อเล่น : <em>(ส้มฉุน)</em>
                                                     </h6>
-                                                    {/* <span className="date">24/07/2022, 22:00</span> */}
+                                                    <h6>
+                                                        ตำแหน่ง : <em>C0-Founder</em>
+                                                    </h6>
+                                                    <div className="line-dec" />
+                                                    <span className="date">
+                                                        <a href="https://web.facebook.com/woraphon.tengin.1"><FaFacebookF size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaInstagram size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaLine size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaTiktok size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaTwitter size={25} /></a>
+                                                    </span>
+                                                    <div className="line-dec" />
+                                                    {/* <div className='text-end mt-auto'>
+                                                        <Link href={"/about/id"}>{"ดูเพิ่มเนติม"}</Link>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
@@ -78,17 +96,30 @@ const ItemDetails: React.FC = () => {
                                                         style={{ maxHeight: 250, objectFit: "cover" }} />
                                                 </div>
                                                 <div className="right-content">
-                                                    <h4>Yasumin Simtama</h4>
-                                                    <a href="#">@Yamin</a>
-                                                    <div className="line-dec" />
+                                                    <h4 className='mb-3 text-center'>
+                                                        Yasumin Simtama
+                                                    </h4>
                                                     <h6>
-                                                        <em>Developer</em>
+                                                        ชื่อเล่น : <em>(@Yamin)</em>
                                                     </h6>
-                                                    {/* <span className="date">24/07/2022, 22:00</span> */}
+                                                    <h6>
+                                                        ตำแหน่ง : <em>Developer</em>
+                                                    </h6>
+                                                    <div className="line-dec" />
+                                                    <span className="date">
+                                                        <a href="https://web.facebook.com/woraphon.tengin.1"><FaFacebookF size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaInstagram size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaLine size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaTiktok size={25} /></a>
+                                                        <a href="https://www.instagram.com/phon_xm/"><FaTwitter size={25} /></a>
+                                                    </span>
+                                                    <div className="line-dec" />
+                                                    {/* <div className='text-end mt-auto'>
+                                                        <Link href={"/about/id"}>{"ดูเพิ่มเนติม"}</Link>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </Tab.Pane>
                             </Tab.Content>
