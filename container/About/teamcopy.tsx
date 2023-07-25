@@ -3,7 +3,7 @@ import React from 'react';
 import { AiOutlineInstagram, AiFillFacebook } from 'react-icons/ai';
 import { FaFacebookF, FaInstagram, FaLine, FaTiktok, FaTwitter } from 'react-icons/fa';
 
-const ItemDetails: React.FC = () => {
+const ItemDetailsCopy: React.FC = () => {
     return (
         <div className="container">
             <div className="current-bid">
@@ -283,4 +283,4 @@ const ItemDetails: React.FC = () => {
     );
 }
 
-export default ItemDetails;
+export default ItemDetailsCopy;
