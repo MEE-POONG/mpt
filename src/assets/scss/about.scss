@@ -173,14 +173,27 @@
             cursor: pointer;
         }
 
-        .mini-heading h4 {
-            background-color: #7453fc;
-            display: inline-block;
-            font-size: 20px;
-            padding: 10px 20px;
-            border-radius: 22px;
+        .mini-heading {
+            * {
+                display: inline-block;
+                font-size: 20px;
+                padding: 10px 20px;
+                color: #ffffff;
+                border: 1px solid #7453fc;
+            }
+            .title {
+                background-color: #7453fc;
+                border-radius: 25px 0px 0px 25px;
+            }
+            .select {
+                &.last {
+                    border-radius: 0 25px 25px 0;
+                }
+                &.active {
+                    background-color: #7453fc;
+                }
+            }
         }
-
         .item {
             position: relative;
             z-index: 2;
