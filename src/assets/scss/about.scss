@@ -276,4 +276,9 @@
             }
         }
     }
+    @media (max-width: 450px) {
+        .current-bid .item .right-content h6 em {
+            font-size: 14px;
+        }
+    }
 }
