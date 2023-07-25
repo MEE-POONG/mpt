@@ -260,4 +260,20 @@
             }
         }
     }
+    @media (max-width: 991px) {
+        .item-details-page {
+            .left-image {
+                margin-right: 0;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .current-bid {
+            .mini-heading {
+                * {
+                    padding: 10px 15px;
+                }
+            }
+        }
+    }
 }
