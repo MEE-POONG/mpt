@@ -175,8 +175,9 @@
 
         .mini-heading {
             * {
+                text-align: center;
                 display: inline-block;
-                font-size: 20px;
+                font-size: 1rem;
                 padding: 10px 20px;
                 color: #ffffff;
                 border: 1px solid #7453fc;
@@ -255,6 +256,22 @@
                     &:hover {
                         color: #7453fc;
                     }
+                }
+            }
+        }
+    }
+    @media (max-width: 991px) {
+        .item-details-page {
+            .left-image {
+                margin-right: 0;
+            }
+        }
+    }
+    @media (max-width: 767px) {
+        .current-bid {
+            .mini-heading {
+                * {
+                    padding: 10px 15px;
                 }
             }
         }

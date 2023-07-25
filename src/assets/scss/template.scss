@@ -516,9 +516,6 @@ Header Style
   background-image: unset !important;
 }
 
-
-
-
 .item .icon {
   width: 62px;
   height: 62px;
@@ -528,8 +525,6 @@ Header Style
   background-color: #fff;
   border-radius: 50%;
 }
-
-
 
 /* 
 ---------------------------------------------
@@ -545,9 +540,6 @@ Currently Market Style
   padding: 120px 0px;
   position: relative;
 }
-
-
-
 
 /* 
 ---------------------------------------------
@@ -697,9 +689,6 @@ Explore Style
     }
   }
 }
-
-
-
 
 /* 
 ---------------------------------------------
@@ -989,5 +978,10 @@ body {
   }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 349px) {
+  .page-heading {
+    h2 {
+      font-size: 40px;
+    }
+  }
 }
