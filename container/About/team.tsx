@@ -11,12 +11,12 @@ const ItemDetails: React.FC = () => {
                 <Tab.Container id="left-tabs-example" defaultActiveKey="first">
                     <Row>
                         <Col sm={12}>
-                            <Nav variant="pills" className="">
+                            <Nav variant="pills" className="justify-content-center">
                                 <Nav.Item bsPrefix="mini-heading">
-                                    <div className="title">Employee ( Team MePrompt )</div>
+                                    <div className="title">Employee</div>
                                 </Nav.Item>
                                 <Nav.Item bsPrefix="mini-heading">
-                                    <Nav.Link bsPrefix='select last' eventKey="first" >Active</Nav.Link>
+                                    <Nav.Link bsPrefix='select last' eventKey="first" >( Team MePrompt )</Nav.Link>
                                 </Nav.Item>
                                 {/* <Nav.Item bsPrefix="mini-heading">
                                     <Nav.Link bsPrefix='select last' eventKey="second">Tab 2</Nav.Link>
@@ -26,8 +26,8 @@ const ItemDetails: React.FC = () => {
                         <Col sm={12}>
                             <Tab.Content>
                                 <Tab.Pane eventKey="first" className='c-purple'>
-                                    <div className="row">
-                                        <div className="col-lg-4 col-md-6">
+                                    <Row>
+                                        <div className="col-xl-4 col-lg-6 col-md-6">
                                             <div className="item">
                                                 <div className="left-img">
                                                     <img src="/images/meprompt/est.jpg" alt=""
@@ -58,7 +58,7 @@ const ItemDetails: React.FC = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 col-md-6">
+                                        <div className="col-xl-4 col-lg-6 col-md-6">
                                             <div className="item">
                                                 <div className="left-img">
                                                     <img src="/images/meprompt/chun.jpg" alt=""
@@ -89,7 +89,7 @@ const ItemDetails: React.FC = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div className="col-lg-4 col-md-6">
+                                        <div className="col-xl-4 col-lg-6 col-md-6">
                                             <div className="item">
                                                 <div className="left-img">
                                                     <img src="/images/meprompt/ploi.jpg" alt=""
@@ -120,7 +120,7 @@ const ItemDetails: React.FC = () => {
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </Row>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Col>
