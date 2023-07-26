@@ -23,6 +23,24 @@
         background-position: left bottom;
     }
 }
+button.purple {
+    font-size: 14px;
+    color: #fff;
+    background-color: #7453fc;
+    border: 1px solid #7453fc;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    border-radius: 25px;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+}
 .shadow-purple {
     color: #ffffff;
     filter: drop-shadow(0px -1px 0px #7453fc) drop-shadow(1px 1px 1px #7453fc) drop-shadow(1px 1px 1px #7453fc)
