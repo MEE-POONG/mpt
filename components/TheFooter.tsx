@@ -9,9 +9,9 @@ const TheFooter: React.FC = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <p>Copyright © 2022 <a href="#">Liberty</a> NFT Marketplace Co., Ltd. All rights reserved.
-              &nbsp;&nbsp;
-              Designed by <a title="HTML CSS Templates" rel="sponsored" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
+            <p>
+              Copyright © 2023 <a href="#">ME PROMPT TECHNOLOGY</a>CONPANY LIMITED.
+            </p>
           </div>
         </div>
       </div>
