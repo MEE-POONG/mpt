@@ -16,7 +16,7 @@ const AboutPage: React.FC = () => {
         />
         <title>Me Prompt Technology</title>
       </Head>
-      <div className='about-page'>
+      <div className='about-page page-default-bg'>
         <ItemDetails />
         <Teams />
         <Apprentice />

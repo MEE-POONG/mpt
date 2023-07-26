@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import Author from '@/container/OurWork/Author'
-import CreateNft from '@/container/CreateNft'
 export default function OurWorkPage() {
   return (
     <TheLayout>
@@ -14,7 +13,6 @@ export default function OurWorkPage() {
       </Head>
       <div className='ourwork-page'>
         <Author />
-        <CreateNft />
       </div>
     </TheLayout>
   )

@@ -1,6 +1,28 @@
 .c-purple {
     color: #7453fc;
 }
+.a-c-purple {
+    margin: 10px 0px;
+    text-align: center;
+    * {
+        color: #7453fc;
+        font-size: 1rem;
+    }
+    a {
+        width: max-content;
+        background: #00000000;
+        border-radius: 15px;
+        padding: 0 10px;
+        background: linear-gradient(to left, rgba(255, 0, 0, 0) 50%, #7453fc 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        transition: all 1s ease;
+    }
+    a:hover {
+        color: #ffffff;
+        background-position: left bottom;
+    }
+}
 .shadow-purple {
     color: #ffffff;
     filter: drop-shadow(0px -1px 0px #7453fc) drop-shadow(1px 1px 1px #7453fc) drop-shadow(1px 1px 1px #7453fc)
@@ -39,4 +61,21 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+.truncate-4 {
+    height: 4rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-default-bg {
+    background-image: url("/images/dark-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 120px 0px 120px 0px;
+    position: relative;
 }
