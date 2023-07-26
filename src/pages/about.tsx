@@ -1,10 +1,8 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import ItemDetails from '@/container/About/ItemDetails'
-import CreateNft from '@/container/CreateNft'
 import Teams from '@/container/About/team'
 import Apprentice from '@/container/About/Apprentice'
-import ItemDetailsCopy from '@/container/About/teamcopy'
 const AboutPage: React.FC = () => {
 
   return (
@@ -20,9 +18,7 @@ const AboutPage: React.FC = () => {
         <ItemDetails />
         <Teams />
         <Apprentice />
-        {/* <CreateNft /> */}
 
-        <ItemDetailsCopy/>
       </div>
     </TheLayout>
   )
