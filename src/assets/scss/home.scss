@@ -116,6 +116,8 @@
         }
         .collections {
             margin-top: 100px;
+            position: relative;
+            z-index: 999;
 
             .item {
                 img {
