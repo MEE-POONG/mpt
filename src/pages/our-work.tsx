@@ -4,13 +4,7 @@ import Author from '@/container/OurWork/Author'
 export default function OurWorkPage() {
   return (
     <TheLayout>
-      <Head>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
-        />
-        <title>Me Prompt Technology</title>
-      </Head>
+
       <div className='ourwork-page'>
         <Author />
       </div>

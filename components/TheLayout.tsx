@@ -6,6 +6,7 @@ import TheNavbar from './TheNavbar';
 import TheFooter from './TheFooter';
 import TheHeadFirst from './TheHeadFirst';
 import TheHeadPage from './TheHeadPage';
+import TheHeader from './TheHead';
 const inter = Inter({ subsets: ['latin'] })
 
 interface LayoutProps {
@@ -17,6 +18,7 @@ const TheLayOut: React.FC<LayoutProps> = ({ children }) => {
 
   return (
     <>
+      <TheHeader />
       <TheNavbar />
       {router.pathname === '/' ? <TheHeadFirst /> : <TheHeadPage />}
       <main className={inter.className}>{children}</main>
