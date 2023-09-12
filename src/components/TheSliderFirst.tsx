@@ -4,7 +4,7 @@ import { FaPencilRuler } from 'react-icons/fa';
 import { GiShop } from 'react-icons/gi';
 
 
-const TheHeadFirst: React.FC = () => {
+const TheSliderFirst: React.FC = () => {
     return (
 
         <div className="main-banner">
@@ -49,4 +49,4 @@ const TheHeadFirst: React.FC = () => {
     );
 }
 
-export default TheHeadFirst;
+export default TheSliderFirst;

@@ -107,7 +107,7 @@ const Categories: React.FC = () => {
                     <div className='dev-languages'>
                         <Slider {...settingsLanguages}>
                             <div className="px-2 py-5">
-                                <div className="item px-2">
+                                <div className="item p-2">
                                     <div className="icon">
                                         <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/89a103ef-d0af-4fad-9970-a3c278f9ec00/170" alt="" />
                                     </div>

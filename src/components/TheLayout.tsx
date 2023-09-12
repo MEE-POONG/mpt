@@ -4,8 +4,8 @@ import { useRouter } from 'next/router';
 import { Inter } from 'next/font/google'
 import TheNavbar from './TheNavbar';
 import TheFooter from './TheFooter';
-import TheHeadFirst from './TheHeadFirst';
-import TheHeadPage from './TheHeadPage';
+import TheSliderFirst from './TheSliderFirst';
+import TheSliderPage from './TheSliderPage';
 import TheHeader from './TheHead';
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +20,7 @@ const TheLayOut: React.FC<LayoutProps> = ({ children }) => {
     <>
       <TheHeader />
       <TheNavbar />
-      {/* {router.pathname === '/' ? <TheHeadFirst /> : <TheHeadPage />} */}
+      {router.pathname === '/' ? <TheSliderFirst /> : <TheSliderPage />}
       <main className={inter.className} style={{ background: "black", height: "200vh" }}>
         {children}
       </main>

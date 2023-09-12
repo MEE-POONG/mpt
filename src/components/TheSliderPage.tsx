@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import Slider from 'react-slick';
 
 
-const TheHeadPage: React.FC = () => {
+const TheSliderPage: React.FC = () => {
     const router = useRouter();
 
     const settings = {
@@ -170,4 +170,4 @@ const TheHeadPage: React.FC = () => {
     );
 };
 
-export default TheHeadPage;
+export default TheSliderPage;
