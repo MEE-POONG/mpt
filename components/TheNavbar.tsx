@@ -16,7 +16,7 @@ const TheNavber: React.FC = () => {
 
   useEffect(() => {
     const scrollHandler = () => {
-      const shouldFade: boolean = window.scrollY > 50;
+      const shouldFade: boolean = window.scrollY > 1;
       setIsFaded(shouldFade);
     };
 

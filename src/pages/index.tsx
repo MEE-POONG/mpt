@@ -10,11 +10,10 @@ const HomePage: React.FC = () => {
 
   return (
     <TheLayout>
-
       <div className='home-page'>
-        <Categories />
+        {/* <Categories />
         <Price />
-        <Currently />
+        <Currently /> */}
       </div>
     </TheLayout>
   )

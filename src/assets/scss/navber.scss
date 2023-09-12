@@ -6,19 +6,19 @@
     transition: all 0.5s ease 0s;
     position: absolute;
     width: 100%;
-    span{
+    top: 25px;
+    span {
         font-size: 14px;
         color: #53b8fc;
     }
     .container {
-        min-height: 80px;
         background: transparent;
         display: flex;
-
         background-color: #fff;
-        padding: 15px 30px;
+        padding: 10px 30px;
         border-radius: 50px;
-        margin-top: 25px;
+        margin-top: 0;
+        transition: all ease-in-out 0.5s;
         .navbar-brand {
             img {
                 height: 40px;
