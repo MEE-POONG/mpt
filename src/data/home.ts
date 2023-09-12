@@ -163,3 +163,12 @@ export const price = [
 
 
 ];
+
+export const devLanguages = [
+    { languages: "Html5", src: "89a103ef-d0af-4fad-9970-a3c278f9ec00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
+    { languages: "Es6", src: "abf7786a-c158-4a38-aab6-dec67822af00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
+    { languages: "Flutter", src: "557b6253-75ac-4c99-4e8c-3cecee80db00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
+    { languages: "Css", src: "e311df22-7550-4e6a-3dd7-367e504b2900", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
+    { languages: "Sass", src: "52a4fe9d-abf5-4e53-9d10-e0d5877cbc00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
+    { languages: "Framework", src: "27acaba2-dd96-4bb9-f2a2-06dd4bc7af00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
+];

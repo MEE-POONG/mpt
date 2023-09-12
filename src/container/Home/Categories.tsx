@@ -3,7 +3,7 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import Slider from 'react-slick';
 import { SiTypescript } from "react-icons/si";
 import { Container } from 'react-bootstrap';
-
+import { devLanguages } from '@/data/home';
 interface ArrowProps {
     className?: string;
     style?: React.CSSProperties;
@@ -106,72 +106,23 @@ const Categories: React.FC = () => {
                     </div>
                     <div className='dev-languages'>
                         <Slider {...settingsLanguages}>
-                            <div className="px-2 py-5">
-                                <div className="item p-2">
-                                    <div className="icon">
-                                        <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/89a103ef-d0af-4fad-9970-a3c278f9ec00/170" alt="" />
-                                    </div>
-                                    <h4 className='truncate-1'>Html5</h4>
-                                    <div className="icon-button">
-                                        <a href="https://www.designil.com/html5-tips-tricks-techniques-1/"><FaAngleRight /></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="px-2 py-5">
-                                <div className="item px-2">
-                                    <div className="icon">
-                                        <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/e311df22-7550-4e6a-3dd7-367e504b2900/170" alt="" />
-                                    </div>
-                                    <h4 className='truncate-1'>Css</h4>
-                                    <div className="icon-button">
-                                        <a href="http://www.kontentblue.com/site/article/article.php?id=css-introduction"><FaAngleRight /></a>
+                            {devLanguages.map((lang, index) => (
+                                <div className="px-2 py-5" key={index}>
+                                    <div className="item p-2">
+                                        <div className="icon">
+                                            <img
+                                                className="d-inline"
+                                                src={`https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/${lang.src}/170`}
+                                                alt={lang.languages}
+                                            />
+                                        </div>
+                                        <h4 className='truncate-1'>{lang.languages}</h4>
+                                        <div className="icon-button">
+                                            <a href={lang.readLink}><FaAngleRight /></a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="px-2 py-5">
-                                <div className="item px-2">
-                                    <div className="icon">
-                                        <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/abf7786a-c158-4a38-aab6-dec67822af00/170" alt="" />
-                                    </div>
-                                    <h4 className='truncate-1'>Es6</h4>
-                                    <div className="icon-button">
-                                        <a href="https://microbenz.in.th/%E0%B8%99%E0%B8%B5%E0%B9%88%E0%B8%9B%E0%B8%B5-2017-%E0%B9%81%E0%B8%A5%E0%B9%89%E0%B8%A7-%E0%B8%A1%E0%B8%B2%E0%B9%80%E0%B8%82%E0%B8%B5%E0%B8%A2%E0%B8%99-es6-%E0%B8%81%E0%B8%B1%E0%B8%99-9dede81e30da"><FaAngleRight /></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="px-2 py-5">
-                                <div className="item px-2">
-                                    <div className="icon">
-                                        <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/557b6253-75ac-4c99-4e8c-3cecee80db00/170" alt="" />
-                                    </div>
-                                    <h4 className='truncate-1'>Flutter</h4>
-                                    <div className="icon-button">
-                                        <a href="https://www.thaiprogrammer.org/2019/11/flutter-framework/"><FaAngleRight /></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="px-2 py-5">
-                                <div className="item px-2">
-                                    <div className="icon">
-                                        <img className="d-inline" src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/52a4fe9d-abf5-4e53-9d10-e0d5877cbc00/170" alt="" />
-                                    </div>
-                                    <h4 className='truncate-1'>Sass</h4>
-                                    <div className="icon-button">
-                                        <a href="https://www.borntodev.com/2020/07/15/sass-scss-101/"><FaAngleRight /></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="px-2 py-5">
-                                <div className="item px-2">
-                                    <div className="icon">
-                                        <img className="d-inline" src="/images/icon-06.png" alt="" />
-                                    </div>
-                                    <h4 className='truncate-1'>Framework</h4>
-                                    <div className="icon-button">
-                                        <a href="https://devahoy.com/getting-started-with-nextjs/"><FaAngleRight /></a>
-                                    </div>
-                                </div>
-                            </div>
+                            ))}
                         </Slider>
                     </div>
                 </div>
