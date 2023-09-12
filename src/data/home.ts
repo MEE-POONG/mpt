@@ -172,3 +172,9 @@ export const devLanguages = [
     { languages: "Sass", src: "52a4fe9d-abf5-4e53-9d10-e0d5877cbc00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
     { languages: "Framework", src: "27acaba2-dd96-4bb9-f2a2-06dd4bc7af00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
 ];
+export const Collections = [
+    { name: "ช่างพองอิฐประสาน", viewer: "310", category: "ธุรกิจ/ค้าขาย", web: "https://www.xn--72cah0a9bls7bydzab3brky72a.com/", img: "/images/customers/changpong.png", },
+    { name: "มูลนิธิบ้านหลังใหม่", viewer: "324", category: "มูลนิธิ/ไม่แสวงหากำไร", web: "https://home-again.netlify.app/", img:"/images/customers/homeagain.png", },
+    { name: "Robot รถตัดหญ้าบังคับวิทยุ", viewer: "380", category: "ธุรกิจ/ค้าขาย", web: "https://www.i2arobot.com", img:"/images/customers/robot.png", },
+    { name: "Fairy Stone - หินนำโชค", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img:"/images/customers/fairy.png", },
+];

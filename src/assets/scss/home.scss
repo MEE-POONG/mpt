@@ -63,7 +63,7 @@
             background-color: #282b2f;
             text-align: center;
             border-radius: 20px;
-            border: 1px solid #7253f5;
+            border: 1px solid #7453fc;
             position: relative;
 
             .icon {
@@ -117,17 +117,19 @@
             margin-top: 100px;
             position: relative;
             z-index: 999;
-
             .item {
+                padding-bottom: 60px;
+                .card{
+                    border: 2px solid #7453fc;
+
+                }
                 img {
                     border-top-right-radius: 20px;
                     border-top-left-radius: 20px;
                     object-fit: cover;
                 }
-
                 .down-content {
                     background-color: #282b2f;
-                    border: 1px solid #404245;
                     border-bottom-right-radius: 20px;
                     border-bottom-left-radius: 20px;
                     padding: 20px;
@@ -139,9 +141,6 @@
                         padding-bottom: 20px;
                     }
                 }
-
-                padding-bottom: 60px;
-
                 span {
                     color: #fff;
                     display: inline-block;

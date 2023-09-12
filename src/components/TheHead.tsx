@@ -2,7 +2,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { useRouter } from 'next/router';
 import { LanguageContext } from '@/components/Language/LanguageContext';
-import { navData } from '@/data/navber';
+import { navData } from '@/data/navbar';
 import Link from 'next/link';
 import Head from 'next/head';
 

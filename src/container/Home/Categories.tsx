@@ -3,7 +3,7 @@ import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import Slider from 'react-slick';
 import { SiTypescript } from "react-icons/si";
 import { Container } from 'react-bootstrap';
-import { devLanguages } from '@/data/home';
+import { Collections, devLanguages } from '@/data/home';
 interface ArrowProps {
     className?: string;
     style?: React.CSSProperties;
@@ -133,84 +133,23 @@ const Categories: React.FC = () => {
                 </div>
                 <div className='meprompt-portfolio'>
                     <Slider {...settings}>
-                        <div className="item px-2">
-                            <img src="/images/customers/changpong.png" alt="" />
-                            <div className="down-content">
-                                <h4 className='truncate-1'>ช่างพองอิฐประสาน</h4>
-                                <div className='d-flex justify-content-between'>
-                                    <span className="collection">Viewer :<br /><strong>310</strong></span>
-                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
-                                </div>
-                                <div className="main-button">
-                                    <a href="https://www.xn--72cah0a9bls7bydzab3brky72a.com/" target='_blank'>Explore</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item px-2">
-                            <img src="/images/customers/homeagain.png" alt="" />
-                            <div className="down-content">
-                                <h4 className='truncate-1'>มูลนิธิบ้านหลังใหม่</h4>
-                                <div className='d-flex justify-content-between'>
-                                    <span className="collection">Viewer :<br /><strong>324</strong></span>
-                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
-                                </div>
-                                <div className="main-button">
-                                    <a href="https://home-again.netlify.app/" target='_blank'>Explore</a>
+                        {Collections.map((workWeb, index) => (
+                            <div key={index} className="item px-2">
+                                <div className='card'>
+                                    <img src={workWeb.img} alt="" />
+                                    <div className="down-content">
+                                        <h4 className='truncate-1'>{workWeb?.name}</h4>
+                                        <div className='d-flex justify-content-between'>
+                                            <span className="collection">Viewer :<br /><strong>{workWeb?.viewer}</strong></span>
+                                            <span className="category">Category:<br /><strong>{workWeb?.category}</strong></span>
+                                        </div>
+                                        <div className="main-button">
+                                            <a href={workWeb.web} target='_blank'>Explore</a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="item px-2">
-                            <img src="/images/customers/robot.png" alt="" />
-                            <div className="down-content">
-                                <h4 className='truncate-1'>Robot รถตัดหญ้าบังคับวิทยุ</h4>
-                                <div className='d-flex justify-content-between'>
-                                    <span className="collection">Viewer :<br /><strong>380</strong></span>
-                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
-                                </div>
-                                <div className="main-button">
-                                    <a href="https://www.i2arobot.com" target='_blank'>Explore</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item px-2">
-                            <img src="/images/customers/fairy.png" alt="" />
-                            <div className="down-content">
-                                <h4 className='truncate-1'>Fairy Stone - หินนำโชค</h4>
-                                <div className='d-flex justify-content-between'>
-                                    <span className="collection">Viewer :<br /><strong>426</strong></span>
-                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
-                                </div>
-                                <div className="main-button">
-                                    <a href="https://fairygemstone.com/" target='_blank'>Explore</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item px-2">
-                            <img src="/images/customers/fairy.png" alt="" />
-                            <div className="down-content">
-                                <h4 className='truncate-1'>Fairy Stone - หินนำโชค</h4>
-                                <div className='d-flex justify-content-between'>
-                                    <span className="collection">Viewer :<br /><strong>426</strong></span>
-                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
-                                </div>
-                                <div className="main-button">
-                                    <a href="https://fairygemstone.com/" target='_blank'>Explore</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="item px-2">
-                            <img src="/images/customers/fairy.png" alt="" />
-                            <div className="down-content">
-                                <h4 className='truncate-1'>Fairy Stone - หินนำโชค</h4>
-                                <div className='d-flex justify-content-between'>
-                                    <span className="collection">Viewer :<br /><strong>426</strong></span>
-                                    <span className="category">Category:<br /><strong>เว็บบริษัท/องค์กร</strong></span>
-                                </div>
-                                <div className="main-button">
-                                    <a href="https://fairygemstone.com/" target='_blank'>Explore</a>
-                                </div>
-                            </div>
-                        </div>
+                        ))}
                     </Slider>
                 </div>
             </div>
