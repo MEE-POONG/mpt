@@ -98,7 +98,6 @@ const Categories: React.FC = () => {
 
         <div className="categories-collections">
             <div className="container">
-
                 <div className="categories">
                     <div className="section-heading mb-0">
                         <div className="line-dec"></div>
@@ -108,7 +107,7 @@ const Categories: React.FC = () => {
                         <Slider {...settingsLanguages}>
                             {devLanguages.map((lang, index) => (
                                 <div className="px-2 py-5" key={index}>
-                                    <div className="item p-2">
+                                    <div className="item p-4">
                                         <div className="icon">
                                             <img
                                                 className="d-inline"
