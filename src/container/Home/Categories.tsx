@@ -130,27 +130,27 @@ const Categories: React.FC = () => {
                 <div className="section-heading">
                     <div className="line-dec"></div>
                     <h2>Explore Some Hot <em>Portfolio</em> By MePrompt.</h2>
-                </div>
-                <div className='meprompt-portfolio'>
-                    <Slider {...settings}>
-                        {Collections.map((workWeb, index) => (
-                            <div key={index} className="item px-2">
-                                <div className='card'>
-                                    <img src={workWeb.img} alt="" />
-                                    <div className="down-content">
-                                        <h4 className='truncate-1'>{workWeb?.name}</h4>
-                                        <div className='d-flex justify-content-between'>
-                                            <span className="collection">Viewer :<br /><strong>{workWeb?.viewer}</strong></span>
-                                            <span className="category">Category:<br /><strong>{workWeb?.category}</strong></span>
-                                        </div>
-                                        <div className="main-button">
-                                            <a href={workWeb.web} target='_blank'>Explore</a>
+                    <div className='meprompt-portfolio container-fluid container'>
+                        <Slider {...settings}>
+                            {Collections.map((workWeb, index) => (
+                                <div key={index} className="item px-2">
+                                    <div className='card'>
+                                        <img src={workWeb.img} alt="" />
+                                        <div className="down-content">
+                                            <h4 className='truncate-1'>{workWeb?.name}</h4>
+                                            <div className='d-flex justify-content-between'>
+                                                <span className="collection">Viewer :<br /><strong>{workWeb?.viewer}</strong></span>
+                                                <span className="category">Category:<br /><strong>{workWeb?.category}</strong></span>
+                                            </div>
+                                            <div className="main-button">
+                                                <a href={workWeb.web} target='_blank'>Explore</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        ))}
-                    </Slider>
+                            ))}
+                        </Slider>
+                    </div>
                 </div>
             </div>
         </div>
