@@ -1,6 +1,9 @@
 .c-purple {
     color: #7453fc;
 }
+.c-purple-important {
+    color: #7453fc !important;
+}
 .a-c-purple {
     margin: 10px 0px;
     text-align: center;
@@ -63,10 +66,29 @@ button.purple {
     align-items: flex-end;
 }
 .png-shadow-white {
+    margin-top: 0px;
     -webkit-filter: drop-shadow(0px -1px 0px #ffffff) drop-shadow(1px 1px 1px #ffffff) drop-shadow(1px 1px 1px #ffffff)
         drop-shadow(1px 1px 1px #ffffff);
     filter: drop-shadow(0px -1px 0px #ffffff) drop-shadow(1px 1px 1px #ffffff) drop-shadow(1px 1px 1px #ffffff)
         drop-shadow(1px 1px 1px #ffffff);
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6,
+    p {
+        color: #000000;
+    }
+    p{
+        font-size: 20px;
+    }
 }
 .truncate-1 {
     white-space: nowrap;

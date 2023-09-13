@@ -40,13 +40,9 @@ const Thenavbar: React.FC = () => {
             <FaBars />
           </Navbar.Toggle>
           <Navbar.Collapse id="navbarScroll">
-            <Nav
-              className="ms-auto my-2 my-lg-0"
-              navbarScroll
-            >
+            <Nav className="ms-auto my-2 my-lg-0" navbarScroll >
               {navList}
               <BtnSetting />
-
             </Nav>
           </Navbar.Collapse>
         </Container>

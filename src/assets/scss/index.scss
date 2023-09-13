@@ -2,31 +2,8 @@
 
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
-@font-face {
-    font-family: "K2D";
-    src:
-        url("../fonts/k2b/K2D-Bold.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-BoldItalic.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-ExtraBold.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-ExtraBoldItalic.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-ExtraLight.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-ExtraLightItalic.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-Italic.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-Light.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-LightItalic.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-Medium.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-MediumItalic.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-Regular.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-SemiBold.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-SemiBoldItalic.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-Thin.ttf") format("truetype"),
-        url("../fonts/k2b/K2D-ThinItalic.ttf") format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-.ff-k2d {
-    font-family: "K2D", sans-serif;
-}
+.ff-Mitr {
+    font-family: 'Mitr', sans-serif;}
 @import "template.scss";
 @import "globals.scss";
 @import "components.scss";

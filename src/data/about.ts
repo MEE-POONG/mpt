@@ -1,6 +1,3 @@
-import { string } from "prop-types";
-import { FaTwitter } from 'react-icons/fa';
-
 export const position = [
     {
         id : "1",
