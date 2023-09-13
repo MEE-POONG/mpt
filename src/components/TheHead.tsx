@@ -21,7 +21,7 @@ const TheHeader: React.FC = () => {
         return () => window.removeEventListener('scroll', scrollHandler);
     }, []);
     const navList = navData.map((navItem, index) => (
-        <Link key={index} href={navItem?.pathLink} className={`${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
+        <Link key={index} href={navItem?.pathLink} className={` ${router?.pathname === navItem?.pathLink ? "active" : ""}`}>
             {currentLanguage === "TH" ? navItem.name?.TH : navItem.name?.EN}
         </Link>
     ));
