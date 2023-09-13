@@ -18,6 +18,7 @@ const ItemDetails: React.FC = () => {
                         <div className="left-image">
                             <img
                                 src="/images/meprompt/logo.png"
+                                className='w-100'
                                 alt=""
                                 style={{ borderRadius: 20 }}
                             />

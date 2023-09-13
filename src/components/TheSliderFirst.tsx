@@ -28,7 +28,7 @@ const TheSliderFirst: React.FC = () => {
                                         </p>
                                         <div className="buttons">
                                             <div className="main-button mx-auto">
-                                                <a href="https://youtube.com/templatemo" target="_blank"><GiShop size={20} />เลือกแพ็กเกจ</a>
+                                                <a href={item.linkTo} target="_blank"><GiShop size={20} />ติดต่อแฟนเพจ</a>
                                             </div>
                                         </div>
                                     </div>
