@@ -12,7 +12,6 @@ const AboutPage: React.FC = () => {
         <ItemDetails />
         <Teams />
         <Apprentice />
-
       </div>
     </TheLayout>
   )

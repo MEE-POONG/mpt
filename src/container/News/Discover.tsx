@@ -42,7 +42,6 @@ const NewsDiscover: React.FC = () => {
                       className="form-select"
                       aria-label="Default select example"
                       id="chooseCategory"
-                    // onChange="this.form.click()"
                     >
                       <option >All News</option>
                       <option value="News">
@@ -54,21 +53,6 @@ const NewsDiscover: React.FC = () => {
                     </select>
                   </fieldset>
                 </div>
-                {/* <div className="col-lg-3">
-                  <fieldset>
-                    <select
-                      name="Price"
-                      className="form-select"
-                      aria-label="Default select example"
-                      id="chooseCategory"
-                    >
-                      <option >Available</option>
-                      <option value="Ending-Soon">Ending Soon</option>
-                      <option value="Coming-Soon">Coming Soon</option>
-                      <option value="Closed">Closed</option>
-                    </select>
-                  </fieldset>
-                </div> */}
                 <div className="col-lg-2">
                   <fieldset>
                     <button className="main-button">Search</button>
@@ -87,6 +71,7 @@ const NewsDiscover: React.FC = () => {
                 </div>
                 <div className="col-12 ">
                   <img
+                    className='w-100'
                     src="https://images.axios.com/kidB2KMguu9yWr0oDdoIfR2sxJg=/0x0:2160x1215/1920x1080/2023/07/13/1689255076236.png?w=1920"
                     alt=""
                   />
@@ -130,6 +115,8 @@ const NewsDiscover: React.FC = () => {
                 <div className="col-lg-12">
 
                   <img
+                    className='w-100'
+
                     src="https://www.aljazeera.com/wp-content/uploads/2023/07/2023-07-04T143052Z_1216481558_RC2EW1AV5ET6_RTRMADP_3_META-THREADS-1688626945.jpg?resize=770%2C513&quality=80"
                     alt=""
                   />
@@ -172,6 +159,8 @@ const NewsDiscover: React.FC = () => {
                 <div className="col-lg-12">
 
                   <img
+                    className='w-100'
+
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/K2YKeUzYHCtxeG8Wj3Fi.webp?x-image-process=style/lg"
                     alt=""
                   />
@@ -214,6 +203,8 @@ const NewsDiscover: React.FC = () => {
                 <div className="col-lg-12">
 
                   <img
+                    className='w-100'
+
                     src="https://image.springnews.co.th/uploads/images/md/2023/02/afbQO5wCGbdRQwqxea2c.webp?x-image-process=style/lg"
                     alt=""
                   />
@@ -256,6 +247,8 @@ const NewsDiscover: React.FC = () => {
                 <div className="col-lg-12">
 
                   <img
+                    className='w-100'
+
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/PJc1UcJhe0NnplQIJaWM.webp?x-image-process=style/lg"
                     alt=""
                   />
@@ -298,6 +291,8 @@ const NewsDiscover: React.FC = () => {
                 <div className="col-lg-12">
 
                   <img
+                    className='w-100'
+
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/i0VIYMSOg8Tmbm8ffppg.webp?x-image-process=style/lg"
                     alt=""
                   />
@@ -340,6 +335,8 @@ const NewsDiscover: React.FC = () => {
                 <div className="col-lg-12">
 
                   <img
+                    className='w-100'
+
                     src="https://image.springnews.co.th/uploads/images/md/2023/07/UHJRLGpTlYIXM4EVxCbU.webp?x-image-process=style/lg"
                     alt=""
                   />

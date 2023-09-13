@@ -25,26 +25,26 @@ const Apprentice: React.FC = () => {
             <Col sm={12}>
               <Nav variant="pills" className="">
                 <Nav.Item bsPrefix="mini-heading">
-                  <div className="title">Apprentice Co-op</div>
+                  <div className="title">Apprentice Co-op Gen</div>
                 </Nav.Item>
                 <Nav.Item bsPrefix="mini-heading">
                   <Nav.Link bsPrefix="select" eventKey="gen1">
-                    Gen 1
+                    1
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item bsPrefix="mini-heading">
                   <Nav.Link bsPrefix="select" eventKey="gen2">
-                    Gen 2
+                    2
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item bsPrefix="mini-heading">
                   <Nav.Link bsPrefix="select" eventKey="gen3">
-                    Gen 3
+                    3
                   </Nav.Link>
                 </Nav.Item>
                 <Nav.Item bsPrefix="mini-heading">
                   <Nav.Link bsPrefix="select last" eventKey="gen4">
-                    Gen 4
+                    4
                   </Nav.Link>
                 </Nav.Item>
                 {/* <Nav.Item bsPrefix="mini-heading">

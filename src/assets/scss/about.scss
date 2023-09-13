@@ -1,5 +1,4 @@
 .about-page {
-
     .item-details-page {
         &:after {
             background-image: url("/images/category-collection-dec.png");
@@ -172,7 +171,8 @@
                 text-align: center;
                 display: inline-block;
                 font-size: 1rem;
-                padding: 10px 20px;
+                font-weight: bold;
+                padding: 5px 10px;
                 color: #ffffff;
                 border: 1px solid #7453fc;
             }
@@ -185,7 +185,8 @@
                     border-radius: 0 25px 25px 0;
                 }
                 &.active {
-                    background-color: #7453fc;
+                    color: #7453fc;
+                    background-color: #ffffff;
                 }
             }
         }

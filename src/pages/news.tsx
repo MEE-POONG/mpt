@@ -5,10 +5,8 @@ import TopSeller from '@/container/News/TopSeller'
 const NewsPage: React.FC = () => {
   return (
     <TheLayout>
-
       <div className='news-page'>
         <Discover />
-        {/* <TopSeller /> */}
       </div>
     </TheLayout>
   )

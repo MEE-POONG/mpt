@@ -1,6 +1,7 @@
 import React from 'react';
 import { useRouter } from 'next/router';
 import Slider from 'react-slick';
+import Link from 'next/link';
 
 
 const TheSliderPage: React.FC = () => {
@@ -16,12 +17,12 @@ const TheSliderPage: React.FC = () => {
     return (
         <div className="page-heading">
             <div className="container">
-                <div className="row">
+                <div className="row png-shadow-white">
                     <div className="col-lg-12">
-                        <h6>Web Development & Design</h6>
-                        <h2>Me prompt technology</h2>
-                        <span>
-                            Home{" > "}<a href="#">Explore</a>
+                        <h6 className='c-purple-important ff-Mitr'>Web Development & Design</h6>
+                        <h2 className='c-purple-important ff-Mitr'>Me prompt technology</h2>
+                        <span className='h3 ff-Mitr c-purple-important'>
+                            <Link href="#" className='ff-Mitr c-purple-important'>Home</Link><span className='h4 ff-Mitr'>{" > "} News</span>
                         </span>
                     </div>
                 </div>

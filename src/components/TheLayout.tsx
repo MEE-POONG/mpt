@@ -21,7 +21,7 @@ const TheLayOut: React.FC<LayoutProps> = ({ children }) => {
       <TheHeader />
       <TheNavbar />
       {router.pathname === '/' ? <TheSliderFirst /> : <TheSliderPage />}
-      <main className={inter.className} style={{ background: "black", height: "200vh" }}>
+      <main className={inter.className}>
         {children}
       </main>
       {/* <div style={{ height: "5000px", backgroundColor: "black" }} /> */}
