@@ -16,7 +16,7 @@ const TheSliderFirst: React.FC = () => {
                             <div className="row flex-md-row-reverse png-shadow-white">
                                 <div className="col-lg-6">
                                     <div className='d-flex h-100 align-items-center justify-content-center'>
-                                        <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/5879a637-de31-4541-3625-6d06d4b4d100/700" className=' w-100 px-1' alt="" />
+                                        <img src={item?.img} className=' w-100 px-1' alt="" />
                                     </div>
                                 </div>
                                 <div className="col-lg-6 align-self-center ">

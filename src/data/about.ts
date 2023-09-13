@@ -13,6 +13,15 @@ export const position = [
     },
 ];
 
+export const mptDetail = [
+    {
+        title: { EN: "Me Prompt Technonlogy Company", TH: "บริษัท มีพร้อมท์เทคโนโลยี จำกัด" },
+        img:"https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/5879a637-de31-4541-3625-6d06d4b4d100/700",
+        detailOne: { EN: "In today's digital age, compelling web content is paramount. MePrompt Technology stands out by offering tailored web writing solutions for every need. Our dedicated team crafts messages that resonate, always delivering promptly. From blog posts to technical writing, we handle it all, ensuring quality and relevance. Choose MePrompt for versatility, timeliness, and excellence in web content", TH: "ในยุคดิจิทัลของวันนี้, เนื้อหาเว็บไซต์ที่น่าสนใจเป็นสิ่งที่สำคัญ MePrompt Technology โดดเด่นด้วยการให้บริการเขียนเว็บไซต์ที่ปรับแต่งตามความต้องการ ทีมงานของเราสร้างข้อความที่ส reson และส่งมอบอย่างรวดเร็ว ไม่ว่าจะเป็นบล็อกหรือการเขียนทางเทคนิค เราจัดการทุกอย่าง แนะนำ MePrompt สำหรับความหลากหลาย ความรวดเร็ว และความเป็นเลิศในเนื้อหาเว็บ" },
+        detailTwo:{EN:"From blog posts, product descriptions, and SEO content to technical writing, e-commerce content, and beyond, MePrompt Technology handles it all. We understand that every website has its own voice, target audience, and goals. Our approach is holistic: we don't just write; we strategize, ensuring that every word serves a purpose and every message hits its mark.",TH:"ไม่ว่าจะเป็นบล็อกโพสต์, รายละเอียดผลิตภัณฑ์, เนื้อหา SEO หรือการเขียนทางเทคนิค, เนื้อหา e-commerce และอื่น ๆ MePrompt Technology จัดการทั้งหมด เราเข้าใจว่าทุกเว็บไซต์มีเสียง, เป้าหมายและเป้าหมายของตนเอง เรามุ่งมั่นในการวางแผน: เราไม่เพียงแค่เขียน แต่เรายังวางแผนเพื่อให้แน่ใจว่าทุกคำมีจุดประสงค์และทุกข้อความมีผล"},
+    },
+];
+
 export const duty = [
     {
         id : "1",
