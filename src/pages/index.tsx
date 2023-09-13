@@ -1,6 +1,5 @@
 import React, { useContext,} from 'react';
 import { LanguageContext } from '@/components/Language/LanguageContext';
-import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import Categories from '@/container/Home/Categories'
 import Price from '@/container/Home/Price'

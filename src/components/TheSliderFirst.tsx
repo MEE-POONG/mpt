@@ -10,16 +10,12 @@ const TheSliderFirst: React.FC = () => {
         <div className="main-banner">
             <div className="container">
                 <div className="row flex-md-row-reverse">
-
-                    <div className="col-lg-5 offset-lg-1">
+                    <div className="col-lg-6">
                         <div className='d-flex h-100 align-items-center justify-content-center'>
                             <Carousel indicators={false} controls={false} >
                                 <Carousel.Item >
-                                    <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/5879a637-de31-4541-3625-6d06d4b4d100/700" className='png-shadow-white' alt="" />
+                                    <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/5879a637-de31-4541-3625-6d06d4b4d100/700" className='png-shadow-white w-100 px-1' alt="" />
                                 </Carousel.Item>
-                                {/* <Carousel.Item>
-                                <img src="/images/banner-02.png" className='p-3' alt="" />
-                            </Carousel.Item> */}
                             </Carousel>
                         </div>
                     </div>
