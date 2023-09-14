@@ -3,9 +3,11 @@ import React from "react";
 import { Button, ButtonGroup, Card, Col, Nav, Row, Tab } from "react-bootstrap";
 import { AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
 import {
+  FaEye,
   FaFacebookF,
   FaInstagram,
   FaLine,
+  FaStar,
   FaTiktok,
   FaTwitter,
 } from "react-icons/fa";
@@ -32,66 +34,28 @@ const ItemDetails: React.FC = () => {
             <Col sm={12}>
               <Tab.Content>
                 <Tab.Pane eventKey="first" className="c-purple">
-                  <div className="row">
+                  <Row className="justify-content-md-center">
                     {employee.map((emp) => (
-                      <div key={emp?.id} className="col-lg-4 col-md-6">
-                        <div className="item">
-                          <div className="left-img">
-                            {/* แสดงรูปภาพของพนักงาน */}
-                            <img
-                              src={emp?.picture}
-                              alt={emp?.firstName?.EN}
-                              style={{ width: "150px", height: 250, objectFit: "cover", }}
-                            />
-                          </div>
-                          <div className="right-content">
-                            {/* แสดงชื่อและนามสกุล */}
-                            <h4>{emp?.firstName?.TH}</h4>
-                            {/* แสดงชื่อเล่น */}
-                            <a href="#">{emp?.nickName.TH}</a>
-                            <div className="line-dec" />
-                            {/* แสดงตำแหน่งงาน */}
-                            <h6>
-                              ตำแหน่ง: <em>{emp?.position.TH}</em>
-                            </h6>
-                            {/* แสดงหน้าที่ของพนักงาน */}
-                            <h6>
-                              หน้าที่: <em>{emp?.duty.TH}</em>
-                            </h6>
-                            {/* แสดงลิงค์โซเชียลมีเดีย */}
-                            <span className="date">
-                              <a href={emp?.facebook}>
-                                <FaFacebookF size={30} />
-                              </a>
-                              <a href={emp?.instagram}>
-                                <FaInstagram size={30} />
-                              </a>
-                              {/* แสดงลิงค์โซเชียลมีเดียอื่น ๆ ตามต้องการ */}
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                    {employee.map((emp) => (
-                      <div key={emp?.id} className="col-lg-4 col-md-6">
+                      <Col xxl="4" xl="4" lg="5" md="6">
                         <Card className="item" style={{ borderRadius: "20px" }}>
-                          <Row className="no-gutters">
-                            <Col md="5" className="pe-0">
+                          <Row className="no-gutters w-100">
+                            <Col md="5" lg="5" className="pe-0 position-relative">
                               <Card.Img
                                 className="w-100 rounded-0 object-fit-cover"
-                                height={250}
                                 src={emp?.picture}
                                 alt={emp?.firstName?.EN}
                               />
+
+
                             </Col>
-                            <Col md="7" className="ps-0">
+                            <Col md="7" lg="7" className="ps-0">
                               <Card.Body>
-                                <span>
-                                  <span className="text-center h6">
+                                <div className="text-center">
+                                  <span className="h6">
                                     {emp?.firstName?.TH}
                                   </span>
                                   {` ${emp?.nickName.TH}`}
-                                </span>
+                                </div>
                                 <hr />
                                 <h6 className="mb-2">
                                   ตำแหน่ง: <span>{emp?.position.TH}</span>
@@ -100,35 +64,49 @@ const ItemDetails: React.FC = () => {
                                   หน้าที่: <span>{emp?.duty.TH}</span>
                                 </h6>
                                 <hr />
-                                <ButtonGroup vertical className="w-100">
-                                  <Link href="" className="h6">
-                                    นำโปรเจค
+                                <div className="d-flex justify-content-around">
+                                  <Link href={emp?.facebook}>
+                                    <FaFacebookF size={30} />
                                   </Link>
-                                  <Link href="" className="h6">
-                                    ผลงาน
+                                  <Link href={emp?.instagram}>
+                                    <FaInstagram size={30} />
                                   </Link>
-                                  <Link href="" className="h6">
-                                    ความสามารถ
+                                  <Link href={emp?.instagram}>
+                                    <FaLine size={30} />
                                   </Link>
-                                </ButtonGroup>
-                                {/* <h5 className="card-title">Card title</h5> */}
-                                {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
-                                {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
+                                  <Link href={emp?.instagram}>
+                                    <FaTwitter size={30} />
+                                  </Link>
+                                  <Link href={emp?.instagram}>
+                                    <FaTiktok size={30} />
+                                  </Link>
+                                </div>
+                                <hr />
+                                <div className="d-flex justify-content-around align-items-center star">
+                                  <FaStar />
+                                  <FaStar />
+                                  <FaStar />
+                                  <FaStar />
+                                  <FaStar />
+                                </div>
                               </Card.Body>
                             </Col>
                           </Row>
-                          <Card.Footer>
-                            <a href={emp?.facebook}>
-                              <FaFacebookF size={30} />
-                            </a>
-                            <a href={emp?.instagram}>
-                              <FaInstagram size={30} />
-                            </a>
+                          <Card.Footer className="p-0">
+                            <Link href="" className="view fs-6 fw-normal">
+                              สร้างโปรเจค
+                            </Link>
+                            <Link href="" className="view fs-6 fw-normal">
+                              ผลงาน
+                            </Link>
+                            <Link href="" className="view fs-6 fw-normal">
+                              ความสามารถ
+                            </Link>
                           </Card.Footer>
                         </Card>
-                      </div>
+                      </Col>
                     ))}
-                  </div>
+                  </Row>
                 </Tab.Pane>
               </Tab.Content>
             </Col>
