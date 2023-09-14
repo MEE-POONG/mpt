@@ -21,11 +21,11 @@ const TheSliderPage: React.FC = () => {
                     <div className="col-lg-12">
                         <h6 className='c-purple-important '>Web Development & Design</h6>
                         <h2 className='c-purple-important '>Me prompt technology</h2>
-                        <span className='h3  c-purple-important'>
+                        <span className='h3 mt-3'>
                             <Link href="/" className='c-purple-important fw-normal'>
                                 Home
                             </Link>
-                            <span className='h4 '>{" > "} News</span>
+                            <span className='text-dark fw-normal'>{" > "} News</span>
                         </span>
                     </div>
                 </div>

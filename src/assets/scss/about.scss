@@ -191,7 +191,7 @@
         .card {
             margin-top: 30px;
             border-radius: 20px;
-            border: 3px solid #7453fc;
+            border: 2px solid #7453fc;
             overflow: hidden;
             img {
                 width: 150px;
@@ -200,9 +200,38 @@
             }
             .card-body {
                 height: 100%;
-                border-left: 3px solid #7453fc;
+                border-left: 1px solid #7453fc;
+                hr {
+                    margin: 0.5rem 0;
+                }
+                * {
+                    color: #7453fc;
+                }
+                .btn-group-vertical {
+                    width: 100%;
+                    border: 1px solid #7453fc;
+                    overflow: hidden;
+                    background-color: #7453fc;
+                    a {
+                        padding: 0.5rem;
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                        background-color: #ffffff;
+                        &:not(:last-child) {
+                            border-bottom: 1px solid #7453fc; 
+                        }
+                        &:hover {
+                            color: #ffffff;
+                            background-color: #7453fc;
+                        }
+                    }
+                }
             }
-
+            .card-footer {
+                border-top: 1px solid #7453fc;
+                color: white;
+            }
             // .right-content {
             //     padding: 15px;
             //     width: 100%;

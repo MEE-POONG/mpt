@@ -2,7 +2,7 @@ export const TheSliderFirstData = [
     {
         id: "1",
         title: { EN: "รับทำเว็บไซต์", TH: "รับทำเว็บไซต์" },
-        img:"https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/5879a637-de31-4541-3625-6d06d4b4d100/700",
+        img:"2360a130-033c-4cf3-ba8c-82c123260800",
         subTitle: { EN: "ME PROMPT & TECHNOLOGY", TH: "ME PROMPT & TECHNOLOGY" },
         detail: {
             EN: "Unlock the potential of your business with our comprehensive website development and digital marketing solutions. Whether you're a startup or an established enterprise, we're here to amplify your online presence. Dive into the future with our advanced web design tools tailored to bring your business ideas to life. Our cutting-edge e-commerce platform not only showcases your products in the best light but also ensures a seamless buying experience for your customers. Let's transform and elevate your business together in the digital realm.",

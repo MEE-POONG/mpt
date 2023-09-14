@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { Card, Col, Nav, Row, Tab } from "react-bootstrap";
+import { Button, ButtonGroup, Card, Col, Nav, Row, Tab } from "react-bootstrap";
 import { AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
 import {
   FaFacebookF,
@@ -27,9 +27,6 @@ const ItemDetails: React.FC = () => {
                     Active
                   </Nav.Link>
                 </Nav.Item>
-                {/* <Nav.Item bsPrefix="mini-heading">
-                                    <Nav.Link bsPrefix='select last' eventKey="second">Tab 2</Nav.Link>
-                                </Nav.Item> */}
               </Nav>
             </Col>
             <Col sm={12}>
@@ -89,7 +86,31 @@ const ItemDetails: React.FC = () => {
                             </Col>
                             <Col md="7" className="ps-0">
                               <Card.Body>
-                                <h5>{emp?.firstName?.TH}</h5>
+                                <span>
+                                  <span className="text-center h6">
+                                    {emp?.firstName?.TH}
+                                  </span>
+                                  {` ${emp?.nickName.TH}`}
+                                </span>
+                                <hr />
+                                <h6 className="mb-2">
+                                  ตำแหน่ง: <span>{emp?.position.TH}</span>
+                                </h6>
+                                <h6 className="mb-2">
+                                  หน้าที่: <span>{emp?.duty.TH}</span>
+                                </h6>
+                                <hr />
+                                <ButtonGroup vertical className="w-100">
+                                  <Link href="" className="h6">
+                                    นำโปรเจค
+                                  </Link>
+                                  <Link href="" className="h6">
+                                    ผลงาน
+                                  </Link>
+                                  <Link href="" className="h6">
+                                    ความสามารถ
+                                  </Link>
+                                </ButtonGroup>
                                 {/* <h5 className="card-title">Card title</h5> */}
                                 {/* <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> */}
                                 {/* <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p> */}
