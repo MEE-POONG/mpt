@@ -84,7 +84,32 @@ button.purple {
     h6,
     .h6,
     p {
-        color: #000000;
+        color: #7453fc;
+    }
+    p {
+        font-size: 20px;
+    }
+}
+.png-shadow-purple {
+    margin-top: 0px;
+    -webkit-filter: drop-shadow(-1px -1px 0px #7453fc) drop-shadow(1px 0px 0px #7453fc) drop-shadow(1px 1px 0px #7453fc)
+        drop-shadow(1px 1px 0px #7453fc) drop-shadow(-1px 0px 0px #7453fc);
+    filter: drop-shadow(-1px -1px 0px #7453fc) drop-shadow(1px 0px 0px #7453fc) drop-shadow(1px 1px 0px #7453fc)
+        drop-shadow(1px 1px 0px #7453fc) drop-shadow(-1px 0px 0px #7453fc);
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3,
+    h4,
+    .h4,
+    h5,
+    .h5,
+    h6,
+    .h6,
+    p {
+        color: #ffffff;
     }
     p {
         font-size: 20px;

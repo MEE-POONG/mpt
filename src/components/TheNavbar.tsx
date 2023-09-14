@@ -33,8 +33,8 @@ const Thenavbar: React.FC = () => {
       <Navbar expand="lg" className={`navbar-mepropmt sticky-top ${isFaded ? 'navbar-bg-scroll' : ''}`}>
         <Container className="">
           <Link href="/" className='navbar-brand m-0 p-0 fw-bold'>
-            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/907bdcd3-565b-4ae1-045b-c4d966eaa600/350" alt="" className='me-2 d-flex align-item-flex-end' />
-            <span className='w-100 d-none d-md-block'>Me Prompt Technology</span>
+            <img src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/907bdcd3-565b-4ae1-045b-c4d966eaa600/350" alt="" className='mx-auto d-flex align-item-flex-end' />
+            <span className='w-100 d-none d-md-block fw-bold'>Me Prompt Technology</span>
           </Link>
           <Navbar.Toggle aria-controls="navbarScroll" >
             <FaBars />

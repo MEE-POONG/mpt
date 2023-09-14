@@ -16,10 +16,10 @@ const MPTDetails: React.FC = () => {
                     </h2>
                 </div>
                 {mptDetail.map(item => (
-                    <div className="row png-shadow-white">
+                    <div className="row">
 
                         <div className="col-lg-7">
-                            <div className="left-image">
+                            <div className="left-image png-shadow-white">
                                 <img
                                     src={item?.img}
                                     className='w-100'
@@ -29,9 +29,11 @@ const MPTDetails: React.FC = () => {
                             </div>
                         </div>
                         <div className="col-lg-5 align-self-center">
-                            <h4 className=' c-purple-important'>{currentLanguage === "TH" ? item?.title?.TH : item?.title?.EN}</h4>
-                            <p className=''>{currentLanguage === "TH" ? item?.detailOne?.TH : item?.detailOne?.EN}</p>
-                            <p className=''>{currentLanguage === "TH" ? item?.detailTwo?.TH : item?.detailTwo?.EN}</p>
+                            <h4 className=' c-purple-important png-shadow-white'>{currentLanguage === "TH" ? item?.title?.TH : item?.title?.EN}</h4>
+                            <div className='png-shadow-white'>
+                                <p className='fw-normal'>{currentLanguage === "TH" ? item?.detailOne?.TH : item?.detailOne?.EN}</p>
+                                <p className='fw-normal'>{currentLanguage === "TH" ? item?.detailTwo?.TH : item?.detailTwo?.EN}</p>
+                            </div>
                         </div>
                     </div>
                 ))}

@@ -20,10 +20,10 @@ const ItemDetails: React.FC = () => {
             <Col sm={12}>
               <Nav variant="pills" className="">
                 <Nav.Item bsPrefix="mini-heading">
-                  <div className="title">Employee ( Team MePrompt )</div>
+                  <div className="title fw-normal">Employee ( Team MePrompt )</div>
                 </Nav.Item>
                 <Nav.Item bsPrefix="mini-heading">
-                  <Nav.Link bsPrefix="select last" eventKey="first">
+                  <Nav.Link bsPrefix="select last fw-normal" eventKey="first">
                     Active
                   </Nav.Link>
                 </Nav.Item>
