@@ -29,9 +29,9 @@ const MPTDetails: React.FC = () => {
                             </div>
                         </div>
                         <div className="col-lg-5 align-self-center">
-                            <h4 className='ff-Mitr c-purple-important'>{currentLanguage === "TH" ? item?.title?.TH : item?.title?.EN}</h4>
-                            <p className='ff-Mitr'>{currentLanguage === "TH" ? item?.detailOne?.TH : item?.detailOne?.EN}</p>
-                            <p className='ff-Mitr'>{currentLanguage === "TH" ? item?.detailTwo?.TH : item?.detailTwo?.EN}</p>
+                            <h4 className=' c-purple-important'>{currentLanguage === "TH" ? item?.title?.TH : item?.title?.EN}</h4>
+                            <p className=''>{currentLanguage === "TH" ? item?.detailOne?.TH : item?.detailOne?.EN}</p>
+                            <p className=''>{currentLanguage === "TH" ? item?.detailTwo?.TH : item?.detailTwo?.EN}</p>
                         </div>
                     </div>
                 ))}

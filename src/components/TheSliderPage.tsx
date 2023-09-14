@@ -19,10 +19,10 @@ const TheSliderPage: React.FC = () => {
             <div className="container">
                 <div className="row png-shadow-white">
                     <div className="col-lg-12">
-                        <h6 className='c-purple-important ff-Mitr'>Web Development & Design</h6>
-                        <h2 className='c-purple-important ff-Mitr'>Me prompt technology</h2>
-                        <span className='h3 ff-Mitr c-purple-important'>
-                            <Link href="#" className='ff-Mitr c-purple-important'>Home</Link><span className='h4 ff-Mitr'>{" > "} News</span>
+                        <h6 className='c-purple-important '>Web Development & Design</h6>
+                        <h2 className='c-purple-important '>Me prompt technology</h2>
+                        <span className='h3  c-purple-important'>
+                            <Link href="#" className=' c-purple-important'>Home</Link><span className='h4 '>{" > "} News</span>
                         </span>
                     </div>
                 </div>

@@ -21,9 +21,9 @@ const TheSliderFirst: React.FC = () => {
                                 </div>
                                 <div className="col-lg-6 align-self-center ">
                                     <div>
-                                        <h6 className='ff-Mitr c-purple-important'>{currentLanguage === "TH" ? item?.title?.TH : item?.title?.EN}</h6>
-                                        <h2 className='display-4 ff-Mitr c-purple-important'> {currentLanguage === "TH" ? item?.subTitle?.TH : item?.subTitle?.EN}</h2>
-                                        <p className='ff-Mitr'>
+                                        <h6 className=' c-purple-important'>{currentLanguage === "TH" ? item?.title?.TH : item?.title?.EN}</h6>
+                                        <h2 className='display-4  c-purple-important'> {currentLanguage === "TH" ? item?.subTitle?.TH : item?.subTitle?.EN}</h2>
+                                        <p className=''>
                                         {currentLanguage === "TH" ? item?.detail?.TH : item?.detail?.EN}
                                         </p>
                                         <div className="buttons">

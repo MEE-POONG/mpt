@@ -67,7 +67,7 @@ const Apprentice: React.FC = () => {
                               <img
                                 src={appern.picture}
                                 alt={appern.firstName.EN}
-                                style={{ maxHeight: 250, objectFit: "cover" }}
+                                style={{ width: "150px", height: 250, objectFit: "cover", }}
                               />
                             </div>
                             <div className="right-content">
@@ -95,6 +95,7 @@ const Apprentice: React.FC = () => {
                     </div>
                   </Row>
                 </Tab.Pane>
+                
                 <Tab.Pane eventKey="gen2" className="c-purple">
                   <div className="row">
                     {appernticeGen2.map((appernticeGen2) => (
