@@ -68,9 +68,11 @@ button.purple {
 .png-shadow-white {
     margin-top: 0px;
     -webkit-filter: drop-shadow(-1px -1px 0px #ffffff) drop-shadow(1px 0px 0px #ffffff) drop-shadow(1px 1px 0px #ffffff)
-        drop-shadow(1px 1px 0px #ffffff) drop-shadow(-1px 0px 0px #ffffff);
+        drop-shadow(1px 1px 0px #ffffff) drop-shadow(-1px 0px 0px #ffffff) drop-shadow(2px -2px 2px #ffffff)
+        drop-shadow(3px 3px 0px #ffffff);
     filter: drop-shadow(-1px -1px 0px #ffffff) drop-shadow(1px 0px 0px #ffffff) drop-shadow(1px 1px 0px #ffffff)
-        drop-shadow(1px 1px 0px #ffffff) drop-shadow(-1px 0px 0px #ffffff);
+        drop-shadow(1px 1px 0px #ffffff) drop-shadow(-1px 0px 0px #ffffff) drop-shadow(2px -2px 2px #ffffff)
+        drop-shadow(3px 3px 0px #ffffff);
     h1,
     .h1,
     h2,

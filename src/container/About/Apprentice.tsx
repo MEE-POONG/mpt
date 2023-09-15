@@ -1,19 +1,18 @@
 import Link from "next/link";
 import React from "react";
-import { Col, Nav, Row, Tab } from "react-bootstrap";
+import { Card, Col, Nav, Row, Tab } from "react-bootstrap";
 import { AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
 import {
   FaFacebookF,
   FaInstagram,
   FaLine,
+  FaStar,
   FaTiktok,
   FaTwitter,
 } from "react-icons/fa";
 import {
   apperntice,
-  appernticeGen2,
-  appernticeGen3,
-  appernticeGen4,
+  generations,
 } from "@/data/about";
 
 const Apprentice: React.FC = () => {
@@ -23,199 +22,94 @@ const Apprentice: React.FC = () => {
         <Tab.Container id="left-tabs-example" defaultActiveKey="gen4">
           <Row>
             <Col sm={12}>
-              <Nav variant="pills" className="">
+              <Nav variant="pills" className="tab-gen">
                 <Nav.Item bsPrefix="mini-heading">
-                  <div className="title">Apprentice Co-op Gen</div>
+                  <div className="title fw-normal">Apprentice Co-op Gen</div>
                 </Nav.Item>
-                <Nav.Item bsPrefix="mini-heading">
-                  <Nav.Link bsPrefix="select" eventKey="gen1">
-                    1
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item bsPrefix="mini-heading">
-                  <Nav.Link bsPrefix="select" eventKey="gen2">
-                    2
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item bsPrefix="mini-heading">
-                  <Nav.Link bsPrefix="select" eventKey="gen3">
-                    3
-                  </Nav.Link>
-                </Nav.Item>
-                <Nav.Item bsPrefix="mini-heading">
-                  <Nav.Link bsPrefix="select last" eventKey="gen4">
-                    4
-                  </Nav.Link>
-                </Nav.Item>
-                {/* <Nav.Item bsPrefix="mini-heading">
-                                    <Nav.Link bsPrefix='select last' eventKey="gen5" >Co-op 5</Nav.Link>
-                                </Nav.Item> */}
+                {generations.map((gen, index) => (
+                  <Nav.Item bsPrefix={`mini-heading${gen.online ? "" : " d-none"}`}>
+                    <Nav.Link bsPrefix={`select${index === generations.length - 1 ? " last" : ""}`} eventKey={`gen${gen?.id}`}>
+                      {gen?.id}
+                    </Nav.Link>
+                  </Nav.Item>
+                ))}
               </Nav>
             </Col>
             <Col sm={12}>
               <Tab.Content>
-                <Tab.Pane eventKey="gen1" className="c-purple">
-                  <Row>
-                    <div className="row">
-                      {apperntice.map((appern) => (
-                        <div
-                          key={appern.generation}
-                          className="col-lg-4 col-md-6"
-                        >
-                          <div className="item">
-                            <div className="left-img">
-                              <img
-                                src={appern.picture}
-                                alt={appern.firstName.EN}
-                                style={{ width: "150px", height: 250, objectFit: "cover", }}
-                              />
-                            </div>
-                            <div className="right-content">
-                              <h4>{appern.firstName.TH}</h4>
-                              <a href="#">{appern.nickName.TH}</a>
-                              <div className="line-dec" />
-                              <h6>
-                                ตำแหน่ง: <em>{appern.position.TH}</em>
-                              </h6>
-                              <h6>
-                                หน้าที่: <em>{appern.duty.TH}</em>
-                              </h6>
-                              <span className="date">
-                                <a href={appern.facebook}>
-                                  <FaFacebookF size={30} />
-                                </a>
-                                <a href={appern.instagram}>
-                                  <FaInstagram size={30} />
-                                </a>
-                              </span>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </Row>
-                </Tab.Pane>
-                
-                <Tab.Pane eventKey="gen2" className="c-purple">
-                  <div className="row">
-                    {appernticeGen2.map((appernticeGen2) => (
-                      <div
-                        key={appernticeGen2.id}
-                        className="col-lg-4 col-md-6"
-                      >
-                        <div className="item">
-                          <div className="left-img">
-                            <img
-                              src={appernticeGen2.picture}
-                              alt={appernticeGen2.firstName.EN}
-                              style={{ maxHeight: 250, objectFit: "cover" }}
-                            />
-                          </div>
-                          <div className="right-content">
-                            <h4>{appernticeGen2.firstName.TH}</h4>
-                            <a href="#">{appernticeGen2.nickName.TH}</a>
-                            <div className="line-dec" />
-                            <h6>
-                              ตำแหน่ง: <em>{appernticeGen2.position.TH}</em>
-                            </h6>
-                            <h6>
-                              หน้าที่: <em>{appernticeGen2.duty.TH}</em>
-                            </h6>
-                            <span className="date">
-                              <a href={appernticeGen2.facebook}>
-                                <FaFacebookF size={30} />
-                              </a>
-                              <a href={appernticeGen2.instagram}>
-                                <FaInstagram size={30} />
-                              </a>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Tab.Pane>
-
-                <Tab.Pane eventKey="gen3" className="c-purple">
-                  <div className="row">
-                    {appernticeGen3.map((appernticeGen3) => (
-                      <div
-                        key={appernticeGen3.id}
-                        className="col-lg-4 col-md-6"
-                      >
-                        <div className="item">
-                          <div className="left-img">
-                            <img
-                              src={appernticeGen3.picture}
-                              alt={appernticeGen3.firstName.EN}
-                              style={{ maxHeight: 250, objectFit: "cover" }}
-                            />
-                          </div>
-                          <div className="right-content">
-                            <h4>{appernticeGen3.firstName.TH}</h4>
-                            <a href="#">{appernticeGen3.nickName.TH}</a>
-                            <div className="line-dec" />
-                            <h6>
-                              ตำแหน่ง: <em>{appernticeGen3.position.TH}</em>
-                            </h6>
-                            <h6>
-                              หน้าที่: <em>{appernticeGen3.duty.TH}</em>
-                            </h6>
-                            <span className="date">
-                              <a href={appernticeGen3.facebook}>
-                                <FaFacebookF size={30} />
-                              </a>
-                              <a href={appernticeGen3.instagram}>
-                                <FaInstagram size={30} />
-                              </a>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Tab.Pane>
-
-                {/* GEN4 */}
-                <Tab.Pane eventKey="gen4" className="c-purple">
-                  <div className="row">
-                    {appernticeGen4.map((appernticeGen4) => (
-                      <div
-                        key={appernticeGen4.generation}
-                        className="col-lg-4 col-md-6"
-                      >
-                        <div className="item">
-                          <div className="left-img">
-                            <img
-                              src={appernticeGen4.picture}
-                              alt={appernticeGen4.firstName.EN}
-                              style={{ maxHeight: 250, objectFit: "cover" }}
-                            />
-                          </div>
-                          <div className="right-content">
-                            <h4>{appernticeGen4.firstName.TH}</h4>
-                            <a href="#">{appernticeGen4.nickName.TH}</a>
-                            <div className="line-dec" />
-                            <h6>
-                              ตำแหน่ง: <em>{appernticeGen4.position.TH}</em>
-                            </h6>
-                            <h6>
-                              หน้าที่: <em>{appernticeGen4.duty.TH}</em>
-                            </h6>
-                            <span className="date">
-                              <a href={appernticeGen4.facebook}>
-                                <FaFacebookF size={30} />
-                              </a>
-                              <a href={appernticeGen4.instagram}>
-                                <FaInstagram size={30} />
-                              </a>
-                            </span>
-                          </div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </Tab.Pane>
+                {generations.map((gen) => (
+                  <Tab.Pane eventKey={`gen${gen?.id}`} className="c-purple">
+                    <Row className="justify-content-md-center">
+                      {apperntice.filter((emp) => emp.generation === gen?.id).map((emp) => (
+                        <Col xxl="4" xl="4" lg="5" md="6">
+                          <Card className="item" style={{ borderRadius: "20px" }}>
+                            <Row className="no-gutters w-100">
+                              <Col md="5" lg="5" className="pe-0 position-relative">
+                                <Card.Img
+                                  className="w-100 rounded-0 object-fit-cover"
+                                  src={emp?.picture}
+                                  alt={emp?.firstName?.EN}
+                                />
+                              </Col>
+                              <Col md="7" lg="7" className="ps-0">
+                                <Card.Body>
+                                  <div className="text-center c-purple">
+                                    <span className="h6 c-purple">
+                                      {emp?.firstName?.TH}
+                                    </span>
+                                    {` ${emp?.nickName.TH}`}
+                                  </div>
+                                  <hr />
+                                  <h6 className="mb-2 c-purple">
+                                    ตำแหน่ง: <span>{emp?.position.TH}</span>
+                                  </h6>
+                                  <h6 className="mb-2 c-purple">
+                                    หน้าที่: <span>{emp?.duty.TH}</span>
+                                  </h6>
+                                  <hr />
+                                  <div className="d-flex justify-content-around social">
+                                    <Link href={emp?.facebook} className="facebook">
+                                      <FaFacebookF size={30} />
+                                    </Link>
+                                    <Link href={emp?.instagram} className="instagram">
+                                      <FaInstagram size={30} />
+                                    </Link>
+                                    <Link href={emp?.line} className="line">
+                                      <FaLine size={30} />
+                                    </Link>
+                                    <Link href={emp?.tiktok} className="tiktok">
+                                      <FaTiktok size={30} />
+                                    </Link>
+                                  </div>
+                                  <hr />
+                                  <div className="d-flex justify-content-around align-items-center star">
+                                    <FaStar />
+                                    <FaStar />
+                                    <FaStar />
+                                    <FaStar />
+                                    <FaStar />
+                                  </div>
+                                </Card.Body>
+                              </Col>
+                            </Row>
+                            <Card.Footer className="p-0">
+                              <Link href="" className="view fs-6 fw-normal">
+                                สร้างโปรเจค
+                              </Link>
+                              <Link href="" className="view fs-6 fw-normal">
+                                ผลงาน
+                              </Link>
+                              <Link href="" className="view fs-6 fw-normal">
+                                ความสามารถ
+                              </Link>
+                            </Card.Footer>
+                          </Card>
+                        </Col>
+                      ))
+                      }
+                    </Row>
+                  </Tab.Pane>
+                ))}
               </Tab.Content>
             </Col>
           </Row>

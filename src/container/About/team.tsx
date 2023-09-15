@@ -38,46 +38,41 @@ const ItemDetails: React.FC = () => {
                     {employee.map((emp) => (
                       <Col xxl="4" xl="4" lg="5" md="6">
                         <Card className="item" style={{ borderRadius: "20px" }}>
-                          <Row className="no-gutters w-100">
+                          <Row className="no-gutters">
                             <Col md="5" lg="5" className="pe-0 position-relative">
                               <Card.Img
                                 className="w-100 rounded-0 object-fit-cover"
                                 src={emp?.picture}
                                 alt={emp?.firstName?.EN}
                               />
-
-
                             </Col>
                             <Col md="7" lg="7" className="ps-0">
                               <Card.Body>
-                                <div className="text-center">
-                                  <span className="h6">
+                                <div className="text-center c-purple">
+                                  <span className="h6 c-purple">
                                     {emp?.firstName?.TH}
                                   </span>
                                   {` ${emp?.nickName.TH}`}
                                 </div>
                                 <hr />
-                                <h6 className="mb-2">
+                                <h6 className="mb-2 c-purple">
                                   ตำแหน่ง: <span>{emp?.position.TH}</span>
                                 </h6>
-                                <h6 className="mb-2">
+                                <h6 className="mb-2 c-purple">
                                   หน้าที่: <span>{emp?.duty.TH}</span>
                                 </h6>
                                 <hr />
-                                <div className="d-flex justify-content-around">
-                                  <Link href={emp?.facebook}>
+                                <div className="d-flex justify-content-around social">
+                                  <Link href={emp?.facebook} className="facebook">
                                     <FaFacebookF size={30} />
                                   </Link>
-                                  <Link href={emp?.instagram}>
+                                  <Link href={emp?.instagram} className="instagram">
                                     <FaInstagram size={30} />
                                   </Link>
-                                  <Link href={emp?.instagram}>
+                                  <Link href={emp?.line} className="line">
                                     <FaLine size={30} />
                                   </Link>
-                                  <Link href={emp?.instagram}>
-                                    <FaTwitter size={30} />
-                                  </Link>
-                                  <Link href={emp?.instagram}>
+                                  <Link href={emp?.tiktok} className="tiktok">
                                     <FaTiktok size={30} />
                                   </Link>
                                 </div>

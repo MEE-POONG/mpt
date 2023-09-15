@@ -53,7 +53,7 @@ export const employee = [
     },
     {
         id: "2",
-        firstName : { EN: "", TH: "วรายุทธ เทกระโทก" },
+        firstName : { EN: "warayut ", TH: "วรายุทธ เทกระโทก" },
         nickName : { EN: "@Ploy", TH: "@ส้มฉุน" },
         position : { EN: "Developer", TH: "นักพัฒนาระบบ" },
         duty : { EN: "C0-Founder", TH: "ผู้ก่อตั้ง" },
@@ -83,12 +83,16 @@ export const employee = [
     },
 ];
 
-
-
+export const generations = [
+    {id:"1", online:false},
+    {id:"2", online:true},
+    {id:"3", online:true},
+    {id:"4", online:true},
+]; 
 
 export const apperntice = [
     {
-        id: "1",
+    id: "1",
        firstName : { EN: "", TH: "" },
        nickName : { EN: "@", TH: "@" },
        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -162,10 +166,6 @@ export const apperntice = [
         tiktok : "",
         twitter : ""
     },
-   
-];
-
-export const appernticeGen2 = [
     {
         id: "1",
         firstName : { EN: "Woraphon Tengin", TH: "วรพล เต็งอินทร์" },
@@ -241,10 +241,6 @@ export const appernticeGen2 = [
         tiktok : "",
         twitter : ""
      },
-   
-];
-
-export const appernticeGen3 = [
     {
         id: "1",
         firstName : { EN: "Pattawut Biakrathok", TH: "" },
@@ -305,9 +301,6 @@ export const appernticeGen3 = [
         tiktok : "",
         twitter : ""
      }, 
-];
-
-export const appernticeGen4 = [
     {
         id: "1",
         firstName : { EN: "Chonracaht Intarasut", TH: "ชลชาติ อินทรสูตร" },

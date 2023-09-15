@@ -179,6 +179,10 @@
                 border-radius: 25px 0px 0px 25px;
             }
             .select {
+                &.disabled {
+                    color: #000000;
+                    background-color: #979797;
+                }
                 &.last {
                     border-radius: 0 25px 25px 0;
                 }
@@ -194,13 +198,11 @@
             border: 2px solid #7453fc;
             overflow: hidden;
             img {
-                width: 150px;
-                height: 100%;
-                object-fit: cover;
+                height: 210px;
             }
             .star {
                 width: 100%;
-                height: 30px;
+                height: 20px;
                 -webkit-filter: drop-shadow(1px 0 0 #7453fc) drop-shadow(0 2px 0 #7453fc) drop-shadow(-1px 0 0 #7453fc)
                     drop-shadow(0 -1px 0 #7453fc);
                 filter: drop-shadow(1px 0 0 #7453fc) drop-shadow(0 2px 0 #7453fc) drop-shadow(-1px 0 0 #7453fc)
@@ -215,8 +217,34 @@
                 hr {
                     margin: 0.5rem 0;
                 }
-                * {
-                    color: #7453fc;
+                .social {
+                    a {
+                        * {
+                            color: #7453fc;
+                        }
+                        &:hover {
+                            &.facebook {
+                                * {
+                                    color: #0074e5;
+                                }
+                            }
+                            &.instagram {
+                                * {
+                                    color: #e83e59;
+                                }
+                            }
+                            &.line {
+                                * {
+                                    color: #00b22b;
+                                }
+                            }
+                            &.tiktok {
+                                * {
+                                    color: #000000;
+                                }
+                            }
+                        }
+                    }
                 }
             }
             .card-footer {
@@ -225,15 +253,15 @@
                 border-top: 1px solid #7453fc;
                 .view {
                     flex: 1;
-                    text-align: center; 
+                    text-align: center;
                     padding: 0.5rem;
                     color: #7453fc;
-                    &:hover{
+                    &:hover {
                         color: #ffffff;
                         background-color: #7453fc;
                     }
                 }
-            }   
+            }
             // .right-content {
             //     padding: 15px;
             //     width: 100%;
