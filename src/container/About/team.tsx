@@ -36,7 +36,7 @@ const ItemDetails: React.FC = () => {
                 <Tab.Pane eventKey="first" className="c-purple">
                   <Row className="justify-content-md-center">
                     {employee.map((emp,index) => (
-                      <Col xxl="4" xl="4" lg="5" md="6" key={index}>
+                      <Col xxl="4" xl="4" lg="6" md="6" key={index}>
                         <Card className="item" style={{ borderRadius: "20px" }}>
                           <Row className="no-gutters">
                             <Col md="5" lg="5" className="pe-0 position-relative">

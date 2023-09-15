@@ -1,5 +1,8 @@
 .about-page {
     .item-details-page {
+        .container {
+            width: 100%;
+        }
         &:after {
             background-image: url("/images/category-collection-dec.png");
             width: 300px;
@@ -198,7 +201,7 @@
             border: 2px solid #7453fc;
             overflow: hidden;
             img {
-                height: 210px;
+                height: 250px;
             }
             .star {
                 width: 100%;
@@ -221,6 +224,8 @@
                     a {
                         * {
                             color: #7453fc;
+                            width: 20px;
+                            height: 20px;
                         }
                         &:hover {
                             &.facebook {
@@ -322,11 +327,26 @@
                     padding: 10px 15px;
                 }
             }
+            .card {
+                img {
+                    height: 450px;
+                }
+            }
         }
     }
     @media (max-width: 450px) {
-        .current-bid .item .right-content h6 em {
-            font-size: 14px;
+        .current-bid {
+            .mini-heading {
+                .title,
+                .select {
+                    font-size: 14px;
+                }
+            }
+            .item {
+                .right-content h6 em {
+                    font-size: 14px;
+                }
+            }
         }
     }
 }
