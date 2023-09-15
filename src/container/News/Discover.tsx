@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 
 const NewsDiscover: React.FC = () => {
   return (
@@ -79,27 +80,17 @@ const NewsDiscover: React.FC = () => {
                 </div>
                 <div className="col-lg-12">
                   <div className="line-dec" />
-                  <p className='truncate-1'>
+                  <p className='truncate-2 text-white'>
                     Exclusive: AP strikes news-sharing and tech deal with OpenAI
                   </p>
-                  <table className='w-100 text-white'>
-                    <tbody>
-                      <tr>
-                        <td className='text-end px-2'>
-                          News By :
-                        </td>
-                        <td className='px-2'>
-                          <strong>SPRiNG</strong>
-                        </td>
-                        <td className='text-end px-2'>
-                          Date :
-                        </td>
-                        <td className='px-2'>
-                          <strong>Feb 11, 2023</strong>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <Row className='text-white text-center'>
+                    <Col sm="12">
+                      News By : <strong>SPRiNG</strong>
+                    </Col>
+                    <Col sm="12">
+                      Date : <strong>Feb 11, 2023</strong>
+                    </Col>
+                  </Row>
                 </div>
                 <div className="col-lg-12">
                   <div className="main-button">
