@@ -56,7 +56,7 @@ export const employee = [
         firstName : { EN: "warayut ", TH: "วรายุทธ เทกระโทก" },
         nickName : { EN: "@Ploy", TH: "@ส้มฉุน" },
         position : { EN: "Founder", TH: "ผู้ก่อตั้ง" },
-        duty : { EN: "Dev", TH: "ผู้พัฒนาระบบ" },
+        duty : { EN: "-", TH: "-" },
         generation : "" ,
         picture  : "/images/meprompt/chun.jpg" ,
         facebook :"",
