@@ -100,7 +100,7 @@ const Apprentice: React.FC = () => {
                                 ผลงาน
                               </Link>
                               <Link href="" className="view fs-6 fw-normal">
-                                ความสามารถ
+                                โปรไฟล์
                               </Link>
                             </Card.Footer>
                           </Card>

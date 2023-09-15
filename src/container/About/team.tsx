@@ -35,7 +35,7 @@ const ItemDetails: React.FC = () => {
               <Tab.Content>
                 <Tab.Pane eventKey="first" className="c-purple">
                   <Row className="justify-content-md-center">
-                    {employee.map((emp,index) => (
+                    {employee.map((emp, index) => (
                       <Col xxl="4" xl="4" lg="6" md="6" key={index}>
                         <Card className="item" style={{ borderRadius: "20px" }}>
                           <Row className="no-gutters">
@@ -95,7 +95,7 @@ const ItemDetails: React.FC = () => {
                               ผลงาน
                             </Link>
                             <Link href="" className="view fs-6 fw-normal">
-                              ความสามารถ
+                              โปรไฟล์
                             </Link>
                           </Card.Footer>
                         </Card>
