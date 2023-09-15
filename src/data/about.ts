@@ -164,7 +164,7 @@ export const apperntice = [
         firstName : { EN: "Woraphon Tengin", TH: "วรพล เต็งอินทร์" },
         nickName : { EN: "@", TH: "@พล" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-        duty : { EN: "", TH: "" },
+        duty : { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation : "2" ,
         picture  : "/images/meprompt/g102.jpg" ,
         facebook :"https://web.facebook.com/woraphon.tengin.1",
@@ -178,7 +178,7 @@ export const apperntice = [
         firstName : { EN: "Weerayut Wesmoradi", TH: "วีรยุทธ เวสโมราดี้" },
         nickName : { EN: "@", TH: "@ไซฮ์ร็อบ" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-        duty : { EN: "", TH: "" },
+        duty : { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation : "2" ,
         picture  : "/images/meprompt/g103.jpg" ,
         facebook :"https://web.facebook.com/weerayutves",
@@ -192,7 +192,7 @@ export const apperntice = [
         firstName : { EN: "Sanatnon Obmaphan", TH: "สมนัสนนท์ อบมาพันธ์" },
         nickName : { EN: "@", TH: "@ฟิว" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-        duty : { EN: "", TH: "" },
+        duty : { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation : "2" ,
         picture  : "/images/meprompt/g104.jpg" ,
         facebook :"https://web.facebook.com/profile.php?id=100013979175881",
@@ -206,7 +206,7 @@ export const apperntice = [
         firstName : { EN: "", TH: "สหภาพ นามกระบือ" },
         nickName : { EN: "@", TH: "@อาร์ม" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-        duty : { EN: "", TH: "" },
+        duty : { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation : "2" ,
         picture  : "/images/meprompt/g105.jpg" ,
         facebook :"https://web.facebook.com/arm.sahapap",
@@ -220,7 +220,7 @@ export const apperntice = [
         firstName : { EN: "Alongkorn Trongkratoke", TH: "อลงกรณ์ ตรงกระโทก" },
         nickName : { EN: "@", TH: "@โอม" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-        duty : { EN: "", TH: "" },
+        duty : { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation : "2" ,
         picture  : "/images/meprompt/g101.jpg" ,
         facebook :"https://web.facebook.com/profile.php?id=100068706235010",
@@ -357,143 +357,3 @@ export const apperntice = [
         twitter : ""
      },
 ];
-
-
-
-
-
-
-
-
-// export const AppernticeGEN2 = [
-//     {
-//        firstName : { EN: "Woraphon Tengin", TH: "วรพล เต็งอินทร์" },
-//        nickName : { EN: "@", TH: "@พล" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-//     {
-//        firstName : { EN: "Weerayut Wesmoradi", TH: "วีรยุทธ เวสโมราดี้" },
-//        nickName : { EN: "@", TH: "@ไซฮ์ร็อบ" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-//     {
-//        firstName : { EN: "Sanatnon Obmaphan", TH: "สมนัสนนท์ อบมาพันธ์" },
-//        nickName : { EN: "@", TH: "@ฟิว" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-//     {
-//        firstName : { EN: "", TH: "สหภาพ นามกระบือ" },
-//        nickName : { EN: "@", TH: "@อาร์ม" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-//     {
-//        firstName : { EN: "Alongkorn Trongkratoke", TH: "อลงกรณ์ ตรงกระโทก" },
-//        nickName : { EN: "@", TH: "@โอม" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-// ];
-
-
-
-// export const AppernticeGEN3 = [
-//     {
-//        firstName : { EN: "Pattawut Biakrathok", TH: "" },
-//        nickName : { EN: "@Pattawut", TH: "@" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-//     {
-//        firstName : { EN: "Thutiya Chosungnoen", TH: "" },
-//        nickName : { EN: "@Thutiya", TH: "@" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-//     {
-//        firstName : { EN: "Punyaporn Lamlert", TH: "" },
-//        nickName : { EN: "@Punyaporn", TH: "@" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
-//     {
-//        firstName : { EN: "Yasumin Simtama", TH: "" },
-//        nickName : { EN: "@Ploy", TH: "@พลอย" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 1 ,
-//        status : "" 
-//     },
- 
-// ];
-
-
-
-
-
-// export const AppernticeGEN4 = [
-//     {
-//        firstName : { EN: "Chonracaht Intarasut", TH: "ชลชาติ อินทรสูตร" },
-//        nickName : { EN: "@Pond", TH: "@ปอนด์" },
-//        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//        duty : { EN: "", TH: "" },
-//        generation : 4 ,
-//        status : "" 
-//     },
-//     {
-//         firstName : { EN: "Phuminan Ananthuk", TH: "ภูมินันท์ อนันตึก" },
-//         nickName : { EN: "@Ken", TH: "@เคน" },
-//         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//         duty : { EN: "", TH: "" },
-//         generation : 4 ,
-//         status : "" 
-//     },
-//     {
-//         firstName : { EN: "Wechanon Burana", TH: "เวชานนท์ บูรณะ" },
-//         nickName : { EN: "@Tiw", TH: "@ทิว" },
-//         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//         duty : { EN: "", TH: "" },
-//         generation : 4 ,
-//         status : "" 
-//     },
-//     {
-//         firstName : { EN: "Aphisit Siriamonwiwat", TH: "อภิสิทธิ์ ศิริอมรวิวัฒน์" },
-//         nickName : { EN: "@Kan", TH: "@กานต์" },
-//         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//         duty : { EN: "", TH: "" },
-//         generation : 4 ,
-//         status : "" 
-//     },
-//     {
-//         firstName : { EN: "Chanawat Sriaphai", TH: "ชานุวัตร ศรีอภัย" },
-//         nickName : { EN: "@Night", TH: "@ไนท์" },
-//         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
-//         duty : { EN: "", TH: "" },
-//         generation : 4 ,
-//         status : "" 
-//     },
-    
-
-// ];
-
-
-

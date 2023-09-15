@@ -3,14 +3,14 @@ import TheLayout from '@/components/TheLayout'
 import MPTDetails from '@/container/About/MPTDetails'
 import Teams from '@/container/About/team'
 import Apprentice from '@/container/About/Apprentice'
-const ProjectPage: React.FC = () => {
+const PerformancePage: React.FC = () => {
 
     return (
         <TheLayout>
-            <div className='project-page page-default-bg'>
-                ProjectPage
+            <div className='performance-page page-default-bg'>
+                PerformancePage
             </div>
         </TheLayout>
     )
 }
-export default ProjectPage;
+export default PerformancePage;
