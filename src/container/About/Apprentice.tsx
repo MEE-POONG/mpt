@@ -27,7 +27,7 @@ const Apprentice: React.FC = () => {
                   <div className="title fw-normal">Apprentice Co-op Gen</div>
                 </Nav.Item>
                 {generations.map((gen, index) => (
-                  <Nav.Item bsPrefix={`mini-heading${gen.online ? "" : " d-none"}`}>
+                  <Nav.Item key={index} bsPrefix={`mini-heading${gen.online ? "" : " d-none"}`}>
                     <Nav.Link bsPrefix={`select${index === generations.length - 1 ? " last" : ""}`} eventKey={`gen${gen?.id}`}>
                       {gen?.id}
                     </Nav.Link>
@@ -37,11 +37,11 @@ const Apprentice: React.FC = () => {
             </Col>
             <Col sm={12}>
               <Tab.Content>
-                {generations.map((gen) => (
-                  <Tab.Pane eventKey={`gen${gen?.id}`} className="c-purple">
+                {generations.map((gen, index) => (
+                  <Tab.Pane key={index} eventKey={`gen${gen?.id}`} className="c-purple">
                     <Row className="justify-content-md-center">
                       {apperntice.filter((emp) => emp.generation === gen?.id).map((emp) => (
-                        <Col xxl="4" xl="4" lg="5" md="6">
+                        <Col xxl="4" xl="4" lg="5" md="6" key={emp?.id}>
                           <Card className="item" style={{ borderRadius: "20px" }}>
                             <Row className="no-gutters w-100">
                               <Col md="5" lg="5" className="pe-0 position-relative">
