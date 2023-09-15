@@ -128,65 +128,7 @@
                 opacity: 1;
             }
         }
-        .collections {
-            margin-top: 60px;
-            position: relative;
-            z-index: 999;
-            .item {
-                padding-top: 2rem;
-                padding-bottom: 2rem;
-                .card {
-                    border: 2px solid #7453fc;
-                    border-radius: 20px;
-                    background-color: #282b2f;
-                }
-                img {
-                    object-fit: cover;
-                    border-radius: 20px 20px 0 0;
-                }
-                .down-content {
-                    border-radius: 0 0 20px 20px;
-                    background-color: #282b2f;
-                    padding: 20px;
-
-                    h4 {
-                        font-size: 20px;
-                        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-                        margin-bottom: 20px;
-                        padding-bottom: 20px;
-                    }
-                }
-                span {
-                    color: #fff;
-                    display: inline-block;
-                    font-size: 15px;
-
-                    strong {
-                        font-size: 20px;
-                    }
-
-                    &.category {
-                        text-align: right;
-                    }
-                }
-
-                .main-button {
-                    a {
-                        width: 100%;
-                        text-align: center;
-
-                        &:hover {
-                            background-color: #fff;
-                            border: 1px solid #fff;
-                            color: #7453fc;
-                        }
-                    }
-
-                    margin-top: 20px;
-                    margin-bottom: -60px;
-                }
-            }
-        }
+        
     }
 
     .price {

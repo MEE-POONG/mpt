@@ -1,5 +1,7 @@
+import { Collections } from '@/data/home';
 import Link from 'next/link';
 import React from 'react';
+import { Col, Row } from 'react-bootstrap';
 
 const Author: React.FC = () => {
     return (
@@ -7,9 +9,9 @@ const Author: React.FC = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <div className="author">
+                        <div className="author png-shadow-white">
                             <img
-                                src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/907bdcd3-565b-4ae1-045b-c4d966eaa600/350"
+                                src="https://imagedelivery.net/QZ6TuL-3r02W7wQjQrv5DA/2360a130-033c-4cf3-ba8c-82c123260800/350"
                                 alt=""
                                 style={{ borderRadius: "20%", maxHeight: 140, objectFit: "contain" }}
                             />
@@ -51,95 +53,37 @@ const Author: React.FC = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-12">
-                        <div className="section-heading">
-                            <div className="line-dec" />
-                            <h2>
-                                Our <em>Clients</em>.
-                            </h2>
-                        </div>
+                </div>
+                <div className="col-lg-12">
+                    <div className="section-heading mb-0">
+                        <div className="line-dec" />
+                        <h2>
+                            Our <em>Clients</em>.
+                        </h2>
                     </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="item">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <img
-                                        src="/images/customers/changpong.png"
-                                        alt=""
-                                        style={{ borderRadius: 20, minHeight: 185 }}
-                                    />
-                                    <h4 className='truncate-1'>ช่างพองอิฐประสาน</h4>
-                                    <p className='truncate-4'>อีคอมเมอร์การขายส่ง อิฐแต่งสวนแต่งบาน ช่องลม</p>
-                                </div>
-                                <div className="col-lg-12">
-                                    <div className="main-button">
-                                        <a href="https://www.xn--72cah0a9bls7bydzab3brky72a.com/">View</a>
+                </div>
+                <div className='collections mt-0'>
+                    <Row>
+                        {Collections.map((workWeb, index) => (
+                            <Col lg="4" key={index} >
+                                <div className="item px-2">
+                                    <div className='card'>
+                                        <img src={workWeb.img} alt="" />
+                                        <div className="down-content">
+                                            <h4 className='truncate-1'>{workWeb?.name}</h4>
+                                            <div className='d-flex justify-content-between'>
+                                                <span className="collection">Viewer :<br /><strong>{workWeb?.viewer}</strong></span>
+                                                <span className="category">Category:<br /><strong>{workWeb?.category}</strong></span>
+                                            </div>
+                                            <div className="main-button">
+                                                <a href={workWeb.web} target='_blank'>Explore</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="item">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <img
-                                        src="/images/customers/homeagain.png"
-                                        alt=""
-                                        style={{ borderRadius: 20, minHeight: 185 }}
-                                    />
-                                    <h4 className='truncate-1'>มูลนิธิบ้านหลังใหม่</h4>
-                                    <p className='truncate-4'>เว็บมูลนิธิช่วยหาบ้านให้สุนัขในไทย</p>
-                                </div>
-                                <div className="col-lg-12">
-                                    <div className="main-button">
-                                        <a href="https://home-again.netlify.app/">View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="item">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <img
-                                        src="/images/customers/robot.png"
-                                        alt=""
-                                        style={{ borderRadius: 20, minHeight: 185 }}
-                                    />
-                                    <h4 className='truncate-1'>Robot รถตัดหญ้าบังคับวิทยุ</h4>
-                                    <p className='truncate-4'>รถตัดหญ้าบังคับมืองานง่ายๆสบายๆเกิดขึ้นได้</p>
-                                    <div className="main-button">
-                                        <a href="https://www.i2arobot.com/?fbclid=IwAR08wbCSwIpaks_wYcnRfYTgGNKlMa-dv9pim3V9bJnVKMUc-q7rgJW_ILw">View</a>
-                                    </div>
-                                </div>
-                                <div className="col-lg-12">
-
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className="col-xl-3 col-lg-4 col-md-6">
-                        <div className="item">
-                            <div className="row">
-                                <div className="col-lg-12">
-                                    <img
-                                        src="/images/customers/fairy.png"
-                                        alt=""
-                                        style={{ borderRadius: 20, minHeight: 185 }}
-                                    />
-                                    <h4 className='truncate-1'>Fairy Stone - หินนำโชค</h4>
-                                    <p className='truncate-4'>หินนำโชค์ขายอีคอมเมอร์</p>
-                                    <div className="main-button">
-                                        <a href="https://fairygemstone.com/">View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                            </Col>
+                        ))}
+                    </Row>
                 </div>
             </div>
         </div>

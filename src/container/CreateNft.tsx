@@ -25,7 +25,7 @@ const CreateNft: React.FC = () => {
                                 <img src="/images/icon-02.png" alt="" />
                             </div>
                             <h4>เกี่ยวกับเรา</h4>
-                            <p>รับทำเว็บไซต์และการตลาดออนไลน์ครบวงจร ไม่ว่าธุรกิจของคุณ จะมีขนาดเล็กหรือใหญ่ 
+                            <p>รับทำเว็บไซต์และการตลาดออนไลน์ครบวงจร ไม่ว่าธุรกิจของคุณ จะมีขนาดเล็กหรือใหญ่
                                 เราช่วยให้ธุรกิจของคุณเติบโตในโลกออนไลน์ ขยายขีดจำกัดการทำเว็บไซต์ พร้อมฟีเจอร์ธุรกิจออนไลน์</p>
                         </div>
                     </div>
@@ -39,9 +39,9 @@ const CreateNft: React.FC = () => {
                             </div>
                             <h4>ติดต่อเรา</h4>
                             <p>46/3 Ratchanikun Rd, Mueang Nakhon Ratchasima District, Nakhon Ratchasima 30000
-                            meeprompt.teach@gmail.com
-                            มือถือ 091 813 6426
-</p>
+                                meeprompt.teach@gmail.com
+                                มือถือ 091 813 6426
+                            </p>
                         </div>
                     </div>
                     {/* <div className="col-lg-4">

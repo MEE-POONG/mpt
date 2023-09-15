@@ -15,8 +15,8 @@ const MPTDetails: React.FC = () => {
                         How about <em>MPT</em> Is?.
                     </h2>
                 </div>
-                {mptDetail.map(item => (
-                    <div className="row">
+                {mptDetail.map((item, index) => (
+                    <div className="row" key={index}>
 
                         <div className="col-lg-7">
                             <div className="left-image png-shadow-white">
