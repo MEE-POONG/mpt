@@ -93,13 +93,13 @@ const Apprentice: React.FC = () => {
                               </Col>
                             </Row>
                             <Card.Footer className="p-0">
-                              <Link href="" className="view fs-6 fw-normal">
+                              <Link href={`/about/project/${emp?.id}`} className="view fs-6 fw-normal">
                                 สร้างโปรเจค
                               </Link>
-                              <Link href="" className="view fs-6 fw-normal">
+                              <Link href={`/about/performance/${emp?.id}`} className="view fs-6 fw-normal">
                                 ผลงาน
                               </Link>
-                              <Link href="" className="view fs-6 fw-normal">
+                              <Link href={`/about/profile/${emp?.id}`} className="view fs-6 fw-normal">
                                 โปรไฟล์
                               </Link>
                             </Card.Footer>
