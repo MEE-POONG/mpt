@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React from "react";
+import React, { useContext } from "react";
 import { Button, ButtonGroup, Card, Col, Nav, Row, Tab } from "react-bootstrap";
 import { AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
 import {
@@ -12,8 +12,22 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import { employee } from "@/data/about";
+import { useRouter } from "next/router";
+import IDContext from "@/components/emp/idContext";
 
 const ItemDetails: React.FC = () => {
+  const context = useContext(IDContext);
+  if (!context) {
+    throw new Error("ItemDetails must be used within an IDProvider");
+  }
+  const { setStoredID } = context;
+  const router = useRouter();
+
+  const handleButtonClick = (id: string, route: string) => {
+    setStoredID(id);
+    router.push(route);
+  };
+
   return (
     <div className="container">
       <div className="current-bid">
@@ -88,15 +102,15 @@ const ItemDetails: React.FC = () => {
                             </Col>
                           </Row>
                           <Card.Footer className="p-0">
-                            <Link href={`/about/project/${emp?.id}`} className="view fs-6 fw-normal">
+                            <Button onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
                               สร้างโปรเจค
-                            </Link>
-                            <Link href={`/about/performance/${emp?.id}`} className="view fs-6 fw-normal">
+                            </Button>
+                            <Button onClick={() => handleButtonClick(emp?.id || '', `/about/performance`)}>
                               ผลงาน
-                            </Link>
-                            <Link href={`/about/profile/${emp?.id}`} className="view fs-6 fw-normal">
+                            </Button>
+                            <Button onClick={() => handleButtonClick(emp?.id || '', `/about/profile`)}>
                               โปรไฟล์
-                            </Link>
+                            </Button>
                           </Card.Footer>
                         </Card>
                       </Col>

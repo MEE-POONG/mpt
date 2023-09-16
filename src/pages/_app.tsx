@@ -5,6 +5,7 @@ import { Language } from '@/components/Language/types';
 import '../assets/scss/index.scss';
 import Router from 'next/router';
 import Loading from "@/components/Loadding";
+import { IDProvider } from "@/components/emp/idContext";
 
 export default function App({ Component, pageProps }: AppProps) {
   const [currentLanguage, setCurrentLanguage] = useState<Language>('TH');
@@ -28,11 +29,13 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <React.Fragment>
       <LanguageContext.Provider value={{ currentLanguage, setCurrentLanguage }}>
-        {loading ? (
-          <Loading />
-        ) : (
-          <Component {...pageProps} />
-        )}
+        <IDProvider>
+          {loading ? (
+            <Loading />
+          ) : (
+            <Component {...pageProps} />
+          )}
+        </IDProvider>
       </LanguageContext.Provider>
     </React.Fragment>
   )

@@ -1,6 +1,6 @@
 import Link from "next/link";
-import React from "react";
-import { Card, Col, Nav, Row, Tab } from "react-bootstrap";
+import React, { useContext } from "react";
+import { Button, Card, Col, Nav, Row, Tab } from "react-bootstrap";
 import { AiOutlineInstagram, AiFillFacebook } from "react-icons/ai";
 import {
   FaFacebookF,
@@ -14,8 +14,22 @@ import {
   apperntice,
   generations,
 } from "@/data/about";
+import IDContext from "@/components/emp/idContext";
+import { useRouter } from "next/router";
 
 const Apprentice: React.FC = () => {
+  const context = useContext(IDContext);
+  if (!context) {
+    throw new Error("ItemDetails must be used within an IDProvider");
+  }
+  const { setStoredID } = context;
+  const router = useRouter();
+
+  const handleButtonClick = (id: string, route: string) => {
+    setStoredID(id);
+    router.push(route);
+  };
+
   return (
     <div className="container">
       <div className="current-bid">
@@ -102,6 +116,15 @@ const Apprentice: React.FC = () => {
                               <Link href={`/about/profile/${emp?.id}`} className="view fs-6 fw-normal">
                                 โปรไฟล์
                               </Link>
+                              <Button onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
+                                สร้างโปรเจค
+                              </Button>
+                              <Button onClick={() => handleButtonClick(emp?.id || '', `/about/performance`)}>
+                                ผลงาน
+                              </Button>
+                              <Button onClick={() => handleButtonClick(emp?.id || '', `/about/profile`)}>
+                                โปรไฟล์
+                              </Button>
                             </Card.Footer>
                           </Card>
                         </Col>
