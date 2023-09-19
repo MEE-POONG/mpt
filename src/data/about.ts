@@ -36,7 +36,7 @@ export const duty = [
 
 export const employee = [
     {
-        id: "1",
+        id: "0001",
         firstName : { EN: "Nattavee Tantagool", TH: "ณัฐวีษ์ ตันตระกูล" },
         nickName : { EN: "@Est", TH: "@เอส" },
         position : { EN: "Founder", TH: "ผู้ก่อตั้ง" },
@@ -90,7 +90,7 @@ export const generations = [
 
 export const apperntice = [
     {
-    id: "1",
+    id: "0001",
        firstName : { EN: "", TH: "" },
        nickName : { EN: "@", TH: "@" },
        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -104,7 +104,7 @@ export const apperntice = [
         twitter : ""
     },
     {
-        id: "2",
+        id: "0002",
        firstName : { EN: "", TH: "" },
        nickName : { EN: "@", TH: "@" },
        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -118,7 +118,7 @@ export const apperntice = [
         twitter : ""
     },
     {
-        id: "3",
+        id: "0003",
        firstName : { EN: "", TH: "" },
        nickName : { EN: "@", TH: "@" },
        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -132,7 +132,7 @@ export const apperntice = [
         twitter : ""
     },
     {
-        id: "4",
+        id: "0004",
        firstName : { EN: "", TH: "" },
        nickName : { EN: "@", TH: "@" },
        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -146,7 +146,7 @@ export const apperntice = [
         twitter : ""
     },
     {
-        id: "5",
+        id: "0005",
        firstName : { EN: "", TH: "" },
        nickName : { EN: "@", TH: "@" },
        position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -160,7 +160,7 @@ export const apperntice = [
         twitter : ""
     },
     {
-        id: "1",
+        id: "0006",
         firstName : { EN: "Woraphon Tengin", TH: "วรพล เต็งอินทร์" },
         nickName : { EN: "@", TH: "@พล" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -174,7 +174,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "2",
+        id: "0007",
         firstName : { EN: "Weerayut Wesmoradi", TH: "วีรยุทธ เวสโมราดี้" },
         nickName : { EN: "@", TH: "@ไซฮ์ร็อบ" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -188,7 +188,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "3",
+        id: "0008",
         firstName : { EN: "Sanatnon Obmaphan", TH: "สมนัสนนท์ อบมาพันธ์" },
         nickName : { EN: "@", TH: "@ฟิว" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -202,7 +202,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "4",
+        id: "0009",
         firstName : { EN: "", TH: "สหภาพ นามกระบือ" },
         nickName : { EN: "@", TH: "@อาร์ม" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -216,7 +216,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "5",
+        id: "0010",
         firstName : { EN: "Alongkorn Trongkratoke", TH: "อลงกรณ์ ตรงกระโทก" },
         nickName : { EN: "@", TH: "@โอม" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -230,7 +230,7 @@ export const apperntice = [
         twitter : ""
      },
     {
-        id: "1",
+        id: "0011",
         firstName : { EN: "Pattawut Biakrathok", TH: "" },
         nickName : { EN: "@Pattawut", TH: "@" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -244,7 +244,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "2",
+        id: "0012",
         firstName : { EN: "Thutiya Chosungnoen", TH: "" },
         nickName : { EN: "@Thutiya", TH: "@" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -258,7 +258,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "3",
+        id: "0013",
         firstName : { EN: "Punyaporn Lamlert", TH: "" },
         nickName : { EN: "@Punyaporn", TH: "@" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -272,7 +272,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "4",
+        id: "0014",
         firstName : { EN: "Yasumin Simtama", TH: "" },
         nickName : { EN: "@Ploy", TH: "@พลอย" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -286,7 +286,7 @@ export const apperntice = [
         twitter : ""
      }, 
     {
-        id: "1",
+        id: "0015",
         firstName : { EN: "Chonracaht Intarasut", TH: "ชลชาติ อินทรสูตร" },
         nickName : { EN: "@Pond", TH: "@ปอนด์" },
         position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -300,7 +300,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "2",
+        id: "0016",
          firstName : { EN: "Phuminan Ananthuk", TH: "ภูมินันท์ อนันตึก" },
          nickName : { EN: "@Ken", TH: "@เคน" },
          position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -314,7 +314,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "3",
+        id: "0017",
          firstName : { EN: "Wechanon Burana", TH: "เวชานนท์ บูรณะ" },
          nickName : { EN: "@Tiw", TH: "@ทิว" },
          position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -328,7 +328,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "4",
+        id: "0018",
          firstName : { EN: "Aphisit Siriamonwiwat", TH: "อภิสิทธิ์ ศิริอมรวิวัฒน์" },
          nickName : { EN: "@Kan", TH: "@กานต์" },
          position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
@@ -342,7 +342,7 @@ export const apperntice = [
         twitter : ""
      },
      {
-        id: "5",
+        id: "0019",
          firstName : { EN: "Chanawat Sriaphai", TH: "ชานุวัตร ศรีอภัย" },
          nickName : { EN: "@Night", TH: "@ไนท์" },
          position : { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },

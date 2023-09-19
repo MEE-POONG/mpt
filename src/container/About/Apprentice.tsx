@@ -107,22 +107,13 @@ const Apprentice: React.FC = () => {
                               </Col>
                             </Row>
                             <Card.Footer className="p-0">
-                              <Link href={`/about/project/${emp?.id}`} className="view fs-6 fw-normal">
-                                สร้างโปรเจค
-                              </Link>
-                              <Link href={`/about/performance/${emp?.id}`} className="view fs-6 fw-normal">
-                                ผลงาน
-                              </Link>
-                              <Link href={`/about/profile/${emp?.id}`} className="view fs-6 fw-normal">
-                                โปรไฟล์
-                              </Link>
-                              <Button onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
+                              <Button className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
                                 สร้างโปรเจค
                               </Button>
-                              <Button onClick={() => handleButtonClick(emp?.id || '', `/about/performance`)}>
+                              <Button  className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/performance`)}>
                                 ผลงาน
                               </Button>
-                              <Button onClick={() => handleButtonClick(emp?.id || '', `/about/profile`)}>
+                              <Button  className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/profile`)}>
                                 โปรไฟล์
                               </Button>
                             </Card.Footer>

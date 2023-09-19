@@ -6,162 +6,102 @@ export const priceHead = [
     },
 
 ];
-export const price = [
+
+export const priceData = [
     {
-        title: "Basic",
-        marketing: { seo: true },
+        id: "123456",
+        title: 'Basic',
+        marketing: {
+            seo: true
+        },
         trainingManual: {
-            fontEnd: true,
-            backOffice: true,
-            ONOFF: true
+            fontEnd: true, backOffice: true, ONOFF: true
         },
         serve: {
-            editDesign: "แก้ไขฟรี 1 ครั้ง",
-            siteArea: "2GB",
-            imageStorage: "80 รูป",
-            backup: "สำรองข้อมูล",
-            Domain: "(.com/.net) + SSL",
-            consulting: "ทีมงานให้คำปรึกษา",
-            logo: false,
-            Responsive: true
+            editDesign: { TH: 'แก้ไขฟรี 1 ครั้ง', EN: 'Free edit 1 time' }, siteArea: '2GB', imageStorage:"80", Domain: '(.com/.net) + SSL', consulting: { TH: 'ทีมงานให้คำปรึกษา', EN: 'Consultation by our team' }, logo: false, Responsive: true
         },
         article: {
-            language: "เพิ่มภาษาเองได้ไม่จำกัด",
-            blog: "สร้างข่าวสารประชาสัมพัมธ์ได้เอง"
+            language: { TH: 'เพิ่มภาษาเองได้ไม่จำกัด', EN: 'Add unlimited languages by yourself' }, blog: { TH: 'สร้างข่าวสารประชาสัมพัมธ์ได้เอง', EN: 'Create your own news and announcements' }
         },
-        adminSystem: "ผู้ดูแลเว็บไซต์ (เพิ่มลบแก้ไขคนเดียว)",
+        adminSystem: {
+            TH: 'ผู้ดูแลเว็บไซต์ (เพิ่มลบแก้ไขคนเดียว)', EN: 'Website administrator (add, delete, edit by one person)'
+        },
         price: {
-            deposit: 0.25,
-            price: 3250,
-            oneYearService: 3250,
-            twoYearService: 5850,
-            YearService: 8287,
-            productionPrice: "35,xxx ขึ้นไป"
-
+            deposit: 0.25, price: 3250, oneYearService: 3250, twoYearService: 5850, YearService: 8287, productionPrice: { TH: '35,xxx ขึ้นไป', EN: 'From 35,xxx onwards' }
         },
         dataNote: {
-            Bandwidth: "กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์",
-            AotOfUser: "กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์",
+            Bandwidth: { TH: 'กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์', EN: 'In case of a large number of users, server expansion fees are required' }, AotOfUser: { TH: 'กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์', EN: 'In case of too many users causing data loading issues, additional server expansion fees are required' }
         }
-
-    },
-    {
-        title: "Standard",
-        marketing: { seo: true },
-        trainingManual: {
-            fontEnd: true,
-            backOffice: true,
-            ONOFF: true
-        },
-        serve: {
-            editDesign: "แก้ไขฟรี 2 ครั้ง",
-            siteArea: "5GB",
-            imageStorage: "200 รูป",
-            backup: "สำรองข้อมูล",
-            Domain: "(.com/.net) + SSL",
-            consulting: "ทีมงานให้คำปรึกษา",
-            logo: false,
-            Responsive: true
-        },
-        article: {
-            language: "เพิ่มภาษาเองได้ไม่จำกัด",
-            blog: "สร้างข่าวสารประชาสัมพัมธ์ได้เอง"
-        },
-        adminSystem: "ผู้ดูแลเว็บไซต์ (เพิ่มลบแก้ไขคนเดียว)",
-        price: {
-            deposit: 0.25,
-            price: 7000,
-            oneYearService: 7000,
-            twoYearService: 12600,
-            YearService: 17850,
-            productionPrice: "35,xxx ขึ้นไป"
-
-        },
-        dataNote: {
-            Bandwidth: "กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์",
-            AotOfUser: "กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์",
-        }
-
-    },
-    {
+    }, {
+        id: "123456",
         title: "E-Commerce, Corporate",
         marketing: { seo: true },
         trainingManual: {
-            fontEnd: true,
-            backOffice: true,
-            ONOFF: true
+            fontEnd: true, backOffice: true, ONOFF: true
         },
         serve: {
-            editDesign: "แก้ไขฟรี 5 ครั้ง",
-            siteArea: "10GB",
-            imageStorage: "500 รูป",
-            backup: "สำรองข้อมูล",
-            Domain: "(.com/.net) + SSL",
-            consulting: "ทีมงานให้คำปรึกษา",
-            logo: true,
-            Responsive: true
+            editDesign:  { TH: 'แก้ไขฟรี 5 ครั้ง', EN: 'Free edit 5 time' }, siteArea: "10GB", imageStorage: "500", Domain: "(.com/.net) + SSL", consulting: "ทีมงานให้คำปรึกษา", logo: true, Responsive: true
         },
         article: {
-            language: "เพิ่มภาษาเองได้ไม่จำกัด",
-            blog: "สร้างข่าวสารประชาสัมพัมธ์ได้เอง"
+            language: { TH: 'เพิ่มภาษาเองได้ไม่จำกัด', EN: 'Add unlimited languages by yourself' }, blog: { TH: 'สร้างข่าวสารประชาสัมพัมธ์ได้เอง', EN: 'Create your own news and announcements' }
         },
         adminSystem: "ผู้ดูแลเว็บไซต์ (เพิ่มลบแก้ไขกำหนดสิทธิ)",
         price: {
-            deposit: 0.5,
-            price: 15000,
-            oneYearService: 15000,
-            twoYearService: 27000,
-            YearService: 38250,
-            productionPrice: "5x,xxx ขึ้นไป"
+            deposit: 0.5, price: 15000, oneYearService: 15000, twoYearService: 27000, YearService: 38250, productionPrice: "5x,xxx ขึ้นไป"
 
         },
         dataNote: {
-            Bandwidth: "กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์",
-            AotOfUser: "กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์",
+            Bandwidth: "กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์", AotOfUser: "กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์",
         }
 
     },
     {
-        title: "Business",
-        marketing: { seo: true },
+        id: "123458",
+        title: 'Business',
+        marketing: {
+            seo: true
+        },
         trainingManual: {
-            fontEnd: true,
-            backOffice: true,
-            ONOFF: true
+            fontEnd: true, backOffice: true, ONOFF: true
         },
         serve: {
-            editDesign: "แก้ไขฟรี 5 ครั้ง",
-            siteArea: "20GB",
-            imageStorage: "1000 รูป",
-            backup: "สำรองข้อมูล",
-            Domain: "(.com/.net) + SSL",
-            consulting: "ทีมงานให้คำปรึกษา",
-            logo: true,
-            Responsive: true
+            editDesign: { TH: 'แก้ไขฟรี 5 ครั้ง', EN: 'Free edit 5 times' }, siteArea: '20GB', imageStorage: "1000", Domain: '(.com/.net) + SSL', consulting: { TH: 'ทีมงานให้คำปรึกษา', EN: 'Consultation by our team' }, logo: true, Responsive: true
         },
         article: {
-            language: "เพิ่มภาษาเองได้ไม่จำกัด",
-            blog: "สร้างข่าวสารประชาสัมพัมธ์ได้เอง"
+            language: { TH: 'เพิ่มภาษาเองได้ไม่จำกัด', EN: 'Add unlimited languages by yourself' }, blog: { TH: 'สร้างข่าวสารประชาสัมพัมธ์ได้เอง', EN: 'Create your own news and announcements' }
         },
-        adminSystem: "ผู้ดูแลเว็บไซต์ (เพิ่มลบแก้ไขกำหนดสิทธิ)",
+        adminSystem: {
+            TH: 'ผู้ดูแลเว็บไซต์ (เพิ่มลบแก้ไขกำหนดสิทธิ)', EN: 'Website administrator (add, delete, edit with role assignment)'
+        },
         price: {
-            deposit: 0.5,
-            price: 35000,
-            oneYearService: 35000,
-            twoYearService: 63000,
-            YearService: 89250,
-            productionPrice: "8x,xxx ขึ้นไป"
-
+            deposit: 0.5, price: 35000, oneYearService: 35000, twoYearService: 63000, YearService: 89250, productionPrice: { TH: '8x,xxx ขึ้นไป', EN: 'From 8x,xxx onwards' }
         },
         dataNote: {
-            Bandwidth: "กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์",
-            AotOfUser: "กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์",
+            Bandwidth: { TH: 'กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์', EN: 'In case of a large number of users, server expansion fees are required' }, AotOfUser: { TH: 'กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์', EN: 'In case of too many users causing data loading issues, additional server expansion fees are required' }
         }
-
     },
-
-
-
+    // {
+    //     id: "2",
+    //     title: { EN: "รับทำเว็บไซต์", TH: "รับทำเว็บไซต์" },
+    //     img: "2360a130-033c-4cf3-ba8c-82c123260800",
+    //     subTitle: { EN: "ME PROMPT & TECHNOLOGY", TH: "ME PROMPT & TECHNOLOGY" },
+    //     detail: {
+    //         EN: "Unlock the potential of your business with our comprehensive website development and digital marketing solutions. Whether you're a startup or an established enterprise, we're here to amplify your online presence. Dive into the future with our advanced web design tools tailored to bring your business ideas to life. Our cutting-edge e-commerce platform not only showcases your products in the best light but also ensures a seamless buying experience for your customers. Let's transform and elevate your business together in the digital realm.",
+    //         TH: "รับทำเว็บไซต์และการตลาดออนไลน์ครบวงจร ไม่ว่าธุรกิจของคุณ จะมีขนาดเล็กหรือใหญ่ เราช่วยให้ธุรกิจของคุณเติบโตในโลกออนไลน์ ขยายขีดจำกัดการทำเว็บไซต์ พร้อมฟีเจอร์ธุรกิจออนไลน์ ยกระดับการทำเว็บไซต์ของคุณ ด้วยเครื่องมือออกแบบเว็บไซต์สุดล้ำ ตอบสนองทุกไอเดียธุรกิจของคุณ ระบบร้านค้าออนไลน์ที่ทันสมัย นำเสนอสินค้าน่าสนใจ และสะดวกในการซื้อขาย เพื่อเปิดโอกาสให้ธุรกิจคุณ"
+    //     },
+    //     linkTo: "https://www.facebook.com/meprompttecnology",
+    // },
+    // {
+    //     id: "3",
+    //     title: { EN: "รับทำเว็บไซต์", TH: "รับทำเว็บไซต์" },
+    //     img: "2360a130-033c-4cf3-ba8c-82c123260800",
+    //     subTitle: { EN: "ME PROMPT & TECHNOLOGY", TH: "ME PROMPT & TECHNOLOGY" },
+    //     detail: {
+    //         EN: "Unlock the potential of your business with our comprehensive website development and digital marketing solutions. Whether you're a startup or an established enterprise, we're here to amplify your online presence. Dive into the future with our advanced web design tools tailored to bring your business ideas to life. Our cutting-edge e-commerce platform not only showcases your products in the best light but also ensures a seamless buying experience for your customers. Let's transform and elevate your business together in the digital realm.",
+    //         TH: "รับทำเว็บไซต์และการตลาดออนไลน์ครบวงจร ไม่ว่าธุรกิจของคุณ จะมีขนาดเล็กหรือใหญ่ เราช่วยให้ธุรกิจของคุณเติบโตในโลกออนไลน์ ขยายขีดจำกัดการทำเว็บไซต์ พร้อมฟีเจอร์ธุรกิจออนไลน์ ยกระดับการทำเว็บไซต์ของคุณ ด้วยเครื่องมือออกแบบเว็บไซต์สุดล้ำ ตอบสนองทุกไอเดียธุรกิจของคุณ ระบบร้านค้าออนไลน์ที่ทันสมัย นำเสนอสินค้าน่าสนใจ และสะดวกในการซื้อขาย เพื่อเปิดโอกาสให้ธุรกิจคุณ"
+    //     },
+    //     linkTo: "https://www.facebook.com/meprompttecnology",
+    // },
 ];
 
 export const devLanguages = [
@@ -174,7 +114,7 @@ export const devLanguages = [
 ];
 export const Collections = [
     { name: "ช่างพองอิฐประสาน", viewer: "310", category: "ธุรกิจ/ค้าขาย", web: "https://www.xn--72cah0a9bls7bydzab3brky72a.com/", img: "/images/customers/changpong.png", },
-    { name: "มูลนิธิบ้านหลังใหม่", viewer: "324", category: "มูลนิธิ/ไม่แสวงหากำไร", web: "https://home-again.netlify.app/", img:"/images/customers/homeagain.png", },
-    { name: "Robot รถตัดหญ้าบังคับวิทยุ", viewer: "380", category: "ธุรกิจ/ค้าขาย", web: "https://www.i2arobot.com", img:"/images/customers/robot.png", },
-    { name: "Fairy Stone - หินนำโชค", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img:"/images/customers/fairy.png", },
+    { name: "มูลนิธิบ้านหลังใหม่", viewer: "324", category: "มูลนิธิ/ไม่แสวงหากำไร", web: "https://home-again.netlify.app/", img: "/images/customers/homeagain.png", },
+    { name: "Robot รถตัดหญ้าบังคับวิทยุ", viewer: "380", category: "ธุรกิจ/ค้าขาย", web: "https://www.i2arobot.com", img: "/images/customers/robot.png", },
+    { name: "Fairy Stone - หินนำโชค", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img: "/images/customers/fairy.png", },
 ];

@@ -102,13 +102,13 @@ const ItemDetails: React.FC = () => {
                             </Col>
                           </Row>
                           <Card.Footer className="p-0">
-                            <Button onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
+                            <Button className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
                               สร้างโปรเจค
                             </Button>
-                            <Button onClick={() => handleButtonClick(emp?.id || '', `/about/performance`)}>
+                            <Button className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/performance`)}>
                               ผลงาน
                             </Button>
-                            <Button onClick={() => handleButtonClick(emp?.id || '', `/about/profile`)}>
+                            <Button className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/profile`)}>
                               โปรไฟล์
                             </Button>
                           </Card.Footer>
