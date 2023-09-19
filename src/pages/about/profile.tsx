@@ -1,19 +1,31 @@
+import { LanguageContext } from '@/components/Language/LanguageContext';
 import TheLayout from '@/components/TheLayout'
 import IDContext from '@/components/emp/idContext'
 import { employee } from '@/data/about';
-import { useContext, useEffect } from 'react'
+import { useRouter } from 'next/router';
+import { useState, useContext, useEffect } from 'react';
+type EmployeeType = typeof employee[0];
+
 const ProfilePage: React.FC = () => {
+    const router = useRouter();
     const context = useContext(IDContext);
+    const { currentLanguage } = useContext(LanguageContext);
+    const [selectedEmployee, setSelectedEmployee] = useState<EmployeeType | null>(null);
     if (!context) {
         throw new Error("TargetPage must be used within an IDProvider");
     }
     const { storedID } = context;
-
     useEffect(() => {
-        console.log("storedID ", storedID);
-        console.log(employee);
-        
-    }, [storedID]);
+        if (!storedID) {
+            router.push('/about');
+            return;
+        }
+        setSelectedEmployee(employee.find(emp => emp.id === storedID) || null);
+
+    }, [storedID, router]);
+    useEffect(() => {
+        console.log(selectedEmployee);
+    }, [selectedEmployee]);
 
     return (
         <TheLayout>
@@ -24,14 +36,13 @@ const ProfilePage: React.FC = () => {
                         <div className="row">
 
                             <div className="mx-auto col-lg-5 col-md-5 col-10">
-                                <img src="images/ben.jpg" className="img-fluid" alt="Ben Resume HTML Template" />
+                                <img src={selectedEmployee?.picture} className="img-fluid" alt="Ben Resume HTML Template" />
                             </div>
 
                             <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                                 <div className="hero-text">
 
-                                    <h1 className="hero-title">👋 Ben, a digital nomad</h1>
-
+                                    <h1 className="hero-title">👋 {currentLanguage === "TH" ? selectedEmployee?.firstName?.TH : selectedEmployee?.firstName?.EN}</h1>
                                     <a href="#" className="email-link">
                                         hello@company.co
                                     </a>
