@@ -1,5 +1,6 @@
 import TheLayout from '@/components/TheLayout'
 import IDContext from '@/components/emp/idContext'
+import { employee } from '@/data/about';
 import { useContext, useEffect } from 'react'
 const ProfilePage: React.FC = () => {
     const context = useContext(IDContext);
@@ -10,6 +11,8 @@ const ProfilePage: React.FC = () => {
 
     useEffect(() => {
         console.log("storedID ", storedID);
+        console.log(employee);
+        
     }, [storedID]);
 
     return (

@@ -11,7 +11,7 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 import {
-  apperntice,
+  employee,
   generations,
 } from "@/data/about";
 import IDContext from "@/components/emp/idContext";
@@ -54,7 +54,7 @@ const Apprentice: React.FC = () => {
                 {generations.map((gen, index) => (
                   <Tab.Pane key={index} eventKey={`gen${gen?.id}`} className="c-purple">
                     <Row className="justify-content-md-center">
-                      {apperntice.filter((emp) => emp.generation === gen?.id).map((emp) => (
+                      {employee.filter((emp) => emp.generation === gen?.id).map((emp) => (
                         <Col xxl="4" xl="4" lg="6" md="6" key={emp?.id}>
                           <Card className="item" style={{ borderRadius: "20px" }}>
                             <Row className="no-gutters">
