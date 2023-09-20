@@ -101,7 +101,7 @@ const ItemDetails: React.FC = () => {
                               </Card.Body>
                             </Col>
                           </Row>
-                          <Card.Footer className="p-0">
+                          <Card.Footer className="p-0 b-purple">
                             <Button className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
                               สร้างโปรเจค
                             </Button>
