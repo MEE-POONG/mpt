@@ -56,7 +56,7 @@ const ItemDetails: React.FC = () => {
                             <Col md="5" lg="5" className="pe-0 position-relative">
                               <Card.Img
                                 className="w-100 rounded-0 object-fit-cover"
-                                src={emp?.picture}
+                                src={emp?.profile}
                                 alt={emp?.firstName?.EN}
                               />
                             </Col>
