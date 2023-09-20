@@ -1,8 +1,23 @@
 .c-purple {
     color: #7453fc;
 }
+.b-purple {
+    color: white;
+    background-color: #7453fc;
+}
+.b-white {
+    color: #7453fc;
+    background-color: white;
+    &:hover {
+        color: white;
+        background-color: black;
+    }
+}
 .c-purple-important {
     color: #7453fc !important;
+}
+.max-width{
+    width: max-content;
 }
 .a-c-purple {
     margin: 10px 0px;

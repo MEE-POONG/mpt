@@ -51,26 +51,27 @@ export const employee = [
         generation: "",
         status: { EN: "CEO & Founder", TH: "ผู้ก่อตั้ง" },
         picture: "/images/meprompt/est.jpg",
-        facebook: "",
-        instagram: "",
-        line: "",
-        tiktok: "",
-        twitter: ""
-
+        email: "devilzeros@outlook.co.th",
+        facebook: "www.facebook.com/devilzeros/",
+        instagram: "www.instagram.com/devilzeros_/",
+        line: "devilzeros",
+        tel:"0634941526",
+        tiktok: "www.tiktok.com/@devilzeros",
     },
     {
         id: "02",
         firstName: { EN: "warayut ", TH: "วรายุทธ เทกระโทก" },
-        nickName: { EN: "@Ploy", TH: "@ส้มฉุน" },
+        nickName: { EN: "@Som-Chun", TH: "@ส้มฉุน" },
         position: { EN: "Founder", TH: "ผู้ก่อตั้ง" },
         duty: { EN: "Consultant", TH: "ที่ปรึกษาองค์กร" },
         generation: "",
         picture: "/images/meprompt/chun.jpg",
+        email: "",
         facebook: "",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "03",
@@ -80,11 +81,12 @@ export const employee = [
         duty: { EN: "Dev", TH: "ผู้พัฒนาระบบ" },
         generation: "",
         picture: "/images/meprompt/ploi.jpg",
+        email: "",
         facebook: "",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0001",
@@ -94,11 +96,12 @@ export const employee = [
         duty: { EN: "", TH: "" },
         generation: "1",
         picture: "",
+        email: "",
         facebook: "",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0002",
@@ -108,11 +111,12 @@ export const employee = [
         duty: { EN: "", TH: "" },
         generation: "1",
         picture: "",
+        email: "",
         facebook: "",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0003",
@@ -122,11 +126,12 @@ export const employee = [
         duty: { EN: "", TH: "" },
         generation: "1",
         picture: "",
+        email: "",
         facebook: "",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0004",
@@ -136,11 +141,12 @@ export const employee = [
         duty: { EN: "", TH: "" },
         generation: "1",
         picture: "",
+        email: "",
         facebook: "",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0005",
@@ -150,11 +156,12 @@ export const employee = [
         duty: { EN: "", TH: "" },
         generation: "1",
         picture: "",
+        email: "",
         facebook: "",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0006",
@@ -167,8 +174,8 @@ export const employee = [
         facebook: "https://web.facebook.com/woraphon.tengin.1",
         instagram: "https://www.instagram.com/phon_xm/",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0007",
@@ -181,8 +188,8 @@ export const employee = [
         facebook: "https://web.facebook.com/weerayutves",
         instagram: "https://www.instagram.com/sohrobevo/",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0008",
@@ -195,8 +202,8 @@ export const employee = [
         facebook: "https://web.facebook.com/profile.php?id=100013979175881",
         instagram: "https://www.instagram.com/manatsanonobmapan/",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0009",
@@ -209,8 +216,8 @@ export const employee = [
         facebook: "https://web.facebook.com/arm.sahapap",
         instagram: "https://www.instagram.com/shp.a2004/?fbclid=IwAR1Se-USVVjd5jUGRAxQGTsi3IgBhIO8YxYPm4SgAUZB5eh21pDzcbbkPx8",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0010",
@@ -223,8 +230,8 @@ export const employee = [
         facebook: "https://web.facebook.com/profile.php?id=100068706235010",
         instagram: "https://www.instagram.com/badghost_201/",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0011",
@@ -237,8 +244,8 @@ export const employee = [
         facebook: "https://www.facebook.com/pattawut24",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0012",
@@ -251,8 +258,8 @@ export const employee = [
         facebook: "https://www.facebook.com/profile.php?id=100004920397814",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0013",
@@ -265,8 +272,8 @@ export const employee = [
         facebook: "https://www.facebook.com/paysatore",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0014",
@@ -279,8 +286,8 @@ export const employee = [
         facebook: "https://www.facebook.com/ploy.simt/",
         instagram: "",
         line: "",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0015",
@@ -294,7 +301,6 @@ export const employee = [
         instagram: "https://instagram.com/pond_22.op?igshid=OGQ5ZDc2ODk2ZA==",
         line: "https://line.me/ti/p/rP80-qCwb8",
         tiktok: "https://www.tiktok.com/@brandworkaddmin?_t=8eH4iL6NCmm&_r=1",
-        twitter: ""
     },
     {
         id: "0016",
@@ -307,8 +313,8 @@ export const employee = [
         facebook: "https://www.facebook.com/PhuminanAnanthuk/",
         instagram: "https://www.facebook.com/PhuminanAnanthuk/",
         line: "https://line.me/ti/p/tpWKJB7AIC",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0017",
@@ -321,8 +327,8 @@ export const employee = [
         facebook: "https://www.facebook.com/tiw5678?mibextid=LQQJ4d",
         instagram: "",
         line: "https://line.me/ti/p/RmvRtpOim4",
+        tel:"0634941526",
         tiktok: "",
-        twitter: ""
     },
     {
         id: "0018",
@@ -336,7 +342,6 @@ export const employee = [
         instagram: "https://www.instagram.com/mith.kan/",
         line: "https://line.me/ti/p/Ruz6xinRPP",
         tiktok: "www.tiktok.com/@mith.kan",
-        twitter: ""
     },
     {
         id: "0019",
@@ -351,6 +356,5 @@ export const employee = [
         instagram: "https://www.instagram.com/bule_eyes0/",
         line: "https://line.me/ti/p/RV8HvNrybD?fbclid=IwAR0lr3KPiMbWgADCLgjz6H-dW-oiUmGIdAlW04g6UJZtW4DykvifvfM7SBo",
         tiktok: "https://www.tiktok.com/@bule_eyes0",
-        twitter: ""
     },
 ];

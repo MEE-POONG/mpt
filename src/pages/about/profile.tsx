@@ -2,8 +2,10 @@ import { LanguageContext } from '@/components/Language/LanguageContext';
 import TheLayout from '@/components/TheLayout'
 import IDContext from '@/components/emp/idContext'
 import { employee } from '@/data/about';
+import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useContext, useEffect } from 'react';
+import { FaFacebookF, FaInstagram, FaLine, FaTiktok } from 'react-icons/fa';
 type EmployeeType = typeof employee[0];
 
 const ProfilePage: React.FC = () => {
@@ -29,23 +31,48 @@ const ProfilePage: React.FC = () => {
 
     return (
         <TheLayout>
-            <div className='project-page page-default-bg'>
+            <div className='profile-page page-default-bg'>
                 <section className="hero d-flex flex-column justify-content-center align-items-center" id="intro">
-
                     <div className="container">
                         <div className="row">
-
                             <div className="mx-auto col-lg-5 col-md-5 col-10">
-                                <img src={selectedEmployee?.picture} className="img-fluid" alt="Ben Resume HTML Template" />
+                                <img src={selectedEmployee?.picture} className="img-fluid rounded-4" alt="Ben Resume HTML Template" />
                             </div>
-
-                            <div className="d-flex flex-column justify-content-center align-items-center col-lg-7 col-md-7 col-12">
+                            <div className="d-flex justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                                 <div className="hero-text">
+                                    <h1 className="hero-title b-purple rounded-5 px-3 py-2 my-2">
+                                        👋 {currentLanguage === "TH" ? selectedEmployee?.firstName?.TH : selectedEmployee?.firstName?.EN}
+                                    </h1>
+                                    <br />
+                                    <Link href="#" className="b-white rounded-5 px-3 m-auto d-flex max-width">
+                                        ✉️ {selectedEmployee?.email}
+                                    </Link>
+                                    <Link href="#" className="b-white rounded-5 px-3 m-auto my-2 d-flex max-width">
+                                        📱 {selectedEmployee?.tel}
+                                    </Link>
+                                    <br />
+                                    {selectedEmployee?.facebook && (
+                                        <Link href={selectedEmployee.facebook} className="b-white rounded p-2 m-2">
+                                            <FaFacebookF size={20} />
+                                        </Link>
+                                    )}
+                                    {selectedEmployee?.instagram && (
+                                        <Link href={selectedEmployee.instagram} className="b-white rounded p-2 m-2">
+                                            <FaInstagram size={20} />
+                                        </Link>
+                                    )}
 
-                                    <h1 className="hero-title">👋 {currentLanguage === "TH" ? selectedEmployee?.firstName?.TH : selectedEmployee?.firstName?.EN}</h1>
-                                    <a href="#" className="email-link">
-                                        hello@company.co
-                                    </a>
+                                    {selectedEmployee?.line && (
+                                        <Link href={selectedEmployee.line} className="b-white rounded p-2 m-2">
+                                            <FaLine size={20} />
+                                        </Link>
+                                    )}
+
+                                    {selectedEmployee?.tiktok && (
+                                        <Link href={selectedEmployee.tiktok} className="b-white rounded p-2 m-2">
+                                            <FaTiktok size={20} />
+                                        </Link>
+                                    )}
 
                                 </div>
                             </div>
