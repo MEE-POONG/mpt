@@ -15,7 +15,6 @@ const MePortfoilo: React.FC = () => {
     const { currentLanguage } = useContext(LanguageContext);
     const [selectedEmployee, setSelectedEmployee] = useState<EmployeeType | null>(null);
 
-    console.log("context : ", context?.storedID);
     useEffect(() => {
         if (!context?.storedID) {
             router.push('/about');
@@ -34,7 +33,7 @@ const MePortfoilo: React.FC = () => {
                     <div className="d-flex justify-content-center align-items-center col-lg-7 col-md-7 col-12">
                         <div className="text-center">
                             <h1 className="hero-title b-purple rounded-5 px-3 py-2 my-2">
-                                👋 {currentLanguage ? selectedEmployee?.firstName?.TH : selectedEmployee?.firstName?.EN}
+                                👋 {currentLanguage === "TH" ? selectedEmployee?.firstName?.TH : selectedEmployee?.firstName?.EN}
                             </h1>
                             <br />
                             <Link href="#" className="b-white rounded-5 px-3 m-auto d-flex max-width">

@@ -120,13 +120,13 @@ export const Collections = [
 ];
 
 export const GalleyCollections = [
-    { id: "0001", CollectionsID: "c0001", img: "aaaa" },
-    { id: "0002", CollectionsID: "c0001", img: "aaaa" },
-    { id: "0003", CollectionsID: "c0002", img: "aaaa" },
-    { id: "0004", CollectionsID: "c0002", img: "aaaa" },
-    { id: "0005", CollectionsID: "c0003", img: "aaaa" },
-    { id: "0006", CollectionsID: "c0003", img: "aaaa" },
-    { id: "0007", CollectionsID: "c0003", img: "aaaa" },
+    { id: "0001", CollectionsID: "c0001", img: "aaaa.png" },
+    { id: "0002", CollectionsID: "c0001", img: "aaaa.jpg" },
+    { id: "0003", CollectionsID: "c0002", img: "b.jpg" },
+    { id: "0004", CollectionsID: "c0002", img: "c.jpg" },
+    { id: "0005", CollectionsID: "c0003", img: "d.jpg" },
+    { id: "0006", CollectionsID: "c0003", img: "e.jpg" },
+    { id: "0007", CollectionsID: "c0003", img: "f.jpg" },
 ];
 export const PerformanceData = [
     { id: "", memberID: "m0001", CollectionsID: "c0001", },

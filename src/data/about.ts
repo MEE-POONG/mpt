@@ -43,9 +43,9 @@ export const generations = [
 
 export const employee = [
     {
-        id: "01",
+        id: "m0001",
         firstName: { EN: "Nattavee Tantagool", TH: "ณัฐวีษ์ ตันตระกูล" },
-        nickName: { EN: "@Est", TH: "@เอส" },
+        nickName: { EN: "Est", TH: "เอส" },
         position: { EN: "Founder", TH: "ผู้ก่อตั้ง" },
         duty: { EN: "Dev", TH: "ผู้พัฒนาระบบ" },
         generation: "",
@@ -62,7 +62,7 @@ export const employee = [
     {
         id: "02",
         firstName: { EN: "warayut ", TH: "วรายุทธ เทกระโทก" },
-        nickName: { EN: "@Som-Chun", TH: "@ส้มฉุน" },
+        nickName: { EN: "Som-Chun", TH: "ส้มฉุน" },
         position: { EN: "Founder", TH: "ผู้ก่อตั้ง" },
         duty: { EN: "Consultant", TH: "ที่ปรึกษาองค์กร" },
         generation: "",
@@ -78,7 +78,7 @@ export const employee = [
     {
         id: "03",
         firstName: { EN: "Yasumin Simtama", TH: "ญาสุมินทร์ สิมตะมะ" },
-        nickName: { EN: "@Ploy", TH: "@พลอย" },
+        nickName: { EN: "Ploy", TH: "พลอย" },
         position: { EN: "Employee", TH: "พนักงาน" },
         duty: { EN: "Dev", TH: "ผู้พัฒนาระบบ" },
         generation: "",
@@ -94,7 +94,7 @@ export const employee = [
     {
         id: "0001",
         firstName: { EN: "", TH: "" },
-        nickName: { EN: "@", TH: "@" },
+        nickName: { EN: "", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "1",
@@ -110,7 +110,7 @@ export const employee = [
     {
         id: "0002",
         firstName: { EN: "", TH: "" },
-        nickName: { EN: "@", TH: "@" },
+        nickName: { EN: "", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "1",
@@ -126,7 +126,7 @@ export const employee = [
     {
         id: "0003",
         firstName: { EN: "", TH: "" },
-        nickName: { EN: "@", TH: "@" },
+        nickName: { EN: "", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "1",
@@ -142,7 +142,7 @@ export const employee = [
     {
         id: "0004",
         firstName: { EN: "", TH: "" },
-        nickName: { EN: "@", TH: "@" },
+        nickName: { EN: "", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "1",
@@ -158,7 +158,7 @@ export const employee = [
     {
         id: "0005",
         firstName: { EN: "", TH: "" },
-        nickName: { EN: "@", TH: "@" },
+        nickName: { EN: "", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "1",
@@ -174,7 +174,7 @@ export const employee = [
     {
         id: "0006",
         firstName: { EN: "Woraphon Tengin", TH: "วรพล เต็งอินทร์" },
-        nickName: { EN: "@", TH: "@พล" },
+        nickName: { EN: "", TH: "พล" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation: "2",
@@ -190,7 +190,7 @@ export const employee = [
     {
         id: "0007",
         firstName: { EN: "Weerayut Wesmoradi", TH: "วีรยุทธ เวสโมราดี้" },
-        nickName: { EN: "@", TH: "@ไซฮ์ร็อบ" },
+        nickName: { EN: "", TH: "ไซฮ์ร็อบ" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation: "2",
@@ -206,7 +206,7 @@ export const employee = [
     {
         id: "0008",
         firstName: { EN: "Sanatnon Obmaphan", TH: "สมนัสนนท์ อบมาพันธ์" },
-        nickName: { EN: "@", TH: "@ฟิว" },
+        nickName: { EN: "", TH: "ฟิว" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation: "2",
@@ -222,7 +222,7 @@ export const employee = [
     {
         id: "0009",
         firstName: { EN: "", TH: "สหภาพ นามกระบือ" },
-        nickName: { EN: "@", TH: "@อาร์ม" },
+        nickName: { EN: "", TH: "อาร์ม" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation: "2",
@@ -238,7 +238,7 @@ export const employee = [
     {
         id: "0010",
         firstName: { EN: "Alongkorn Trongkratoke", TH: "อลงกรณ์ ตรงกระโทก" },
-        nickName: { EN: "@", TH: "@โอม" },
+        nickName: { EN: "", TH: "โอม" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "Dev", TH: "นักพัฒนาระบบ" },
         generation: "2",
@@ -254,7 +254,7 @@ export const employee = [
     {
         id: "0011",
         firstName: { EN: "Pattawut Biakrathok", TH: "" },
-        nickName: { EN: "@Pattawut", TH: "@" },
+        nickName: { EN: "Pattawut", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "3",
@@ -270,7 +270,7 @@ export const employee = [
     {
         id: "0012",
         firstName: { EN: "Thutiya Chosungnoen", TH: "" },
-        nickName: { EN: "@Thutiya", TH: "@" },
+        nickName: { EN: "Thutiya", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "3",
@@ -286,7 +286,7 @@ export const employee = [
     {
         id: "0013",
         firstName: { EN: "Punyaporn Lamlert", TH: "" },
-        nickName: { EN: "@Punyaporn", TH: "@" },
+        nickName: { EN: "Punyaporn", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "3",
@@ -302,7 +302,7 @@ export const employee = [
     {
         id: "0014",
         firstName: { EN: "Yasumin Simtama", TH: "" },
-        nickName: { EN: "@Ploy", TH: "@พลอย" },
+        nickName: { EN: "Ploy", TH: "พลอย" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "", TH: "" },
         generation: "3",
@@ -318,7 +318,7 @@ export const employee = [
     {
         id: "0015",
         firstName: { EN: "Chonracaht Intarasut", TH: "ชลชาติ อินทรสูตร" },
-        nickName: { EN: "@Pond", TH: "@ปอนด์" },
+        nickName: { EN: "Pond", TH: "ปอนด์" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "DEV , Graphics", TH: "ผู้พัฒนาระบบ,กราฟิก" },
         generation: "4",
@@ -333,7 +333,7 @@ export const employee = [
     {
         id: "0016",
         firstName: { EN: "Phuminan Ananthuk", TH: "ภูมินันท์ อนันตึก" },
-        nickName: { EN: "@Ken", TH: "@เคน" },
+        nickName: { EN: "Ken", TH: "เคน" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "DEV", TH: "ผู้พัฒนาระบบ" },
         generation: "4",
@@ -349,7 +349,7 @@ export const employee = [
     {
         id: "0017",
         firstName: { EN: "Wechanon Burana", TH: "เวชานนท์ บูรณะ" },
-        nickName: { EN: "@Tiw", TH: "@ทิว" },
+        nickName: { EN: "Tiw", TH: "ทิว" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "DEV", TH: "ผู้พัฒนาระบบ" },
         generation: "4",
@@ -365,7 +365,7 @@ export const employee = [
     {
         id: "0018",
         firstName: { EN: "Aphisit Siriamonwiwat", TH: "อภิสิทธิ์ ศิริอมรวิวัฒน์" },
-        nickName: { EN: "@Kan", TH: "@กานต์" },
+        nickName: { EN: "Kan", TH: "กานต์" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "Graphics", TH: "กราฟิก" },
         generation: "4",
@@ -380,7 +380,7 @@ export const employee = [
     {
         id: "0019",
         firstName: { EN: "Chanawat Sriaphai", TH: "ชานุวัตร ศรีอภัย" },
-        nickName: { EN: "@Night", TH: "@ไนท์" },
+        nickName: { EN: "Night", TH: "ไนท์" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "Graphics", TH: "กราฟิก" },
         generation: "4",
@@ -393,4 +393,39 @@ export const employee = [
         line: "https://line.me/ti/p/RV8HvNrybD?fbclid=IwAR0lr3KPiMbWgADCLgjz6H-dW-oiUmGIdAlW04g6UJZtW4DykvifvfM7SBo",
         tiktok: "https://www.tiktok.com/@bule_eyes0",
     },
+];
+export const resumeArticle = [
+    {
+        id: "001",
+        memberID: "m0001",
+        aboutUS: {
+            TH: "<div>ณัฐวีษ์ ตันตระกูล เป็นบุคคลที่มีความกระตือรือร้นและมุ่งมั่นในทุกๆ งานที่ได้รับมอบหมาย ด้วยการศึกษาจบ ระดับปริญญาตรี จากมหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน และระดับอนุปริญญาจากวิทยาลัยเทคโนโลยีพณิชยการปากช่อง ณัฐวีษ์ ได้สะสมประสบการณ์ทำงานจากบริษัท Revel Soft และ มีพร้อมท์เทคโนโลยี ซึ่งทำให้เขามีทักษะเฉพาะทางในการวางโครงสร้างระบบ และวิเคราะห์ระบบที่หน้าทำ<br/>เขาเป็นคนที่ชอบการทำงานอย่างต่อเนื่อง และมีความสนใจในการรู้จักคนใหม่ๆ ทำให้เขาสามารถทำงานร่วมกับทีมได้อย่างมีประสิทธิภาพ ณัฐวีษ์ มีความภาคภูมิใจในการสร้างระบบที่คนอื่นสามารถเข้าใจและแก้ไขได้ ซึ่งเป็นสิ่งที่ทำให้เขาเป็นที่ยอมรับในวงการ<br/>ในอนาคต, ณัฐวีษ์ มีเป้าหมายที่จะเป็นเจ้าของกิจการ และมีความมุ่งมั่นที่จะสร้างความสำเร็จที่ยิ่งใหญ่ ด้วยความฝันที่อยากจะรวยจนเป็นผู้ให้ ณัฐวีษ์ ตั้งใจที่จะทำให้ความฝันนั้นเป็นจริงผ่านทางความสามารถและความมุ่งมั่นของเขา</div>",
+            EN: "<div>Nattawee Tantaragun is a dedicated and determined individual in every task he undertakes. With a Bachelor's degree from Rajamangala University of Technology Isan and an Associate's degree from Phanichayakan Pakchong Technological College, Nattawee has accumulated work experience from companies such as Revel Soft and MeeProm Technology. This has equipped him with specialized skills in system architecture and system analysis.<br/>He is a continuous worker and has an interest in meeting new people, allowing him to work effectively within a team. Nattawee takes pride in creating systems that others can understand and modify, earning him recognition in the industry.<br/>In the future, Nattawee aims to own a business and is determined to achieve significant success. With a dream of becoming a generous benefactor, he is committed to making this dream a reality through his capabilities and determination.</div>"
+        },
+        Strengths: {
+            TH: "<ul>li>ทักษะการสื่อสาร,</li> <li>ประสบการณ์ทำงาน,</li> <li>การศึกษา,</li> <li>หรือความรู้เฉพาะทาง</li></ul>",
+            EN: "<ul>li>such as communication skills,</li>li><li>work experience,</li><li>education,</li><li>specialized knowledge</li></ul>",
+        },
+        Weaknesses: {
+            TH: "<ul><li>ทักษะที่ยังไม่เชี่ยวชาญ</li> <li>ข้อจำกัดด้านเวลา</li> <li>หรือข้อจำกัดด้านทรัพยากร</li></ul>",
+            EN: "<ul><li>such as skills that are not yet proficient</li> <li>time constraints</li> <li>or resource limitations</li></ul>",
+        },
+        Opportunities: {
+            TH: "<ul><li>ตลาดที่ยังไม่ถูกเจาะ</li> <li>การศึกษาต่อ</li> <li>หรือโอกาสในการขยายธุรกิจ</li></ul>",
+            EN: "<ul><li>such as untapped markets</li> <li>further education</li> <li>or business expansion opportunities.</li></ul>",
+        },
+        Threatsass: {
+            TH: "<ul><li>คู่แข่ง</li> <li>เทคโนโลยีใหม่</li> <li>หรือการเปลี่ยนแปลงของตลาด</li></ul>",
+            EN: "<ul><li>such as competitors</li> <li>new technologies</li> <li>or market changes</li></ul>",
+        },
+    },
+];
+export const skills = [
+    { id: "1", memberID: "0001", skillListID: "0001", level: 1, },
+    { id: "2", memberID: "0001", skillListID: "0001", level: 4 },
+    { id: "3", memberID: "0001", skillListID: "0001", level: 4 },
+];
+export const skillListID = [
+    { id: "0001", name: { TH: "JS", EN: "JS" }, maxLevel: 45 },
+    { id: "0001", name: { TH: "React", EN: "React" }, maxLevel: 10 },
 ];

@@ -1,80 +1,67 @@
-import { Collections } from '@/data/home';
-import Link from 'next/link';
 import React from 'react';
-import { Col, Row } from 'react-bootstrap';
 import { LanguageContext } from '@/components/Language/LanguageContext';
-import TheLayout from '@/components/TheLayout'
 import IDContext from '@/components/emp/idContext'
-import { employee } from '@/data/about';
+import { employee, resumeArticle } from '@/data/about';
 import { useRouter } from 'next/router';
 import { useState, useContext, useEffect } from 'react';
-import { FaFacebookF, FaInstagram, FaLine, FaTiktok } from 'react-icons/fa';
+import HtmlContent from "@/components/HtmlContent";
+import { Row } from 'react-bootstrap';
 type EmployeeType = typeof employee[0];
+type ResumeArticleType = typeof resumeArticle[0];
 
-const MePortfoilo: React.FC = () => {
+const Article: React.FC = () => {
     const router = useRouter();
     const context = useContext(IDContext);
     const { currentLanguage } = useContext(LanguageContext);
     const [selectedEmployee, setSelectedEmployee] = useState<EmployeeType | null>(null);
+    const [selectedResumeArticle, setSelectedResumeArticle] = useState<ResumeArticleType | null>(null);
 
-    console.log("context : ", context?.storedID);
     useEffect(() => {
         if (!context?.storedID) {
             router.push('/about');
             return;
         }
         setSelectedEmployee(employee.find(emp => emp.id === context?.storedID) || null);
+        setSelectedResumeArticle(resumeArticle.find(ra => ra.memberID === context?.storedID) || null);
 
     }, [context, router]);
+    useEffect(() => {
+        console.log("selectedResumeArticle : ", context?.storedID, selectedResumeArticle);
+    }, [selectedResumeArticle]);
+
     return (
-        <section className="hero d-flex flex-column justify-content-center align-items-center" id="intro">
+        <section className="about section-padding" id="about">
             <div className="container">
                 <div className="row">
-                    <div className="mx-auto col-lg-5 col-md-5 col-10">
-                        <img src={selectedEmployee?.profile} className="img-fluid rounded-4" alt="Ben Resume HTML Template" />
+                    <div className="col-lg-6 col-md-6 col-12">
+                        <h3 className="mb-4">This is {currentLanguage === "TH" ? selectedEmployee?.nickName?.TH : selectedEmployee?.nickName?.EN} Resume</h3>
+                        <p className='text-white' >
+                            <HtmlContent content={currentLanguage === "TH" ? selectedResumeArticle?.aboutUS?.TH : selectedResumeArticle?.aboutUS?.EN} />
+                        </p>
+                        <h3 className="my-4">ทักษะต่างๆ</h3>
+                        <a>aa</a>
                     </div>
-                    <div className="d-flex justify-content-center align-items-center col-lg-7 col-md-7 col-12">
-                        <div className="text-center">
-                            <h1 className="hero-title b-purple rounded-5 px-3 py-2 my-2">
-                                👋 {currentLanguage ? selectedEmployee?.firstName?.TH : selectedEmployee?.firstName?.EN}
-                            </h1>
-                            <br />
-                            <Link href="#" className="b-white rounded-5 px-3 m-auto d-flex max-width">
-                                ✉️ {selectedEmployee?.email}
-                            </Link>
-                            <Link href="#" className="b-white rounded-5 px-3 m-auto my-2 d-flex max-width">
-                                📱 {selectedEmployee?.tel}
-                            </Link>
-                            <br />
-                            {selectedEmployee?.facebook && (
-                                <Link href={selectedEmployee.facebook} target="_blank" className="b-white rounded p-2 m-2">
-                                    <FaFacebookF size={20} />
-                                </Link>
-                            )}
-                            {selectedEmployee?.instagram && (
-                                <Link href={selectedEmployee.instagram} target="_blank" className="b-white rounded p-2 m-2">
-                                    <FaInstagram size={20} />
-                                </Link>
-                            )}
-                            {selectedEmployee?.line && (
-                                <Link href={selectedEmployee.line} target="_blank" className="b-white rounded p-2 m-2">
-                                    <FaLine size={20} />
-                                </Link>
-                            )}
-
-                            {selectedEmployee?.tiktok && (
-                                <Link href={selectedEmployee.tiktok} target="_blank" className="b-white rounded p-2 m-2">
-                                    <FaTiktok size={20} />
-                                </Link>
-                            )}
-
-                        </div>
+                    <div className="col-lg-5 mx-auto col-md-6 col-12">
+                        <img src={selectedEmployee?.profile} className=" rounded-4 img-fluid" alt="Ben's Resume HTML Template" />
                     </div>
-
+                </div>
+                <div className="row about-third">
+                    <div className="col-lg-4 col-md-4 col-12">
+                        <h3>Integer volutpat</h3>
+                        <p className='text-white'>Sed eu risus tincidunt, finibus dolor non, gravida ex. Donec lacinia mi nec erat tempus, vel consectetur ante scelerisque. Ut blandit, risus in venenatis ultricies, lacus tellus fermentum.</p>
+                    </div>
+                    <div className="col-lg-4 col-md-4 col-12">
+                        <h3>Mauris semper</h3>
+                        <p className='text-white'>Cras et nisl vestibulum, accumsan elit sed, pretium enim. Vestibulum in condimentum magna. Maecenas quam magna, iaculis eu turpis et, commodo pulvinar leo.</p>
+                    </div>
+                    <div className="col-lg-4 col-md-4 col-12">
+                        <h3>Integer id neque</h3>
+                        <p className='text-white'>Duis at mollis leo, venenatis congue ex. Cras urna dui, gravida euismod lectus et, cursus tempor nulla. Praesent at turpis quis ex tristique gravida quis eget eros.</p>
+                    </div>
                 </div>
             </div>
         </section>
     );
 }
 
-export default MePortfoilo;
+export default Article;
