@@ -255,18 +255,17 @@
             .card-footer {
                 display: flex;
                 justify-content: space-between;
-                border-top: 1px solid #7453fc;
-                background-color: white;
+                border: unset;
                 .view {
                     flex: 1;
                     text-align: center;
                     padding: 0.5rem;
-                    color: #7453fc;
+                    color: #ffffff;
                     border: 0px;
-                    background: white;
+                    background: #7453fc;
                     &:hover {
-                        color: #ffffff;
-                        background-color: #7453fc;
+                        color: #7453fc;
+                        background-color: #ffffff;
                     }
                 }
             }

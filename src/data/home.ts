@@ -18,7 +18,7 @@ export const priceData = [
             fontEnd: true, backOffice: true, ONOFF: true
         },
         serve: {
-            editDesign: { TH: 'แก้ไขฟรี 1 ครั้ง', EN: 'Free edit 1 time' }, siteArea: '2GB', imageStorage:"80", Domain: '(.com/.net) + SSL', consulting: { TH: 'ทีมงานให้คำปรึกษา', EN: 'Consultation by our team' }, logo: false, Responsive: true
+            editDesign: { TH: 'แก้ไขฟรี 1 ครั้ง', EN: 'Free edit 1 time' }, siteArea: '2GB', imageStorage: "80", Domain: '(.com/.net) + SSL', consulting: { TH: 'ทีมงานให้คำปรึกษา', EN: 'Consultation by our team' }, logo: false, Responsive: true
         },
         article: {
             language: { TH: 'เพิ่มภาษาเองได้ไม่จำกัด', EN: 'Add unlimited languages by yourself' }, blog: { TH: 'สร้างข่าวสารประชาสัมพัมธ์ได้เอง', EN: 'Create your own news and announcements' }
@@ -40,7 +40,7 @@ export const priceData = [
             fontEnd: true, backOffice: true, ONOFF: true
         },
         serve: {
-            editDesign:  { TH: 'แก้ไขฟรี 5 ครั้ง', EN: 'Free edit 5 time' }, siteArea: "10GB", imageStorage: "500", Domain: "(.com/.net) + SSL", consulting: "ทีมงานให้คำปรึกษา", logo: true, Responsive: true
+            editDesign: { TH: 'แก้ไขฟรี 5 ครั้ง', EN: 'Free edit 5 time' }, siteArea: "10GB", imageStorage: "500", Domain: "(.com/.net) + SSL", consulting: "ทีมงานให้คำปรึกษา", logo: true, Responsive: true
         },
         article: {
             language: { TH: 'เพิ่มภาษาเองได้ไม่จำกัด', EN: 'Add unlimited languages by yourself' }, blog: { TH: 'สร้างข่าวสารประชาสัมพัมธ์ได้เอง', EN: 'Create your own news and announcements' }
@@ -113,8 +113,22 @@ export const devLanguages = [
     { languages: "Framework", src: "27acaba2-dd96-4bb9-f2a2-06dd4bc7af00", readLink: "https://www.designil.com/html5-tips-tricks-techniques-1/" },
 ];
 export const Collections = [
-    { name: "ช่างพองอิฐประสาน", viewer: "310", category: "ธุรกิจ/ค้าขาย", web: "https://www.xn--72cah0a9bls7bydzab3brky72a.com/", img: "/images/customers/changpong.png", },
-    { name: "มูลนิธิบ้านหลังใหม่", viewer: "324", category: "มูลนิธิ/ไม่แสวงหากำไร", web: "https://home-again.netlify.app/", img: "/images/customers/homeagain.png", },
-    { name: "Robot รถตัดหญ้าบังคับวิทยุ", viewer: "380", category: "ธุรกิจ/ค้าขาย", web: "https://www.i2arobot.com", img: "/images/customers/robot.png", },
-    { name: "Fairy Stone - หินนำโชค", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img: "/images/customers/fairy.png", },
+    { id: "c0001", name: "ช่างพองอิฐประสาน", subTitle: "", subDetail: "", viewer: "310", category: "ธุรกิจ/ค้าขาย", web: "https://www.xn--72cah0a9bls7bydzab3brky72a.com/", img: "/images/customers/changpong.png", },
+    { id: "c0002", name: "มูลนิธิบ้านหลังใหม่", subTitle: "", subDetail: "", viewer: "324", category: "มูลนิธิ/ไม่แสวงหากำไร", web: "https://home-again.netlify.app/", img: "/images/customers/homeagain.png", },
+    { id: "c0003", name: "Robot รถตัดหญ้าบังคับวิทยุ", subTitle: "", subDetail: "", viewer: "380", category: "ธุรกิจ/ค้าขาย", web: "https://www.i2arobot.com", img: "/images/customers/robot.png", },
+    { id: "c0004", name: "Fairy Stone - หินนำโชค", subTitle: "", subDetail: "", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img: "/images/customers/fairy.png", },
+];
+
+export const GalleyCollections = [
+    { id: "0001", CollectionsID: "c0001", img: "aaaa" },
+    { id: "0002", CollectionsID: "c0001", img: "aaaa" },
+    { id: "0003", CollectionsID: "c0002", img: "aaaa" },
+    { id: "0004", CollectionsID: "c0002", img: "aaaa" },
+    { id: "0005", CollectionsID: "c0003", img: "aaaa" },
+    { id: "0006", CollectionsID: "c0003", img: "aaaa" },
+    { id: "0007", CollectionsID: "c0003", img: "aaaa" },
+];
+export const PerformanceData = [
+    { id: "", memberID: "m0001", CollectionsID: "c0001", },
+    { id: "", memberID: "m0002", CollectionsID: "c0001", },
 ];
