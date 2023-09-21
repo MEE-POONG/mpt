@@ -18,33 +18,61 @@ const PerformancePage: React.FC = () => {
     return (
         <TheLayout>
             <div className='performance-page page-default-bg'>
-                <div className='container mx-auto bg-secondary bg-opacity-10 p-5 rounded-3'>
+                <div className='container mx-auto'>
                     <h4 className='text-white'>ตัวอย่างผลงานของ ชื่อเจ้าของงาน</h4>
-
-                    <div className="row text-info mt-3">
-                        <div className="col-12 col-md-4 mb-sm-2 mb-2">
-                            <div className="card border border-info rounded-1">
-                                <img src="/images/port/panomwan.png" alt="" />
-
+                    <div className="row mt-4">
+                        <div className="col-md-4">
+                            <div className="card" >
+                                <img src="/images/port/panomwan.png" className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <h5 className='text-info'>Project Name</h5>
-                                    <p className='mt-1'>Descript</p>
+                                    <h5 className="card-title">ชื่อชิ้นงาน</h5>
+                                    <h6 className="card-subtitle mb-2 ">ประเภท (เว็บ/กราฟิก)</h6>
+                                    <p className="card-text">รายละเอียดนิดหน่อย(ไม่จำเป็นต้องใส่ก็ได้)</p>
+                                    <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit </a>
+                                    <a href="#" className="btn "><i className="fab fa-github"></i> Github</a>
                                 </div>
                             </div>
                         </div>
 
-                        <div className="col-12 col-md-4 mb-sm-2 mb-2">
-                            <div className="card border border-info rounded-1">
-                                <img src="/images/port/panomwan.png" alt="" />
-
+                        <div className="col-md-4">
+                            <div className="card" >
+                                <img src="https://i.imgur.com/ZTkt4I5.jpg" className="card-img-top" alt="..." />
                                 <div className="card-body">
-                                    <h5 className='text-info'>Project Name</h5>
-                                    <p className='mt-1'>Descript</p>
+                                    <h5 className="card-title">ชื่อชิ้นงาน</h5>
+                                    <h6 className="card-subtitle mb-2 ">ประเภท</h6>
+                                    <p className="card-text">Some quick example text to build on the card.</p>
+                                    <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit </a>
+                                    <a href="#" className="btn "><i className="fab fa-github"></i> Github</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-4">
+                            <div className="card" >
+                                <img src="https://i.imgur.com/ZTkt4I5.jpg" className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="card-title">ชื่อชิ้นงาน</h5>
+                                    <h6 className="card-subtitle mb-2 ">ประเภท</h6>
+                                    <p className="card-text">Some quick example text to build on the card.</p>
+                                    <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit </a>
+                                    <a href="#" className="btn "><i className="fab fa-github"></i> Github</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="col-md-4">
+                            <div className="card" >
+                                <img src="https://i.imgur.com/ZTkt4I5.jpg" className="card-img-top" alt="..." />
+                                <div className="card-body">
+                                    <h5 className="card-title">ชื่อชิ้นงาน</h5>
+                                    <h6 className="card-subtitle mb-2 ">ประเภท</h6>
+                                    <p className="card-text">Some quick example text to build on the card.</p>
+                                    <a href="#" className="btn mr-2"><i className="fas fa-link"></i> Visit </a>
+                                    <a href="#" className="btn "><i className="fab fa-github"></i> Github</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </TheLayout>
