@@ -3,6 +3,7 @@ import TheLayout from '@/components/TheLayout'
 import IDContext from '@/components/emp/idContext'
 import Article from '@/container/About/portfoilo/Article';
 import MePortfoilo from '@/container/About/portfoilo/Me';
+import Project from '@/container/About/portfoilo/Project';
 import { employee } from '@/data/about';
 import { useRouter } from 'next/router';
 import { useState, useContext, useEffect } from 'react';
@@ -31,6 +32,7 @@ const ProfilePage: React.FC = () => {
             <div className='profile-page page-default-bg'>
                 <MePortfoilo />
                 <Article />
+                <Project />
             </div>
         </TheLayout>
     )

@@ -32,7 +32,7 @@ const Article: React.FC = () => {
 
 
     return (
-        <section className="about section-padding" id="about">
+        <section className="article section-padding" id="about">
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 col-md-6 col-12">
