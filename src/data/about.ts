@@ -421,9 +421,9 @@ export const resumeArticle = [
     },
 ];
 export const skills = [
-    { id: "1", memberID: "0001", skillListID: "S0001", level: 1, },
-    { id: "2", memberID: "0001", skillListID: "S0002", level: 4 },
-    { id: "3", memberID: "0001", skillListID: "S0003", level: 4 },
+    { id: "1", memberID: "m0001", skillListID: "S0001", level: 1, },
+    { id: "2", memberID: "m0001", skillListID: "S0002", level: 4 },
+    { id: "3", memberID: "m0001", skillListID: "S0003", level: 4 },
 ];
 export const skillListID = [
     { id: "S0001", name: { TH: "JS", EN: "JS" }, maxLevel: 45 },

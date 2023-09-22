@@ -25,9 +25,6 @@ const ProfilePage: React.FC = () => {
         setSelectedEmployee(employee.find(emp => emp.id === storedID) || null);
 
     }, [storedID, router]);
-    useEffect(() => {
-        console.log(selectedEmployee);
-    }, [selectedEmployee]);
 
     return (
         <TheLayout>

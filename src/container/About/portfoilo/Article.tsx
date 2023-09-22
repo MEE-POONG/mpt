@@ -9,7 +9,7 @@ import { Row } from 'react-bootstrap';
 import Link from 'next/link';
 type EmployeeType = typeof employee[0];
 type ResumeArticleType = typeof resumeArticle[0];
-type SkillsType = typeof resumeArticle[0];
+type skillsType = typeof skills[0];
 
 const Article: React.FC = () => {
     const router = useRouter();
@@ -17,7 +17,7 @@ const Article: React.FC = () => {
     const { currentLanguage } = useContext(LanguageContext);
     const [searchEmployee, setSearchEmployee] = useState<EmployeeType | null>(null);
     const [searchResumeArticle, setSearchResumeArticle] = useState<ResumeArticleType | null>(null);
-    const [searchSkills, setSearchSkills] = useState<string[]>([]);
+    const [searchSkills, setSearchSkills] = useState<skillsType[] | null>(null);
 
     useEffect(() => {
         if (!context?.storedID) {
@@ -26,16 +26,10 @@ const Article: React.FC = () => {
         }
         setSearchEmployee(employee.find(emp => emp.id === context?.storedID) || null);
         setSearchResumeArticle(resumeArticle.find(ra => ra.memberID === context?.storedID) || null);
-        const filteredSkills = skills.filter(skill => skill.memberID === context?.storedID);
-        const skillNames = filteredSkills.map(skill => {
-            const skillDetail = skillListID.find(s => s.id === skill.skillListID);
-            return skillDetail ? skillDetail.name.EN : ''; // or .name.TH for Thai names
-        });
-        setSearchSkills(skillNames);
+        setSearchSkills(skills.filter(sks => sks.memberID === context?.storedID) || null);
+
     }, [context, router]);
-    useEffect(() => {
-        console.log("searchResumeArticle : ", context?.storedID, searchResumeArticle);
-    }, [searchResumeArticle]);
+
 
     return (
         <section className="about section-padding" id="about">
@@ -48,10 +42,17 @@ const Article: React.FC = () => {
                         </div>
                         <h3 className="my-4">ทักษะต่างๆ</h3>
                         <div className='d-flex w-100 flex-wrap'>
-                            <div className="b-white rounded max-width px-2 m-1">
-                                กิจนแกรบ<span className='ms-1'>12</span>
-                            </div>
+                            {searchSkills && searchSkills.map((list, index) => {
+                                const skillDetail = skillListID.find(s => s.id === list.skillListID);
+                                const skillName = skillDetail ? (currentLanguage === "TH" ? skillDetail.name.TH : skillDetail.name.EN) : '';
+                                const maxLevel = skillDetail ? skillDetail.maxLevel : '';
 
+                                return (
+                                    <div key={index} className="b-white rounded max-width px-2 m-1">
+                                        {skillName} {list?.level}/{maxLevel}
+                                    </div>
+                                );
+                            })}
                         </div>
                     </div>
                     <div className="col-lg-5 mx-auto col-md-6 col-12">

@@ -113,8 +113,7 @@ const Apprentice: React.FC = () => {
                             </Card.Footer>
                           </Card>
                         </Col>
-                      ))
-                      }
+                      ))}
                     </Row>
                   </Tab.Pane>
                 ))}
