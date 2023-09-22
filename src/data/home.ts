@@ -80,28 +80,6 @@ export const priceData = [
             Bandwidth: { TH: 'กรณีมีผู้เข้าใช้จำนวนมากจำเป็นต้องมีค่าขยายเซิฟเวอร์', EN: 'In case of a large number of users, server expansion fees are required' }, AotOfUser: { TH: 'กรณีมีผู้ใช้เข้าใช้เยอะจนโหลดข้อมูลไม่ไหว +ค่าขยายเซิฟเวอร์', EN: 'In case of too many users causing data loading issues, additional server expansion fees are required' }
         }
     },
-    // {
-    //     id: "2",
-    //     title: { EN: "รับทำเว็บไซต์", TH: "รับทำเว็บไซต์" },
-    //     img: "2360a130-033c-4cf3-ba8c-82c123260800",
-    //     subTitle: { EN: "ME PROMPT & TECHNOLOGY", TH: "ME PROMPT & TECHNOLOGY" },
-    //     detail: {
-    //         EN: "Unlock the potential of your business with our comprehensive website development and digital marketing solutions. Whether you're a startup or an established enterprise, we're here to amplify your online presence. Dive into the future with our advanced web design tools tailored to bring your business ideas to life. Our cutting-edge e-commerce platform not only showcases your products in the best light but also ensures a seamless buying experience for your customers. Let's transform and elevate your business together in the digital realm.",
-    //         TH: "รับทำเว็บไซต์และการตลาดออนไลน์ครบวงจร ไม่ว่าธุรกิจของคุณ จะมีขนาดเล็กหรือใหญ่ เราช่วยให้ธุรกิจของคุณเติบโตในโลกออนไลน์ ขยายขีดจำกัดการทำเว็บไซต์ พร้อมฟีเจอร์ธุรกิจออนไลน์ ยกระดับการทำเว็บไซต์ของคุณ ด้วยเครื่องมือออกแบบเว็บไซต์สุดล้ำ ตอบสนองทุกไอเดียธุรกิจของคุณ ระบบร้านค้าออนไลน์ที่ทันสมัย นำเสนอสินค้าน่าสนใจ และสะดวกในการซื้อขาย เพื่อเปิดโอกาสให้ธุรกิจคุณ"
-    //     },
-    //     linkTo: "https://www.facebook.com/meprompttecnology",
-    // },
-    // {
-    //     id: "3",
-    //     title: { EN: "รับทำเว็บไซต์", TH: "รับทำเว็บไซต์" },
-    //     img: "2360a130-033c-4cf3-ba8c-82c123260800",
-    //     subTitle: { EN: "ME PROMPT & TECHNOLOGY", TH: "ME PROMPT & TECHNOLOGY" },
-    //     detail: {
-    //         EN: "Unlock the potential of your business with our comprehensive website development and digital marketing solutions. Whether you're a startup or an established enterprise, we're here to amplify your online presence. Dive into the future with our advanced web design tools tailored to bring your business ideas to life. Our cutting-edge e-commerce platform not only showcases your products in the best light but also ensures a seamless buying experience for your customers. Let's transform and elevate your business together in the digital realm.",
-    //         TH: "รับทำเว็บไซต์และการตลาดออนไลน์ครบวงจร ไม่ว่าธุรกิจของคุณ จะมีขนาดเล็กหรือใหญ่ เราช่วยให้ธุรกิจของคุณเติบโตในโลกออนไลน์ ขยายขีดจำกัดการทำเว็บไซต์ พร้อมฟีเจอร์ธุรกิจออนไลน์ ยกระดับการทำเว็บไซต์ของคุณ ด้วยเครื่องมือออกแบบเว็บไซต์สุดล้ำ ตอบสนองทุกไอเดียธุรกิจของคุณ ระบบร้านค้าออนไลน์ที่ทันสมัย นำเสนอสินค้าน่าสนใจ และสะดวกในการซื้อขาย เพื่อเปิดโอกาสให้ธุรกิจคุณ"
-    //     },
-    //     linkTo: "https://www.facebook.com/meprompttecnology",
-    // },
 ];
 
 export const devLanguages = [
@@ -119,6 +97,14 @@ export const Collections = [
     { id: "c0004", name: "Fairy Stone - หินนำโชค", subTitle: "", subDetail: "", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img: "/images/customers/fairy.png", },
 ];
 
+export const PerformanceData = [
+    { id: "p0001", Collections: "c0001", memberID: "m0001", creator: true, },
+    { id: "p0002", Collections: "c0001", memberID: "m0002", creator: false, },
+    { id: "p0003", Collections: "c0002", memberID: "m0001", creator: true, },
+    { id: "p0003", Collections: "c0003", memberID: "m0001", creator: false, },
+    { id: "p0003", Collections: "c0004", memberID: "m0001", creator: false, },
+];
+
 export const GalleyCollections = [
     { id: "0001", CollectionsID: "c0001", img: "aaaa.png" },
     { id: "0002", CollectionsID: "c0001", img: "aaaa.jpg" },
@@ -127,8 +113,4 @@ export const GalleyCollections = [
     { id: "0005", CollectionsID: "c0003", img: "d.jpg" },
     { id: "0006", CollectionsID: "c0003", img: "e.jpg" },
     { id: "0007", CollectionsID: "c0003", img: "f.jpg" },
-];
-export const PerformanceData = [
-    { id: "", memberID: "m0001", CollectionsID: "c0001", },
-    { id: "", memberID: "m0002", CollectionsID: "c0001", },
 ];
