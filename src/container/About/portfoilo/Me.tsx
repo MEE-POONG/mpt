@@ -64,7 +64,6 @@ const MePortfoilo: React.FC = () => {
                                     <FaTiktok size={20} />
                                 </Link>
                             )}
-
                         </div>
                     </div>
 

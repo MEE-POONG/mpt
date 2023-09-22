@@ -4,10 +4,8 @@ import IDContext from '@/components/emp/idContext'
 import Article from '@/container/About/portfoilo/Article';
 import MePortfoilo from '@/container/About/portfoilo/Me';
 import { employee } from '@/data/about';
-import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useContext, useEffect } from 'react';
-import { FaFacebookF, FaInstagram, FaLine, FaTiktok } from 'react-icons/fa';
 type EmployeeType = typeof employee[0];
 
 const ProfilePage: React.FC = () => {

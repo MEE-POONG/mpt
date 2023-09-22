@@ -403,8 +403,8 @@ export const resumeArticle = [
             EN: "<div>Nattawee Tantaragun is a dedicated and determined individual in every task he undertakes. With a Bachelor's degree from Rajamangala University of Technology Isan and an Associate's degree from Phanichayakan Pakchong Technological College, Nattawee has accumulated work experience from companies such as Revel Soft and MeeProm Technology. This has equipped him with specialized skills in system architecture and system analysis.<br/>He is a continuous worker and has an interest in meeting new people, allowing him to work effectively within a team. Nattawee takes pride in creating systems that others can understand and modify, earning him recognition in the industry.<br/>In the future, Nattawee aims to own a business and is determined to achieve significant success. With a dream of becoming a generous benefactor, he is committed to making this dream a reality through his capabilities and determination.</div>"
         },
         Strengths: {
-            TH: "<ul>li>ทักษะการสื่อสาร,</li> <li>ประสบการณ์ทำงาน,</li> <li>การศึกษา,</li> <li>หรือความรู้เฉพาะทาง</li></ul>",
-            EN: "<ul>li>such as communication skills,</li>li><li>work experience,</li><li>education,</li><li>specialized knowledge</li></ul>",
+            TH: "<ul><li>ทักษะการสื่อสาร,</li> <li>ประสบการณ์ทำงาน,</li> <li>การศึกษา,</li> <li>หรือความรู้เฉพาะทาง</li></ul>",
+            EN: "<ul><li>such as communication skills,</li>li><li>work experience,</li><li>education,</li><li>specialized knowledge</li></ul>",
         },
         Weaknesses: {
             TH: "<ul><li>ทักษะที่ยังไม่เชี่ยวชาญ</li> <li>ข้อจำกัดด้านเวลา</li> <li>หรือข้อจำกัดด้านทรัพยากร</li></ul>",
@@ -421,11 +421,12 @@ export const resumeArticle = [
     },
 ];
 export const skills = [
-    { id: "1", memberID: "0001", skillListID: "0001", level: 1, },
-    { id: "2", memberID: "0001", skillListID: "0001", level: 4 },
-    { id: "3", memberID: "0001", skillListID: "0001", level: 4 },
+    { id: "1", memberID: "0001", skillListID: "S0001", level: 1, },
+    { id: "2", memberID: "0001", skillListID: "S0002", level: 4 },
+    { id: "3", memberID: "0001", skillListID: "S0003", level: 4 },
 ];
 export const skillListID = [
-    { id: "0001", name: { TH: "JS", EN: "JS" }, maxLevel: 45 },
-    { id: "0001", name: { TH: "React", EN: "React" }, maxLevel: 10 },
+    { id: "S0001", name: { TH: "JS", EN: "JS" }, maxLevel: 45 },
+    { id: "S0002", name: { TH: "React", EN: "React" }, maxLevel: 10 },
+    { id: "S0003", name: { TH: "moogedb", EN: "React" }, maxLevel: 10 },
 ];

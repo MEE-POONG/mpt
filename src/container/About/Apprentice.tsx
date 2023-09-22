@@ -107,12 +107,6 @@ const Apprentice: React.FC = () => {
                               </Col>
                             </Row>
                             <Card.Footer className="p-0">
-                              <Button className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/project`)}>
-                                สร้างโปรเจค
-                              </Button>
-                              <Button  className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/performance`)}>
-                                ผลงาน
-                              </Button>
                               <Button  className="view rounded-0" onClick={() => handleButtonClick(emp?.id || '', `/about/profile`)}>
                                 โปรไฟล์
                               </Button>
