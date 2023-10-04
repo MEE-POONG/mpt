@@ -95,6 +95,9 @@ export const Collections = [
     { id: "c0002", name: "มูลนิธิบ้านหลังใหม่", subTitle: "", subDetail: "", viewer: "324", category: "มูลนิธิ/ไม่แสวงหากำไร", web: "https://home-again.netlify.app/", img: "/images/customers/homeagain.png", },
     { id: "c0003", name: "Robot รถตัดหญ้าบังคับวิทยุ", subTitle: "", subDetail: "", viewer: "380", category: "ธุรกิจ/ค้าขาย", web: "https://www.i2arobot.com", img: "/images/customers/robot.png", },
     { id: "c0004", name: "Fairy Stone - หินนำโชค", subTitle: "", subDetail: "", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img: "/images/customers/fairy.png", },
+    { id: "c0005", name: "วิทยาลัยเทคโนโลยีพนมวันท์", subTitle: "", subDetail: "", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://www.xn--42c1babjaa2b2aead8aewm4nkg1b6a0vvbb4x.com/", img: "/images/customers/panomwan.png", },
+    // { id: "c0006", name: "MeeNeed Repair", subTitle: "", subDetail: "", viewer: "426", category: "ธุรกิจ/ค้าขาย", web: "https://fairygemstone.com/", img: "/images/customers/fairy.png", },
+
 ];
 
 export const PerformanceData = [
@@ -103,6 +106,22 @@ export const PerformanceData = [
     { id: "p0003", Collections: "c0002", memberID: "m0001", creator: true, },
     { id: "p0004", Collections: "c0003", memberID: "m0001", creator: false, },
     { id: "p0005", Collections: "c0004", memberID: "m0001", creator: false, },
+    
+    { id: "p0007", Collections: "c0005", memberID: "m0018", creator: true, },
+    { id: "p0004", Collections: "c0005", memberID: "m0018", creator: false, },
+
+    { id: "p0008", Collections: "c0005", memberID: "m0019", creator: true, },
+    { id: "p0004", Collections: "c0005", memberID: "m0019", creator: false, },
+
+    { id: "p0009", Collections: "c0005", memberID: "m0020", creator: true, },
+    { id: "p0004", Collections: "c0005", memberID: "m0020", creator: false, },
+
+    { id: "p0010", Collections: "c0005", memberID: "m0021", creator: true, },
+    { id: "p0004", Collections: "c0005", memberID: "m0021", creator: false, },
+
+    { id: "p0011", Collections: "c0005", memberID: "m0022", creator: true, },
+    { id: "p0004", Collections: "c0005", memberID: "m0022", creator: false, },
+
 ];
 
 export const GalleyCollections = [

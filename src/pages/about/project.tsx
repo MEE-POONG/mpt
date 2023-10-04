@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import TheLayout from '@/components/TheLayout'
 import MPTDetails from '@/container/About/MPTDetails'
-import Teams from '@/container/About/Team'
+import Teams from '@/container/About/team'
 import Apprentice from '@/container/About/Apprentice'
 import { useContext, useEffect } from 'react'
 import IDContext from '@/components/emp/idContext'
