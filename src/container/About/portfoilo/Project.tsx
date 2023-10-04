@@ -33,7 +33,7 @@ const Project: React.FC = () => {
                         {currentLanguage === "TH" ? "ผู้นำโปรเจค" : "Project leader"}
                     </h3>
                     <Row>
-                        {filteredPerformance?.map((data, index) => {
+                        {filteredPerformance?.filter(data => data.creator === true)?.map((data, index) => {
                             const workWeb = Collections.find(collection => collection.id === data.Collections);
                             return workWeb ? (
                                 <Col lg="4" key={index}>
@@ -64,7 +64,7 @@ const Project: React.FC = () => {
                         {currentLanguage === "TH" ? "ผลงาน" : "Performance"}
                     </h3>
                     <Row>
-                        {/* {PerformanceData?.filter(data => data.creator === false).map((data, index) => {
+                    {filteredPerformance?.filter(data => data.creator === false)?.map((data, index) => {
                             const workWeb = Collections.find(collection => collection.id === data.Collections);
                             return workWeb ? (
                                 <Col lg="4" key={index}>
@@ -85,7 +85,7 @@ const Project: React.FC = () => {
                                     </div>
                                 </Col>
                             ) : null;
-                        })} */}
+                        })}
                     </Row>
                 </div>
             </div>
