@@ -421,11 +421,70 @@ export const resumeArticle = [
             EN: "<ul><li>such as competitors</li> <li>new technologies</li> <li>or market changes</li></ul>",
         },
     },
+    {
+        id: "002",
+        memberID: "m0018",
+        aboutUS: {
+            TH: "<div>ฉันเป็นนักพัฒนาเว็บไซต์ที่มีความชำนาญในการออกแบบและพัฒนาเว็บไซต์ เราพร้อมที่จะสร้างประสบการณ์ออนไลน์ที่ยอดเยี่ยมสำหรับลูกค้าและผู้ใช้ทุกคน ทักษะ:ออกแบบเว็บไซต์ ,การพัฒนาเว็บไซต์ , HTML, CSS, JavaScript , การสื่อสารระหว่างบุคคล ,  การทำงานร่วมกับทีม  ผมมีความรู้และประสบการณ์ทางด้านโปรแกรมมิ่ง สามารถใช้ภาษา C, C++ , JAVA Python, HTML, CSS, Bootstrap, Tailwind และ NextJS Framework เป็นคนเงียบและมุมมองสำหรับงานอย่างเต็มใจ  นอกจากนี้ ความสำคัญในความรับผิดชอบและความซื่อสัตย์ถือเป็นหลักในการดำเนินชีวิตและการงานของฉัน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆ ผมมีความฝันที่จะเป็นนักพัฒนาซอฟต์แวร์มืออาชีพ ผมเชื่อว่าความรู้และทักษะที่ผมมีจะสามารถนำไปประยุกต์ใช้ในการทำงานได้อย่างมีประสิทธิภาพ</div>",
+            EN: "<div>I am a web developer with expertise in website design and development. We are ready to create an outstanding online experience for all customers and users. Skills: Website design, website development, HTML, CSS, JavaScript, interpersonal communication, teamwork   I have knowledge and experience in programming. Can use C, C++, JAVA Python, HTML, CSS, Bootstrap, Tailwind and NextJS Framework.I am a quiet person and have a willing outlook for my work. In addition, the importance of responsibility and honesty is the guiding principle in my life and work. and ready to learn new thingsI have a dream to be a professional software developer. I believe that the knowledge and skills that I have can be applied to work effectively.</div>"
+        },
+    },
+    {
+        id: "003",
+        memberID: "m0019",
+        aboutUS: {
+            TH: "<div>ภูมินันท์ อนันตึก นักศึกษาที่กำลังจบการศึกษา คณะวิศวกรรมศาสตร์และเทคโนโลยี สาขาวิศวกรรมคอมพิวเตอร์ มหาวิทยาลัยเทคโนโลยีราชมงคลอิสานมีความสนใจในด้านคอมพิวเตอร์และเทคโนโลยีมาตั้งแต่เด็ก ชอบเรียนรู้สิ่งใหม่ๆ เกี่ยวกับโปรแกรมมิ่งและเทคโนโลยีใหม่ๆ อยู่เสมอ </div>",
+            EN: "<div>My name is Phuminan Ananthuk, I am a student majoring in Computer Engineering at the Rajamangala University of Technology Isan. I have been passionate about computers and technology since I was a child and have a strong desire to continuously learn new things related to programming and cutting-edge technology.</div>"
+        },
+    },
+    {
+        id: "004",
+        memberID: "m0020",
+        aboutUS: {
+            TH: "<div>วชานนท์ บูรณะ นักศึกษาที่กำลังจบการศึกษา คณะบริหารธุรกิจ สาขาระบบสารสนเทศ มหาวิทยาลัยเทคโนโลยีราชมงคลอิสานมีความสนใจในด้านคอมพิวเตอร์และเทคโนโลยีมา ชอบเรียนรู้สิ่งใหม่ๆ เกี่ยวกับโปรแกรมมิ่งและเทคโนโลยี อยู่เสมอผมมีความรู้และประสบการณ์ทางด้านโปรแกรมมิ่ง สามารถใช้ภาษา C, C++ , JAVA Python, HTML, CSS, Bootstrap, Tailwind และ NextJS Framework เป็นคนเงียบและมุมมองสำหรับงานอย่างเต็มใจ  นอกจากนี้ ความสำคัญในความรับผิดชอบและความซื่อสัตย์ถือเป็นหลักในการดำเนินชีวิตและการงานของฉัน และพร้อมที่จะเรียนรู้สิ่งใหม่ๆ ผมมีความฝันที่จะเป็นนักพัฒนาซอฟต์แวร์มืออาชีพ ผมเชื่อว่าความรู้และทักษะที่ผมมีจะสามารถนำไปประยุกต์ใช้ในการทำงานได้อย่างมีประสิทธิภาพ</div>",
+            EN: "<div>Wechanon Burana, a student who is graduating Faculty of Business Administration Information systems branch Rajamangala University of Technology Isan has been interested in computers and technology. like to learn new things Always about programming and technology. I have knowledge and experience in programming. Can use C, C++, JAVA Python, HTML, CSS, Bootstrap, Tailwind and NextJS Framework.I am a quiet person and have a willing outlook for my work. In addition, the importance of responsibility and honesty is the guiding principle in my life and work. and ready to learn new things I have a dream to be a professional software developer. I believe that the knowledge and skills that I have can be applied to work effectively.</div>"
+        },
+    },
+    {
+        id: "005",
+        memberID: "m0021",
+        aboutUS: {
+            TH: "<div>ฉันชื่ออภิสิทธิ์ ศิริอมรวิวัฒน์ ฉันกำลังศึกษาอยู่ที่มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน ในคณะบริหารธุรกิจ สาขาสารสนเทศครับ ฉันมีความสามารถทางด้านออกแบบผ่านทาง Canva และ Figma ซึ่งเป็นทักษะที่ฉันได้พัฒนาขึ้นมาเพื่อสร้างผลงานที่น่าประทับใจในสาขานี้ครับผ่านการเรียนรู้และปฏิบัติที่มหาวิทยาลัย ฉันได้พัฒนาทักษะในการทำงานเป็นทีม การวางแผนโครงการ การนำเสนอข้อมูล และการเชื่อมโยงกับผู้คนอย่างมีประสิทธิภาพนอกจากนี้ ฉันมีความกระตือรือร้นในการพัฒนาตนเองอย่างต่อเนื่อง เพื่อเรียนรู้เทคโนโลยีและแนวทางใหม่ๆ ที่เกี่ยวข้องกับสาขาของฉัน เพื่อให้สามารถนำไปปรับใช้ในการทำงานและพัฒนาองค์กรในอนาคต ฉันเชื่อว่าความมุ่งมั่นและการทำงานอย่างหนักเป็นสิ่งสำคัญที่จะนำพาฉันไปสู่ความสำเร็จในอนาคต และฉันพร้อมที่จะทำงานร่วมกับผู้อื่นเพื่อสร้างผลงานที่ดีและมีคุณค่าต่อองค์กรและสังคมที่ฉันได้รับโอกาสทำงานด้วยความมุ่งมั่นและใจกล้าในทุกๆ โอกาสที่มีให้กับฉัน ขอบคุณครับ.</div>",
+            EN: "<div>My name is Apisit Siriamruwattana, and I am currently studying at Rajamangala University of Technology Isan, majoring in Business Administration with a focus on Information Technology. I possess design skills using Canva and Figma, which I have developed to create impressive works in this field.Through my education and practical experiences at the university, I have honed skills in teamwork, project planning, presenting information, and effective communication with people. Furthermore, I have a strong passion for continuous self-improvement, constantly seeking to learn new technologies and trends relevant to my field. This enables me to apply these learnings to my work and contribute to the development of organizations in the future.I believe that dedication and hard work are crucial to lead me towards success in the future. I am ready to collaborate with others to create impactful and valuable work for both the organization and the community, embracing every opportunity with determination and courage. Thank you.</div>"
+        },
+    },
+    {
+        id: "006",
+        memberID: "m0022",
+        aboutUS: {
+            TH: "<div>นักออกแบบ UX/UI ที่มีความคิดสร้างสรรค์และความความเข้าใจต่อผู้ใช้ มีประสบการณ์ในการออกแบบและพัฒนาส่วนต่าง ๆ ของประสบการณ์ผู้ใช้ มีความสามารถในการใช้ โปรแกรม canva adobe photoshop ในการออกแบบ โลโก้ แบนเนอร์ต่าง</div>",
+            EN: "<div>A creative and user-centric UX/UI designer with experience in designing and developing various user experiences. Proficient in using programs like Canva and Adobe Photoshop for designing logos, banners, and other elements.</div>"
+        },
+    },
 ];
 export const skills = [
     { id: "1", memberID: "m0001", skillListID: "S0001", level: 1, },
     { id: "2", memberID: "m0001", skillListID: "S0002", level: 4 },
     { id: "3", memberID: "m0001", skillListID: "S0003", level: 4 },
+
+     // ปอนด์
+     { id: "1", memberID: "m0018", skillListID: "S0001", level: 7, },
+     { id: "2", memberID: "m0018", skillListID: "S0002", level: 6 },
+     { id: "3", memberID: "m0018", skillListID: "S0003", level: 7 },
+     //เคน
+     { id: "1", memberID: "m0019", skillListID: "S0001", level: 7, },
+     { id: "2", memberID: "m0019", skillListID: "S0002", level: 6 },
+     { id: "3", memberID: "m0019", skillListID: "S0003", level: 7 },
+     //ทิว
+     { id: "1", memberID: "m0020", skillListID: "S0001", level: 7, },
+     { id: "2", memberID: "m0020", skillListID: "S0002", level: 6 },
+     { id: "3", memberID: "m0020", skillListID: "S0003", level: 7 },
+     //กาน
+     { id: "1", memberID: "m0021", skillListID: "S0004", level: 7, },
+     { id: "2", memberID: "m0021", skillListID: "S0005", level: 6 },
+     //ไนท์
+     { id: "1", memberID: "m0022", skillListID: "S0004", level: 7, },
+     { id: "2", memberID: "m0022", skillListID: "S0005", level: 6 },
 ];
 export const skillListID = [
     { id: "S0001", name: { TH: "JS", EN: "JS" }, maxLevel: 45 },
