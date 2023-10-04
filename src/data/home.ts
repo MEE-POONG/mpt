@@ -101,8 +101,8 @@ export const PerformanceData = [
     { id: "p0001", Collections: "c0001", memberID: "m0001", creator: true, },
     { id: "p0002", Collections: "c0001", memberID: "m0002", creator: false, },
     { id: "p0003", Collections: "c0002", memberID: "m0001", creator: true, },
-    { id: "p0003", Collections: "c0003", memberID: "m0001", creator: false, },
-    { id: "p0003", Collections: "c0004", memberID: "m0001", creator: false, },
+    { id: "p0004", Collections: "c0003", memberID: "m0001", creator: false, },
+    { id: "p0005", Collections: "c0004", memberID: "m0001", creator: false, },
 ];
 
 export const GalleyCollections = [
