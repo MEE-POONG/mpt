@@ -64,9 +64,6 @@ const Price: React.FC = () => {
             },
         ]
     };
-    useEffect(() => {
-        console.log("storedID ", priceData);
-    }, [priceData]);
 
     return (
         <div className="price">
