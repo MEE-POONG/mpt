@@ -269,7 +269,7 @@ export const employee = [
     },
     {
         id: "m0015",
-        firstName: { EN: "Thutiya Chosungnoen", TH: "" },
+        firstName: { EN: "Thutiya Chosungnoen", TH: "ทุติย โฉสูงเนิน" },
         nickName: { EN: "Thutiya", TH: "" },
         position: { EN: "Apperntice", TH: "นักศึกษาสหกิจศึกษา " },
         duty: { EN: "DEV", TH: "ผู้พัฒนาระบบ" },
@@ -467,24 +467,24 @@ export const skills = [
     { id: "2", memberID: "m0001", skillListID: "S0002", level: 4 },
     { id: "3", memberID: "m0001", skillListID: "S0003", level: 4 },
 
-     // ปอนด์
-     { id: "1", memberID: "m0018", skillListID: "S0001", level: 7, },
-     { id: "2", memberID: "m0018", skillListID: "S0002", level: 6 },
-     { id: "3", memberID: "m0018", skillListID: "S0003", level: 7 },
-     //เคน
-     { id: "1", memberID: "m0019", skillListID: "S0001", level: 7, },
-     { id: "2", memberID: "m0019", skillListID: "S0002", level: 6 },
-     { id: "3", memberID: "m0019", skillListID: "S0003", level: 7 },
-     //ทิว
-     { id: "1", memberID: "m0020", skillListID: "S0001", level: 7, },
-     { id: "2", memberID: "m0020", skillListID: "S0002", level: 6 },
-     { id: "3", memberID: "m0020", skillListID: "S0003", level: 7 },
-     //กาน
-     { id: "1", memberID: "m0021", skillListID: "S0004", level: 7, },
-     { id: "2", memberID: "m0021", skillListID: "S0005", level: 6 },
-     //ไนท์
-     { id: "1", memberID: "m0022", skillListID: "S0004", level: 7, },
-     { id: "2", memberID: "m0022", skillListID: "S0005", level: 6 },
+    // ปอนด์
+    { id: "1", memberID: "m0018", skillListID: "S0001", level: 7, },
+    { id: "2", memberID: "m0018", skillListID: "S0002", level: 6 },
+    { id: "3", memberID: "m0018", skillListID: "S0003", level: 7 },
+    //เคน
+    { id: "1", memberID: "m0019", skillListID: "S0001", level: 7, },
+    { id: "2", memberID: "m0019", skillListID: "S0002", level: 6 },
+    { id: "3", memberID: "m0019", skillListID: "S0003", level: 7 },
+    //ทิว
+    { id: "1", memberID: "m0020", skillListID: "S0001", level: 7, },
+    { id: "2", memberID: "m0020", skillListID: "S0002", level: 6 },
+    { id: "3", memberID: "m0020", skillListID: "S0003", level: 7 },
+    //กาน
+    { id: "1", memberID: "m0021", skillListID: "S0004", level: 7, },
+    { id: "2", memberID: "m0021", skillListID: "S0005", level: 6 },
+    //ไนท์
+    { id: "1", memberID: "m0022", skillListID: "S0004", level: 7, },
+    { id: "2", memberID: "m0022", skillListID: "S0005", level: 6 },
 ];
 export const skillListID = [
     { id: "S0001", name: { TH: "JS", EN: "JS" }, maxLevel: 45 },
